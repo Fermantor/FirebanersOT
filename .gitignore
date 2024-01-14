@@ -376,6 +376,7 @@ client_assertions.txt
 *.ini
 *.otb
 *.exe
+otservbr.otbm
 *.manifest
 *.rar
 monster_count.txt
