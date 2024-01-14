@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Event House" houseid="1" entryx="483" entryy="220" entryz="5" rent="0" townid="10" size="6" />
+	<house name="Pantra Loft Nord" houseid="2" entryx="472" entryy="207" entryz="5" rent="0" townid="1" size="20" />
+	<house name="Pantra Loft Sued" houseid="3" entryx="468" entryy="231" entryz="5" rent="0" townid="1" size="20" />
+	<house name="Stadt Depot Roof 1" houseid="4" entryx="1994" entryy="2011" entryz="5" rent="0" townid="2" size="117" />
+	<house name="Stadt Depot Roof 2" houseid="5" entryx="2012" entryy="2011" entryz="5" rent="0" townid="2" size="95" />
+	<house name="Blacksmith" houseid="6" entryx="2035" entryy="2006" entryz="7" rent="0" townid="2" size="36" />
+	<house name="Unnamed House #8" houseid="8" entryx="1980" entryy="2081" entryz="7" rent="0" townid="2" size="35" />
+	<house name="Seaside Vila" houseid="9" entryx="1959" entryy="2092" entryz="7" rent="0" townid="2" size="128" />
+	<house name="Unnamed House #10" houseid="10" entryx="1985" entryy="2081" entryz="7" rent="0" townid="2" size="32" />
+	<house name="Unnamed House #11" houseid="11" entryx="1979" entryy="2079" entryz="6" rent="0" townid="2" size="18" />
+	<house name="Unnamed House #12" houseid="12" entryx="1982" entryy="2074" entryz="6" rent="0" townid="2" size="26" />
+	<house name="Unnamed House #13" houseid="13" entryx="1983" entryy="2074" entryz="6" rent="0" townid="2" size="26" />
+	<house name="Unnamed House #14" houseid="14" entryx="1986" entryy="2079" entryz="6" rent="0" townid="2" size="18" />
+	<house name="Seaside 1" houseid="15" entryx="1975" entryy="2096" entryz="7" rent="0" townid="2" size="26" />
+	<house name="Seaside 2" houseid="16" entryx="1970" entryy="2096" entryz="7" rent="0" townid="2" size="25" />
+	<house name="Seaside 3" houseid="17" entryx="1965" entryy="2096" entryz="7" rent="0" townid="2" size="20" />
+	<house name="Seaside 4" houseid="18" entryx="1966" entryy="2096" entryz="6" rent="0" townid="2" size="16" />
+	<house name="Seaside 5" houseid="19" entryx="1974" entryy="2096" entryz="6" rent="0" townid="2" size="47" />
+	<house name="Little Promenade 1" houseid="21" entryx="2756" entryy="1771" entryz="7" rent="0" townid="3" size="22" />
+	<house name="Little Promenade 3" houseid="22" entryx="2756" entryy="1771" entryz="6" rent="0" townid="3" size="21" />
+	<house name="Little Promenade 4" houseid="24" entryx="2756" entryy="1776" entryz="6" rent="0" townid="3" size="40" />
+	<house name="Little Promenade 2" houseid="25" entryx="2756" entryy="1776" entryz="7" rent="0" townid="3" size="41" />
+	<house name="Templeside 2" houseid="26" entryx="2737" entryy="1779" entryz="7" rent="0" townid="3" size="16" />
+	<house name="Templeside 3" houseid="27" entryx="2745" entryy="1779" entryz="7" rent="0" townid="3" size="14" />
+	<house name="Templeside 1" houseid="28" entryx="2713" entryy="1768" entryz="7" rent="0" townid="3" size="10" />
+	<house name="Fountain Suite 1" houseid="29" entryx="2724" entryy="1744" entryz="7" rent="0" townid="3" size="25" />
+	<house name="Fountain Suite 2" houseid="30" entryx="2722" entryy="1748" entryz="6" rent="0" townid="3" size="37" />
+	<house name="Fountain Suite 3" houseid="31" entryx="2737" entryy="1760" entryz="5" rent="0" townid="3" size="6" />
+	<house name="Fountain Suite 4" houseid="32" entryx="2742" entryy="1760" entryz="5" rent="0" townid="3" size="6" />
+	<house name="Fountain Suite 5" houseid="33" entryx="2742" entryy="1759" entryz="5" rent="0" townid="3" size="8" />
+	<house name="Fountain Suite 6" houseid="34" entryx="2744" entryy="1760" entryz="5" rent="0" townid="3" size="32" />
+	<house name="Riverfloat 1" houseid="35" entryx="2725" entryy="1736" entryz="6" rent="0" townid="3" size="19" />
+	<house name="Riverfloat 2" houseid="36" entryx="2749" entryy="1735" entryz="6" rent="0" townid="3" size="39" />
+	<house name="Riverfloat 3" houseid="37" entryx="2749" entryy="1736" entryz="5" rent="0" townid="3" size="38" />
+	<house name="Riverfloat 4" houseid="38" entryx="2749" entryy="1736" entryz="4" rent="0" townid="3" size="39" />
+	<house name="Cotton Village 1" houseid="39" entryx="2747" entryy="1810" entryz="7" rent="0" townid="3" size="114" />
+	<house name="Villa" houseid="40" entryx="2762" entryy="1806" entryz="7" rent="0" townid="3" size="69" />
+	<house name="Cotton Village 2" houseid="41" entryx="2767" entryy="1813" entryz="7" rent="0" townid="3" size="4" />
+	<house name="Cotton Village 3" houseid="42" entryx="2767" entryy="1818" entryz="7" rent="0" townid="3" size="4" />
+	<house name="Cotton Village 4" houseid="43" entryx="2777" entryy="1813" entryz="7" rent="0" townid="3" size="36" />
+	<house name="Unnamed House #44" houseid="44" entryx="1968" entryy="2089" entryz="7" rent="0" townid="2" size="14" />
+	<house name="Unnamed House #45" houseid="45" entryx="1990" entryy="2092" entryz="7" rent="0" townid="2" size="59" />
+	<house name="Unnamed House #46" houseid="46" entryx="1999" entryy="2086" entryz="7" rent="0" townid="2" size="14" />
+	<house name="Unnamed House #47" houseid="47" entryx="1996" entryy="2080" entryz="7" rent="0" townid="2" size="11" />
+	<house name="Unnamed House #48" houseid="48" entryx="2001" entryy="2078" entryz="7" rent="0" townid="2" size="8" />
+	<house name="Unnamed House #49" houseid="49" entryx="1998" entryy="2072" entryz="7" rent="0" townid="2" size="16" />
+	<house name="Unnamed House #50" houseid="50" entryx="2011" entryy="2070" entryz="7" rent="0" townid="2" size="23" />
+	<house name="Unnamed House #51" houseid="51" entryx="2011" entryy="2075" entryz="7" rent="0" townid="2" size="41" />
+	<house name="Unnamed House #52" houseid="52" entryx="2019" entryy="2078" entryz="7" rent="0" townid="2" size="30" />
+	<house name="Unnamed House #53" houseid="53" entryx="2021" entryy="2073" entryz="7" rent="0" townid="2" size="18" />
+	<house name="Unnamed House #54" houseid="54" entryx="2030" entryy="2078" entryz="7" rent="0" townid="2" size="9" />
+	<house name="Unnamed House #55" houseid="55" entryx="2038" entryy="2081" entryz="7" rent="0" townid="2" size="57" />
+	<house name="Unnamed House #56" houseid="56" entryx="2030" entryy="2083" entryz="7" rent="0" townid="2" size="12" />
+	<house name="Unnamed House #57" houseid="57" entryx="2050" entryy="2076" entryz="7" rent="0" townid="2" size="22" />
+	<house name="Unnamed House #58" houseid="58" entryx="2060" entryy="2070" entryz="7" rent="0" townid="2" size="18" />
+	<house name="Unnamed House #59" houseid="59" entryx="2059" entryy="2073" entryz="7" rent="0" townid="2" size="15" />
+	<house name="Unnamed House #60" houseid="60" entryx="2053" entryy="2079" entryz="7" rent="0" townid="2" size="10" />
+	<house name="Unnamed House #61" houseid="61" entryx="2049" entryy="2092" entryz="7" rent="0" townid="2" size="22" />
+	<house name="Unnamed House #62" houseid="62" entryx="1980" entryy="2049" entryz="7" rent="0" townid="2" size="62" />
+	<house name="Fireban Guildhall" houseid="63" entryx="1990" entryy="2049" entryz="7" rent="0" townid="2" size="223" />
+	<house name="Unnamed House #64" houseid="64" entryx="2013" entryy="2039" entryz="7" rent="0" townid="2" size="18" />
+	<house name="Unnamed House #65" houseid="65" entryx="2018" entryy="2039" entryz="7" rent="0" townid="2" size="23" />
+	<house name="Unnamed House #66" houseid="66" entryx="2023" entryy="2039" entryz="7" rent="0" townid="2" size="18" />
+	<house name="Unnamed House #67" houseid="67" entryx="2018" entryy="2044" entryz="7" rent="0" townid="2" size="30" />
+	<house name="Unnamed House #68" houseid="68" entryx="2019" entryy="2044" entryz="7" rent="0" townid="2" size="26" />
+	<house name="Unnamed House #69" houseid="69" entryx="2014" entryy="2038" entryz="6" rent="0" townid="2" size="24" />
+	<house name="Unnamed House #70" houseid="70" entryx="2022" entryy="2038" entryz="6" rent="0" townid="2" size="24" />
+	<house name="Unnamed House #71" houseid="71" entryx="2014" entryy="2040" entryz="6" rent="0" townid="2" size="34" />
+	<house name="Unnamed House #72" houseid="72" entryx="2022" entryy="2040" entryz="6" rent="0" townid="2" size="34" />
+</houses>
