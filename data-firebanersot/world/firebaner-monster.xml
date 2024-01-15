@@ -3107,14 +3107,6 @@
 		<monster name="Wolf" x="-1" y="-1" z="7" spawntime="180" />
 		<monster name="Wolf" x="1" y="0" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="2557" centery="1625" centerz="7" radius="5">
-		<monster name="Dark Horse" x="-2" y="-1" z="7" spawntime="180" />
-		<monster name="Brown Horse" x="-1" y="-1" z="7" spawntime="180" />
-		<monster name="Grey Horse" x="1" y="-1" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="2642" centery="1631" centerz="7" radius="1">
-		<monster name="Grey Horse" x="-1" y="0" z="7" spawntime="180" />
-	</monster>
 	<monster centerx="2648" centery="1631" centerz="7" radius="1">
 		<monster name="Sheep" x="-1" y="0" z="7" spawntime="180" />
 	</monster>
@@ -3139,12 +3131,6 @@
 		<monster name="Spider" x="-1" y="0" z="7" spawntime="180" />
 		<monster name="Swamp Troll" x="1" y="0" z="7" spawntime="180" />
 		<monster name="Swamp Troll" x="0" y="1" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="2642" centery="1637" centerz="7" radius="1">
-		<monster name="Dark Horse" x="-1" y="0" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="2642" centery="1640" centerz="7" radius="1">
-		<monster name="Brown Horse" x="0" y="-1" z="7" spawntime="180" />
 	</monster>
 	<monster centerx="2642" centery="1642" centerz="7" radius="1">
 		<monster name="Sheep" x="0" y="1" z="7" spawntime="180" />

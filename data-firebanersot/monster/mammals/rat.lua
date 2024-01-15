@@ -13,10 +13,6 @@ monster.outfit = {
 	lookMount = 0,
 }
 
-monster.events = {
-	"RationalRequestRatDeath",
-}
-
 monster.raceId = 21
 monster.Bestiary = {
 	class = "Mammal",
@@ -27,7 +23,7 @@ monster.Bestiary = {
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
-	Locations = "Rookgaard and Mainland, in most sewers and caves near towns. They can be found almost everywhere in Tibia.",
+	Locations = "Pantra und Mainland, in den meisten Kanalisationen. Sie sind fast überall in Tibia.",
 }
 
 monster.health = 20
