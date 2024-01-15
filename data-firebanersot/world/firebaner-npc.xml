@@ -189,9 +189,6 @@
 	<npc centerx="2025" centery="1902" centerz="10" radius="1">
 		<npc name="PUDwarfBrodrosch" x="-1" y="-1" z="10" spawntime="60" />
 	</npc>
-	<npc centerx="2393" centery="2048" centerz="10" radius="3">
-		<npc name="GnomeCommanderStone" x="-1" y="1" z="10" spawntime="180" />
-	</npc>
 	<npc centerx="2914" centery="1570" centerz="11" radius="1">
 		<npc name="BZGhostAmphora" x="0" y="1" z="11" spawntime="60" />
 	</npc>

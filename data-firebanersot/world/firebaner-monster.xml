@@ -6022,16 +6022,6 @@
 		<monster name="Chicken" x="-4" y="3" z="7" spawntime="180" />
 	</monster>
 	<monster centerx="2034" centery="2021" centerz="7" radius="2" />
-	<monster centerx="1659" centery="2022" centerz="7" radius="3">
-		<monster name="Ghoul" x="0" y="-3" z="7" spawntime="180" />
-		<monster name="Ghoul" x="0" y="-1" z="7" spawntime="180" />
-		<monster name="Ghoul" x="-1" y="1" z="7" spawntime="180" />
-		<monster name="Skeleton" x="-1" y="3" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1653" centery="2023" centerz="7" radius="2">
-		<monster name="Skeleton" x="1" y="-2" z="7" spawntime="180" />
-		<monster name="Skeleton" x="0" y="2" z="7" spawntime="180" />
-	</monster>
 	<monster centerx="1821" centery="2027" centerz="7" radius="2">
 		<monster name="Minotaur" x="0" y="-1" z="7" spawntime="180" />
 	</monster>
@@ -6039,59 +6029,23 @@
 		<monster name="Wolf" x="2" y="-2" z="7" spawntime="180" />
 		<monster name="Wolf" x="-2" y="0" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="1643" centery="2029" centerz="7" radius="2">
-		<monster name="Ghoul" x="2" y="-1" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1650" centery="2030" centerz="7" radius="2">
-		<monster name="Skeleton" x="1" y="0" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1657" centery="2031" centerz="7" radius="2">
-		<monster name="Ghoul" x="0" y="-1" z="7" spawntime="180" />
-		<monster name="Skeleton" x="-1" y="2" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1664" centery="2031" centerz="7" radius="2">
-		<monster name="Ghoul" x="2" y="-1" z="7" spawntime="180" />
-		<monster name="Ghoul" x="-1" y="2" z="7" spawntime="180" />
-	</monster>
 	<monster centerx="1912" centery="2034" centerz="7" radius="5">
 		<monster name="Bear" x="-2" y="1" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1643" centery="2035" centerz="7" radius="2">
-		<monster name="Ghoul" x="0" y="-1" z="7" spawntime="180" />
 	</monster>
 	<monster centerx="1809" centery="2035" centerz="7" radius="5">
 		<monster name="Minotaur" x="-1" y="-3" z="7" spawntime="180" />
 		<monster name="Minotaur Guard" x="-2" y="1" z="7" spawntime="180" />
 		<monster name="Minotaur" x="1" y="5" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="1649" centery="2036" centerz="7" radius="2">
-		<monster name="Skeleton" x="2" y="-1" z="7" spawntime="180" />
-		<monster name="Skeleton" x="-1" y="1" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1666" centery="2038" centerz="7" radius="2">
-		<monster name="Skeleton" x="2" y="-2" z="7" spawntime="180" />
-		<monster name="Ghoul" x="0" y="-1" z="7" spawntime="180" />
-		<monster name="Skeleton" x="-1" y="2" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1674" centery="2038" centerz="7" radius="2">
-		<monster name="Skeleton" x="1" y="-1" z="7" spawntime="180" />
-	</monster>
 	<monster centerx="1825" centery="2038" centerz="7" radius="5">
 		<monster name="Minotaur" x="0" y="-2" z="7" spawntime="180" />
 		<monster name="Minotaur Archer" x="4" y="-2" z="7" spawntime="180" />
 		<monster name="Minotaur" x="-3" y="1" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="1664" centery="2045" centerz="7" radius="2">
-		<monster name="Skeleton" x="2" y="0" z="7" spawntime="180" />
-	</monster>
 	<monster centerx="1815" centery="2046" centerz="7" radius="5">
 		<monster name="Minotaur Mage" x="1" y="-1" z="7" spawntime="180" />
 		<monster name="Minotaur Mage" x="-2" y="0" z="7" spawntime="180" />
 		<monster name="Minotaur" x="2" y="3" z="7" spawntime="180" />
-	</monster>
-	<monster centerx="1655" centery="2051" centerz="7" radius="3">
-		<monster name="Demon Skeleton" x="-2" y="-3" z="7" spawntime="180" />
-		<monster name="Demon Skeleton" x="3" y="0" z="7" spawntime="180" />
 	</monster>
 	<monster centerx="1930" centery="2051" centerz="7" radius="4">
 		<monster name="Wolf" x="-1" y="-2" z="7" spawntime="180" />
@@ -8952,26 +8906,6 @@
 		<monster name="Ghoul" x="1" y="-1" z="8" spawntime="180" />
 		<monster name="Skeleton" x="1" y="2" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1660" centery="2020" centerz="8" radius="2">
-		<monster name="Skeleton" x="0" y="-2" z="8" spawntime="180" />
-		<monster name="Ghoul" x="1" y="1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1654" centery="2021" centerz="8" radius="2">
-		<monster name="Ghoul" x="1" y="1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1670" centery="2025" centerz="8" radius="2">
-		<monster name="Skeleton" x="2" y="0" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1655" centery="2027" centerz="8" radius="2">
-		<monster name="Ghoul" x="-1" y="2" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1662" centery="2027" centerz="8" radius="2">
-		<monster name="Skeleton" x="-1" y="-2" z="8" spawntime="180" />
-		<monster name="Ghoul" x="2" y="2" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1646" centery="2028" centerz="8" radius="2">
-		<monster name="Skeleton" x="2" y="1" z="8" spawntime="180" />
-	</monster>
 	<monster centerx="1895" centery="2029" centerz="8" radius="3">
 		<monster name="Skeleton" x="-1" y="1" z="8" spawntime="180" />
 	</monster>
@@ -8982,27 +8916,8 @@
 		<monster name="Ghost" x="-4" y="0" z="8" spawntime="180" />
 		<monster name="Ghoul" x="1" y="3" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1662" centery="2034" centerz="8" radius="2">
-		<monster name="Ghoul" x="-2" y="0" z="8" spawntime="180" />
-		<monster name="Ghoul" x="2" y="1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1648" centery="2035" centerz="8" radius="2">
-		<monster name="Skeleton" x="-1" y="1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1655" centery="2035" centerz="8" radius="2">
-		<monster name="Ghoul" x="1" y="-2" z="8" spawntime="180" />
-		<monster name="Ghoul" x="-1" y="1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1671" centery="2037" centerz="8" radius="2">
-		<monster name="Ghoul" x="1" y="0" z="8" spawntime="180" />
-		<monster name="Demon Skeleton" x="-1" y="2" z="8" spawntime="180" />
-	</monster>
 	<monster centerx="1840" centery="2040" centerz="8" radius="3">
 		<monster name="Demon Skeleton" x="-2" y="-1" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1657" centery="2042" centerz="8" radius="2">
-		<monster name="Demon Skeleton" x="-2" y="-2" z="8" spawntime="180" />
-		<monster name="Skeleton" x="1" y="2" z="8" spawntime="180" />
 	</monster>
 	<monster centerx="1895" centery="2043" centerz="8" radius="3">
 		<monster name="Skeleton" x="1" y="-1" z="8" spawntime="180" />
@@ -9011,14 +8926,6 @@
 		<monster name="Skeleton" x="-2" y="0" z="8" spawntime="180" />
 		<monster name="Skeleton" x="1" y="0" z="8" spawntime="180" />
 		<monster name="Ghoul" x="3" y="3" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1649" centery="2044" centerz="8" radius="2">
-		<monster name="Skeleton" x="0" y="-2" z="8" spawntime="180" />
-		<monster name="Skeleton" x="1" y="2" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1667" centery="2044" centerz="8" radius="2">
-		<monster name="Skeleton" x="1" y="-1" z="8" spawntime="180" />
-		<monster name="Skeleton" x="-1" y="2" z="8" spawntime="180" />
 	</monster>
 	<monster centerx="1880" centery="2045" centerz="8" radius="3">
 		<monster name="Ghoul" x="-1" y="-1" z="8" spawntime="180" />
@@ -9043,27 +8950,14 @@
 		<monster name="Demon Skeleton" x="-3" y="-2" z="8" spawntime="180" />
 		<monster name="Demon Skeleton" x="1" y="1" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1663" centery="2053" centerz="8" radius="2">
-		<monster name="Demon Skeleton" x="2" y="-2" z="8" spawntime="180" />
-		<monster name="Ghoul" x="1" y="1" z="8" spawntime="180" />
-	</monster>
 	<monster centerx="2128" centery="2053" centerz="8" radius="3">
 		<monster name="Tarantula" x="1" y="-1" z="8" spawntime="180" />
 		<monster name="Tarantula" x="-1" y="2" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1654" centery="2054" centerz="8" radius="2">
-		<monster name="Ghoul" x="0" y="-1" z="8" spawntime="180" />
-		<monster name="Skeleton" x="1" y="2" z="8" spawntime="180" />
 	</monster>
 	<monster centerx="1792" centery="2054" centerz="8" radius="5">
 		<monster name="Ghoul" x="3" y="-3" z="8" spawntime="180" />
 		<monster name="Ghoul" x="-3" y="2" z="8" spawntime="180" />
 		<monster name="Ghoul" x="4" y="4" z="8" spawntime="180" />
-	</monster>
-	<monster centerx="1669" centery="2057" centerz="8" radius="2">
-		<monster name="Ghoul" x="2" y="-1" z="8" spawntime="180" />
-		<monster name="Ghoul" x="-2" y="1" z="8" spawntime="180" />
-		<monster name="Ghoul" x="1" y="2" z="8" spawntime="180" />
 	</monster>
 	<monster centerx="1900" centery="2058" centerz="8" radius="3">
 		<monster name="Ghoul" x="2" y="1" z="8" spawntime="180" />
@@ -10960,11 +10854,7 @@
 		<monster name="Rotworm" x="2" y="-1" z="9" spawntime="180" />
 		<monster name="Carrion Worm" x="-2" y="1" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2077" centery="1992" centerz="9" radius="5">
-		<monster name="Worker Golem" x="-1" y="-1" z="9" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="-4" y="0" z="9" spawntime="180" />
-		<monster name="Worker Golem" x="4" y="0" z="9" spawntime="180" />
-	</monster>
+	<monster centerx="2077" centery="1992" centerz="9" radius="5" />
 	<monster centerx="2254" centery="2000" centerz="9" radius="6">
 		<monster name="Slime Puddle" x="0" y="-6" z="9" spawntime="180" />
 		<monster name="Slime Puddle" x="-5" y="-5" z="9" spawntime="180" />
@@ -10975,13 +10865,8 @@
 		<monster name="Slime Puddle" x="5" y="5" z="9" spawntime="180" />
 		<monster name="Slime Puddle" x="0" y="6" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2066" centery="2005" centerz="9" radius="5">
-		<monster name="Worker Golem" x="0" y="-5" z="9" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="1" y="2" z="9" spawntime="180" />
-	</monster>
-	<monster centerx="2045" centery="2007" centerz="9" radius="5">
-		<monster name="Damaged Worker Golem" x="3" y="1" z="9" spawntime="180" />
-	</monster>
+	<monster centerx="2066" centery="2005" centerz="9" radius="5" />
+	<monster centerx="2045" centery="2007" centerz="9" radius="5" />
 	<monster centerx="1834" centery="2010" centerz="9" radius="5">
 		<monster name="Necromancer" x="3" y="-4" z="9" spawntime="180" />
 		<monster name="Ghoul" x="2" y="-3" z="9" spawntime="180" />
@@ -10999,25 +10884,14 @@
 		<monster name="Demon Skeleton" x="0" y="2" z="9" spawntime="180" />
 		<monster name="Necromancer" x="-2" y="3" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2059" centery="2014" centerz="9" radius="5">
-		<monster name="Damaged Worker Golem" x="-2" y="-4" z="9" spawntime="180" />
-		<monster name="Worker Golem" x="1" y="3" z="9" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="-1" y="5" z="9" spawntime="180" />
-	</monster>
+	<monster centerx="2059" centery="2014" centerz="9" radius="5" />
 	<monster centerx="1782" centery="2015" centerz="9" radius="5">
 		<monster name="Ghost" x="-1" y="-3" z="9" spawntime="180" />
 		<monster name="Necromancer" x="-1" y="-2" z="9" spawntime="180" />
 		<monster name="Vampire" x="0" y="-2" z="9" spawntime="180" />
 		<monster name="Demon Skeleton" x="0" y="4" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2387" centery="2016" centerz="9" radius="2" />
-	<monster centerx="2075" centery="2018" centerz="9" radius="5">
-		<monster name="Damaged Worker Golem" x="-2" y="-3" z="9" spawntime="180" />
-		<monster name="Worker Golem" x="3" y="-2" z="9" spawntime="180" />
-		<monster name="Worker Golem" x="-5" y="-1" z="9" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="2" y="0" z="9" spawntime="180" />
-		<monster name="Worker Golem" x="-2" y="2" z="9" spawntime="180" />
-	</monster>
+	<monster centerx="2075" centery="2018" centerz="9" radius="5" />
 	<monster centerx="2160" centery="2018" centerz="9" radius="3">
 		<monster name="Tarantula" x="0" y="-1" z="9" spawntime="180" />
 		<monster name="Poison Spider" x="2" y="0" z="9" spawntime="180" />
@@ -11270,7 +11144,6 @@
 		<monster name="Slime" x="-1" y="-1" z="9" spawntime="180" />
 		<monster name="Slime" x="1" y="0" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2554" centery="2132" centerz="9" radius="3" />
 	<monster centerx="2106" centery="2135" centerz="9" radius="4">
 		<monster name="Bog Raider" x="-2" y="2" z="9" spawntime="180" />
 	</monster>
@@ -11279,7 +11152,6 @@
 		<monster name="Snake" x="1" y="0" z="9" spawntime="180" />
 		<monster name="Snake" x="-1" y="2" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2596" centery="2146" centerz="9" radius="3" />
 	<monster centerx="2098" centery="2148" centerz="9" radius="4">
 		<monster name="Bog Raider" x="1" y="0" z="9" spawntime="180" />
 	</monster>
@@ -11320,7 +11192,6 @@
 	<monster centerx="2126" centery="2182" centerz="9" radius="4">
 		<monster name="Bog Raider" x="-2" y="1" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2547" centery="2209" centerz="9" radius="3" />
 	<monster centerx="2021" centery="2432" centerz="9" radius="1">
 		<monster name="Quara Mantassin" x="-1" y="1" z="9" spawntime="180" />
 	</monster>
@@ -12514,47 +12385,12 @@
 		<monster name="Carrion Worm" x="1" y="2" z="10" spawntime="180" />
 		<monster name="Rotworm" x="-2" y="3" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1657" centery="1964" centerz="10" radius="2">
-		<monster name="Dragon" x="1" y="0" z="10" spawntime="59" />
-	</monster>
-	<monster centerx="1729" centery="1964" centerz="10" radius="4">
-		<monster name="Magicthrower" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="0" y="-2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="2" y="-2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="-3" y="-1" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="-1" y="-1" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="1" y="-1" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="3" y="-1" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="-3" y="2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="-1" y="2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="1" y="2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="3" y="2" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="-2" y="3" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="0" y="3" z="10" spawntime="180" />
-		<monster name="Magicthrower" x="2" y="3" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2061" centery="1965" centerz="10" radius="3">
 		<monster name="Dragon" x="1" y="0" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="1930" centery="1970" centerz="10" radius="4">
 		<monster name="Bat" x="1" y="0" z="10" spawntime="180" />
 		<monster name="Bat" x="3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1727" centery="1973" centerz="10" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="10" spawntime="180" />
-		<monster name="Hellfire Fighter" x="2" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1734" centery="1973" centerz="10" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="-2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1647" centery="1974" centerz="10" radius="3">
-		<monster name="Dragon Lord" x="3" y="0" z="10" spawntime="59" />
-		<monster name="Dragon" x="0" y="3" z="10" spawntime="59" />
-	</monster>
-	<monster centerx="1706" centery="1974" centerz="10" radius="3">
-		<monster name="Nightmare" x="-2" y="-3" z="10" spawntime="180" />
-		<monster name="Phantasm" x="0" y="-2" z="10" spawntime="180" />
-		<monster name="Nightmare" x="3" y="-1" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="1945" centery="1974" centerz="10" radius="4">
 		<monster name="Bat" x="-4" y="-2" z="10" spawntime="180" />
@@ -12570,10 +12406,6 @@
 		<monster name="Bat" x="-1" y="-4" z="10" spawntime="180" />
 		<monster name="Bat" x="2" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1657" centery="1977" centerz="10" radius="3">
-		<monster name="Dragon" x="-1" y="-1" z="10" spawntime="59" />
-		<monster name="Dragon" x="2" y="3" z="10" spawntime="59" />
-	</monster>
 	<monster centerx="1939" centery="1979" centerz="10" radius="4">
 		<monster name="Bat" x="-1" y="0" z="10" spawntime="180" />
 		<monster name="Bat" x="3" y="1" z="10" spawntime="180" />
@@ -12584,9 +12416,6 @@
 		<monster name="Vampire" x="-2" y="0" z="10" spawntime="180" />
 		<monster name="Ghoul" x="0" y="2" z="10" spawntime="180" />
 		<monster name="Vampire" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1649" centery="1982" centerz="10" radius="3">
-		<monster name="Dragon Lord" x="1" y="2" z="10" spawntime="59" />
 	</monster>
 	<monster centerx="1844" centery="1988" centerz="10" radius="3">
 		<monster name="Vampire" x="-2" y="-3" z="10" spawntime="180" />
@@ -12605,24 +12434,7 @@
 		<monster name="Ghoul" x="-2" y="1" z="10" spawntime="180" />
 		<monster name="Vampire" x="1" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1718" centery="1997" centerz="10" radius="5">
-		<monster name="Defiler" x="3" y="0" z="10" spawntime="180" />
-		<monster name="Defiler" x="0" y="4" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2075" centery="1997" centerz="10" radius="5">
-		<monster name="Worker Golem" x="-1" y="-2" z="10" spawntime="180" />
-		<monster name="War Golem" x="1" y="-2" z="10" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="-2" y="2" z="10" spawntime="180" />
-		<monster name="Worker Golem" x="2" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2379" centery="1999" centerz="10" radius="3" />
-	<monster centerx="2414" centery="1999" centerz="10" radius="3" />
-	<monster centerx="1730" centery="2006" centerz="10" radius="5">
-		<monster name="Betrayed Wraith" x="-3" y="-5" z="10" spawntime="180" />
-		<monster name="Betrayed Wraith" x="3" y="1" z="10" spawntime="180" />
-		<monster name="Scorpion" x="-3" y="5" z="10" spawntime="180" />
-		<monster name="Scorpion" x="5" y="5" z="10" spawntime="180" />
-	</monster>
+	<monster centerx="2075" centery="1997" centerz="10" radius="5" />
 	<monster centerx="1869" centery="2006" centerz="10" radius="3">
 		<monster name="Ghoul" x="2" y="-3" z="10" spawntime="180" />
 		<monster name="Vampire" x="-2" y="-2" z="10" spawntime="180" />
@@ -12631,19 +12443,7 @@
 	<monster centerx="1904" centery="2006" centerz="10" radius="3">
 		<monster name="Rat" x="2" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2393" centery="2006" centerz="10" radius="3" />
-	<monster centerx="2075" centery="2008" centerz="10" radius="5">
-		<monster name="War Golem" x="-1" y="-5" z="10" spawntime="180" />
-		<monster name="Worker Golem" x="0" y="-2" z="10" spawntime="180" />
-		<monster name="Damaged Worker Golem" x="2" y="1" z="10" spawntime="180" />
-		<monster name="Worker Golem" x="-2" y="5" z="10" spawntime="180" />
-		<monster name="Worker Golem" x="3" y="5" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1699" centery="2011" centerz="10" radius="5">
-		<monster name="Diabolic Imp" x="0" y="-2" z="10" spawntime="180" />
-		<monster name="Spectre" x="3" y="-2" z="10" spawntime="180" />
-		<monster name="Diabolic Imp" x="-1" y="1" z="10" spawntime="180" />
-	</monster>
+	<monster centerx="2075" centery="2008" centerz="10" radius="5" />
 	<monster centerx="1859" centery="2011" centerz="10" radius="3">
 		<monster name="Vampire" x="-2" y="0" z="10" spawntime="180" />
 	</monster>
@@ -12662,14 +12462,6 @@
 		<monster name="Tarantula" x="-2" y="1" z="10" spawntime="180" />
 		<monster name="Giant Spider" x="0" y="2" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1718" centery="2016" centerz="10" radius="5">
-		<monster name="Nightmare" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Spectre" x="1" y="-2" z="10" spawntime="180" />
-		<monster name="Diabolic Imp" x="3" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1736" centery="2017" centerz="10" radius="1">
-		<monster name="Scorpion" x="1" y="-1" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="1869" centery="2018" centerz="10" radius="3">
 		<monster name="Demon Skeleton" x="-2" y="-3" z="10" spawntime="180" />
 		<monster name="Vampire" x="1" y="-3" z="10" spawntime="180" />
@@ -12680,34 +12472,11 @@
 		<monster name="Poison Spider" x="2" y="-1" z="10" spawntime="180" />
 		<monster name="Tarantula" x="1" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1731" centery="2021" centerz="10" radius="2">
-		<monster name="Scorpion" x="0" y="-2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1640" centery="2023" centerz="10" radius="7">
-		<monster name="Demon Skeleton" x="0" y="-5" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-5" y="-4" z="10" spawntime="180" />
-		<monster name="Ghost" x="-2" y="-3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="4" y="-2" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-6" y="-1" z="10" spawntime="180" />
-		<monster name="Ghost" x="3" y="1" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="1" y="2" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-2" y="3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="6" y="4" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2173" centery="2023" centerz="10" radius="3">
 		<monster name="Giant Spider" x="1" y="-1" z="10" spawntime="180" />
 		<monster name="Tarantula" x="3" y="-1" z="10" spawntime="180" />
 		<monster name="Giant Spider" x="-2" y="2" z="10" spawntime="180" />
 		<monster name="Giant Spider" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2374" centery="2027" centerz="10" radius="1" />
-	<monster centerx="1657" centery="2031" centerz="10" radius="3">
-		<monster name="Demon Skeleton" x="0" y="-1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1719" centery="2031" centerz="10" radius="5">
-		<monster name="Nightmare" x="-1" y="-4" z="10" spawntime="180" />
-		<monster name="Spectre" x="2" y="-2" z="10" spawntime="180" />
-		<monster name="Nightmare" x="0" y="1" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="1867" centery="2031" centerz="10" radius="4">
 		<monster name="Ghoul" x="-1" y="-3" z="10" spawntime="180" />
@@ -12733,33 +12502,6 @@
 		<monster name="Giant Spider" x="0" y="-2" z="10" spawntime="180" />
 		<monster name="Poison Spider" x="-2" y="0" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="1736" centery="2033" centerz="10" radius="2">
-		<monster name="Hellfire Fighter" x="-2" y="0" z="10" spawntime="180" />
-		<monster name="Hellfire Fighter" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2393" centery="2034" centerz="10" radius="3" />
-	<monster centerx="1674" centery="2037" centerz="10" radius="3">
-		<monster name="Ghost" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1700" centery="2037" centerz="10" radius="5">
-		<monster name="Nightmare" x="0" y="-5" z="10" spawntime="180" />
-		<monster name="Spectre" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Nightmare" x="-1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2372" centery="2041" centerz="10" radius="3" />
-	<monster centerx="2393" centery="2041" centerz="10" radius="3" />
-	<monster centerx="1630" centery="2043" centerz="10" radius="7">
-		<monster name="Demon Skeleton" x="-4" y="-6" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="3" y="-5" z="10" spawntime="180" />
-		<monster name="Ghost" x="2" y="-3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-3" y="0" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="2" y="0" z="10" spawntime="180" />
-		<monster name="Ghost" x="0" y="2" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-5" y="3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-1" y="3" z="10" spawntime="180" />
-		<monster name="Ghost" x="-2" y="5" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="1" y="5" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2177" centery="2048" centerz="10" radius="5">
 		<monster name="Tarantula" x="2" y="-3" z="10" spawntime="180" />
 		<monster name="Giant Spider" x="-3" y="-1" z="10" spawntime="180" />
@@ -12768,26 +12510,9 @@
 		<monster name="Poison Spider" x="3" y="1" z="10" spawntime="180" />
 		<monster name="Giant Spider" x="1" y="3" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2386" centery="2048" centerz="10" radius="3" />
-	<monster centerx="1679" centery="2049" centerz="10" radius="3">
-		<monster name="Demon Skeleton" x="3" y="-3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-1" y="0" z="10" spawntime="180" />
-		<monster name="Ghost" x="2" y="0" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="3" y="3" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2131" centery="2055" centerz="10" radius="3">
 		<monster name="Earth Elemental" x="2" y="-2" z="10" spawntime="180" />
 		<monster name="Earth Elemental" x="-2" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="1668" centery="2057" centerz="10" radius="5">
-		<monster name="Demon Skeleton" x="-1" y="-5" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="1" y="-3" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-3" y="1" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="1" y="1" z="10" spawntime="180" />
-		<monster name="Ghost" x="5" y="2" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-5" y="5" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="-1" y="5" z="10" spawntime="180" />
-		<monster name="Demon Skeleton" x="4" y="5" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="2135" centery="2065" centerz="10" radius="3">
 		<monster name="Earth Elemental" x="0" y="-1" z="10" spawntime="180" />
@@ -12851,134 +12576,14 @@
 	<monster centerx="2177" centery="2116" centerz="10" radius="2">
 		<monster name="Slug" x="2" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2652" centery="2132" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="1" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2654" centery="2140" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2141" centerz="10" radius="4">
-		<monster name="Hideous Fungus" x="-1" y="-1" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="2" y="0" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2643" centery="2146" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2663" centery="2146" centerz="10" radius="3">
-		<monster name="Stone Devourer" x="-3" y="-1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2667" centery="2146" centerz="10" radius="3" />
-	<monster centerx="2637" centery="2147" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="1" y="-1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2663" centery="2149" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2611" centery="2150" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2632" centery="2150" centerz="10" radius="4">
-		<monster name="Hideous Fungus" x="-3" y="-1" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="-3" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2681" centery="2151" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="-2" y="0" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="1" y="2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2654" centery="2152" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="1" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2675" centery="2152" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="-3" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-1" y="-2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="2" y="3" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2073" centery="2153" centerz="10" radius="4">
 		<monster name="Destroyer" x="1" y="-1" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="2109" centery="2154" centerz="10" radius="4">
 		<monster name="Plaguesmith" x="2" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2650" centery="2154" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="1" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2681" centery="2154" centerz="10" radius="3">
-		<monster name="Armadile" x="3" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="-3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2686" centery="2154" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2661" centery="2155" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="2" y="-2" z="10" spawntime="180" />
-		<monster name="Armadile" x="3" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="2" y="-1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="2" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2607" centery="2156" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2677" centery="2156" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2666" centery="2157" centerz="10" radius="3" />
-	<monster centerx="2685" centery="2157" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="2" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-2" y="2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2651" centery="2159" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2677" centery="2159" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="3" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2680" centery="2159" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="1" y="-1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2689" centery="2159" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2665" centery="2162" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2683" centery="2163" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2687" centery="2163" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2644" centery="2164" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="2" y="-3" z="10" spawntime="180" />
-		<monster name="Armadile" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2669" centery="2164" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="1" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2608" centery="2169" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="-3" y="0" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="-2" y="0" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2064" centery="2170" centerz="10" radius="4">
 		<monster name="Plaguesmith" x="0" y="-1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2604" centery="2171" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="2121" centery="2173" centerz="10" radius="4">
 		<monster name="Destroyer" x="0" y="-1" z="10" spawntime="180" />
@@ -12986,240 +12591,8 @@
 	<monster centerx="2092" centery="2175" centerz="10" radius="4">
 		<monster name="Plaguesmith" x="-1" y="0" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2653" centery="2176" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="2" y="0" z="10" spawntime="180" />
-		<monster name="Armadile" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2648" centery="2178" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="-2" y="0" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="2" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2615" centery="2181" centerz="10" radius="3">
-		<monster name="Armadile" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="3" y="1" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="0" y="2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="1" y="2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-1" y="3" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2649" centery="2181" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2620" centery="2183" centerz="10" radius="4">
-		<monster name="Armadile" x="2" y="-1" z="10" spawntime="180" />
-		<monster name="Armadile" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2609" centery="2185" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Armadile" x="1" y="2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-3" y="3" z="10" spawntime="180" />
-	</monster>
 	<monster centerx="2070" centery="2186" centerz="10" radius="4">
 		<monster name="Destroyer" x="-2" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2601" centery="2186" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2186" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="2" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2629" centery="2187" centerz="10" radius="3" />
-	<monster centerx="2646" centery="2187" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="3" y="-2" z="10" spawntime="180" />
-		<monster name="Armadile" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2595" centery="2188" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2635" centery="2189" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="2" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2612" centery="2191" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2595" centery="2192" centerz="10" radius="3">
-		<monster name="Stone Devourer" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2661" centery="2193" centerz="10" radius="3">
-		<monster name="Stone Devourer" x="1" y="-1" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2533" centery="2195" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2547" centery="2195" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="2" y="-3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2638" centery="2195" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="-2" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2620" centery="2200" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2630" centery="2200" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2634" centery="2200" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="-1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2590" centery="2201" centerz="10" radius="4">
-		<monster name="Armadile" x="0" y="-1" z="10" spawntime="180" />
-		<monster name="Stone Devourer" x="-2" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2533" centery="2202" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="1" y="-1" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="3" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2540" centery="2202" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="-3" y="-2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2611" centery="2203" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2625" centery="2203" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2636" centery="2205" centerz="10" radius="3">
-		<monster name="Armadile" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2662" centery="2205" centerz="10" radius="4">
-		<monster name="Humongous Fungus" x="-3" y="2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="4" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2631" centery="2206" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2505" centery="2209" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="3" y="-2" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="0" y="-1" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="2" y="-1" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2512" centery="2209" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2519" centery="2209" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="1" y="0" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="-3" y="3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2526" centery="2209" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="-3" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2533" centery="2209" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="-3" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2540" centery="2209" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="2" y="-2" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="1" y="1" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="2" y="1" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="-1" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2554" centery="2209" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2561" centery="2209" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="-2" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2594" centery="2210" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Armadile" x="3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2609" centery="2210" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="-1" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-3" y="2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2643" centery="2210" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2658" centery="2212" centerz="10" radius="4">
-		<monster name="Hideous Fungus" x="-1" y="-1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-4" y="2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2633" centery="2213" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="1" y="-2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2637" centery="2213" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2627" centery="2215" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-3" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2498" centery="2216" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="2" y="-2" z="10" spawntime="180" />
-		<monster name="Enraged Crystal Golem" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2512" centery="2216" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="-1" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2519" centery="2216" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="0" y="-3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2533" centery="2216" centerz="10" radius="3">
-		<monster name="Damaged Crystal Golem" x="3" y="-2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2540" centery="2216" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="0" y="-3" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2554" centery="2216" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="-3" y="1" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="2" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2613" centery="2216" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2593" centery="2217" centerz="10" radius="4">
-		<monster name="Hideous Fungus" x="-1" y="-3" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="0" y="0" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2621" centery="2218" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="0" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2627" centery="2218" centerz="10" radius="3">
-		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2613" centery="2219" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2617" centery="2220" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="2" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2627" centery="2222" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="0" y="1" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2505" centery="2223" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="1" y="0" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2554" centery="2223" centerz="10" radius="3">
-		<monster name="Enraged Crystal Golem" x="-2" y="-2" z="10" spawntime="180" />
-		<monster name="Damaged Crystal Golem" x="2" y="-2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2649" centery="2226" centerz="10" radius="3">
-		<monster name="Humongous Fungus" x="3" y="-3" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-1" y="-2" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="-1" y="2" z="10" spawntime="180" />
-		<monster name="Hideous Fungus" x="1" y="2" z="10" spawntime="180" />
-	</monster>
-	<monster centerx="2641" centery="2231" centerz="10" radius="4">
-		<monster name="Hideous Fungus" x="-2" y="0" z="10" spawntime="180" />
-		<monster name="Humongous Fungus" x="2" y="0" z="10" spawntime="180" />
 	</monster>
 	<monster centerx="1996" centery="2466" centerz="10" radius="1">
 		<monster name="War Golem" x="-1" y="0" z="10" spawntime="180" />
@@ -14028,26 +13401,12 @@
 	<monster centerx="1675" centery="1879" centerz="11" radius="1">
 		<monster name="Dragon" x="0" y="-1" z="11" spawntime="180" />
 	</monster>
-	<monster centerx="1702" centery="1959" centerz="11" radius="3">
-		<monster name="Flamethrower" x="-3" y="1" z="11" spawntime="180" />
-		<monster name="Flamethrower" x="3" y="1" z="11" spawntime="180" />
-	</monster>
 	<monster centerx="1882" centery="1989" centerz="11" radius="5">
 		<monster name="Nightmare" x="-4" y="0" z="11" spawntime="180" />
 	</monster>
 	<monster centerx="1928" centery="2005" centerz="11" radius="3">
 		<monster name="Bonelord" x="2" y="-1" z="11" spawntime="180" />
 		<monster name="Bonelord" x="-1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="1682" centery="2009" centerz="11" radius="5">
-		<monster name="Blue Butterfly" x="0" y="-3" z="11" spawntime="180" />
-		<monster name="Blue Butterfly" x="-4" y="-1" z="11" spawntime="180" />
-		<monster name="Red Butterfly" x="1" y="0" z="11" spawntime="180" />
-		<monster name="Red Butterfly" x="1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="1730" centery="2016" centerz="11" radius="5">
-		<monster name="Blightwalker" x="1" y="-3" z="11" spawntime="180" />
-		<monster name="Blightwalker" x="-1" y="2" z="11" spawntime="180" />
 	</monster>
 	<monster centerx="2178" centery="2047" centerz="11" radius="2">
 		<monster name="Magicthrower" x="-2" y="-2" z="11" spawntime="180" />
@@ -14068,25 +13427,8 @@
 	<monster centerx="2218" centery="2086" centerz="11" radius="3">
 		<monster name="Diabolic Imp" x="0" y="-1" z="11" spawntime="180" />
 	</monster>
-	<monster centerx="2617" centery="2104" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="-1" y="0" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2104" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="0" y="2" z="11" spawntime="180" />
-	</monster>
 	<monster centerx="2225" centery="2107" centerz="11" radius="3">
 		<monster name="Juggernaut" x="-1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2617" centery="2111" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="3" y="-3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2111" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="1" y="-2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2652" centery="2111" centerz="11" radius="3">
-		<monster name="Wiggler" x="-1" y="-2" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="3" y="0" z="11" spawntime="180" />
 	</monster>
 	<monster centerx="2179" centery="2114" centerz="11" radius="2">
 		<monster name="Magicthrower" x="-2" y="-2" z="11" spawntime="180" />
@@ -14099,309 +13441,6 @@
 		<monster name="Flamethrower" x="2" y="-2" z="11" spawntime="180" />
 		<monster name="Flamethrower" x="-2" y="2" z="11" spawntime="180" />
 		<monster name="Magicthrower" x="2" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2582" centery="2125" centerz="11" radius="3">
-		<monster name="Wiggler" x="3" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2596" centery="2125" centerz="11" radius="3">
-		<monster name="Wiggler" x="-2" y="2" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-2" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2603" centery="2125" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2610" centery="2125" centerz="11" radius="3">
-		<monster name="Wiggler" x="-3" y="-2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2125" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="0" y="-3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2631" centery="2125" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="-3" y="-2" z="11" spawntime="180" />
-		<monster name="Wiggler" x="2" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2638" centery="2125" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="-3" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2645" centery="2125" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2652" centery="2125" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="2" y="-2" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="3" y="-1" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="-1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2589" centery="2132" centerz="11" radius="3">
-		<monster name="Wiggler" x="-1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2638" centery="2132" centerz="11" radius="3">
-		<monster name="Wiggler" x="-3" y="-3" z="11" spawntime="180" />
-		<monster name="Massive Earth Elemental" x="-2" y="-3" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2659" centery="2132" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="2" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2666" centery="2132" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="3" y="-1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2575" centery="2139" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2610" centery="2139" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="3" y="-1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-1" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2617" centery="2139" centerz="11" radius="3">
-		<monster name="Massive Earth Elemental" x="-1" y="-2" z="11" spawntime="180" />
-		<monster name="Wiggler" x="2" y="-1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-3" y="0" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="-1" y="1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-3" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2561" centery="2142" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="0" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2543" centery="2144" centerz="11" radius="3">
-		<monster name="Giant Spider" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2566" centery="2144" centerz="11" radius="3">
-		<monster name="Mutated Rat" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-2" y="2" z="11" spawntime="180" />
-		<monster name="Mutated Rat" x="1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2500" centery="2146" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="3" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2560" centery="2146" centerz="11" radius="3">
-		<monster name="Mutated Rat" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2568" centery="2146" centerz="11" radius="3">
-		<monster name="Mutated Rat" x="0" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2610" centery="2146" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="2" y="-3" z="11" spawntime="180" />
-		<monster name="Crystal Spider" x="3" y="-2" z="11" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="0" z="11" spawntime="180" />
-		<monster name="Wiggler" x="-1" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2617" centery="2146" centerz="11" radius="3">
-		<monster name="Crystal Spider" x="-1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2146" centerz="11" radius="3">
-		<monster name="Crystalcrusher" x="1" y="-1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2556" centery="2148" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2493" centery="2151" centerz="11" radius="3">
-		<monster name="Wiggler" x="-1" y="-3" z="11" spawntime="180" />
-		<monster name="Giant Spider" x="0" y="0" z="11" spawntime="180" />
-		<monster name="Giant Spider" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2514" centery="2156" centerz="11" radius="3">
-		<monster name="Giant Spider" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Mutated Rat" x="2" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2520" centery="2160" centerz="11" radius="3">
-		<monster name="Giant Spider" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2532" centery="2163" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2509" centery="2165" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2644" centery="2166" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="2" z="11" spawntime="180" />
-		<monster name="Infected Weeper" x="1" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2651" centery="2169" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="-3" y="-3" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="-1" y="-1" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2532" centery="2172" centerz="11" radius="3">
-		<monster name="Mutated Rat" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2646" centery="2172" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="-1" y="-1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2506" centery="2173" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2670" centery="2174" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-3" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2604" centery="2175" centerz="11" radius="3">
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2648" centery="2176" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2537" centery="2177" centerz="11" radius="3">
-		<monster name="Mutated Rat" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2522" centery="2178" centerz="11" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Wiggler" x="1" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2634" centery="2179" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="2" y="0" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2662" centery="2179" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Weeper" x="2" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2514" centery="2180" centerz="11" radius="3">
-		<monster name="Wiggler" x="-1" y="-2" z="11" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2614" centery="2182" centerz="11" radius="4">
-		<monster name="Lost Berserker" x="-1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2649" centery="2183" centerz="11" radius="3">
-		<monster name="Weeper" x="-1" y="0" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2664" centery="2184" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="3" y="-2" z="11" spawntime="180" />
-		<monster name="Infected Weeper" x="1" y="-1" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2634" centery="2188" centerz="11" radius="3">
-		<monster name="Lava Golem" x="0" y="-1" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="-3" y="0" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="0" y="0" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="2" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2643" centery="2188" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2610" centery="2189" centerz="11" radius="3">
-		<monster name="Lava Golem" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="3" y="2" z="11" spawntime="180" />
-		<monster name="Weeper" x="3" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2665" centery="2189" centerz="11" radius="3">
-		<monster name="Weeper" x="2" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2638" centery="2190" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="-2" y="3" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="1" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2666" centery="2193" centerz="11" radius="3">
-		<monster name="Weeper" x="-1" y="0" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2666" centery="2196" centerz="11" radius="3">
-		<monster name="Parasite" x="1" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2666" centery="2199" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2639" centery="2203" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="3" y="-3" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="0" y="-2" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="3" y="-1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="2" y="0" z="11" spawntime="180" />
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Weeper" x="-2" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2670" centery="2204" centerz="11" radius="3">
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2614" centery="2206" centerz="11" radius="3">
-		<monster name="Weeper" x="-2" y="-1" z="11" spawntime="180" />
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-2" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2635" centery="2207" centerz="11" radius="3">
-		<monster name="Weeper" x="-2" y="-1" z="11" spawntime="180" />
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-2" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2644" centery="2207" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2601" centery="2208" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2630" centery="2209" centerz="11" radius="3">
-		<monster name="Lava Golem" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2660" centery="2209" centerz="11" radius="4">
-		<monster name="Weeper" x="-2" y="-2" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="-1" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="2" y="4" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2640" centery="2210" centerz="11" radius="3">
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="1" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="1" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2668" centery="2210" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="-1" y="-1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="3" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2622" centery="2212" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2597" centery="2215" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="2" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2659" centery="2216" centerz="11" radius="4">
-		<monster name="Weeper" x="0" y="-1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-3" y="0" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="1" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="2" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2613" centery="2217" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2642" centery="2217" centerz="11" radius="3">
-		<monster name="Lava Golem" x="2" y="-2" z="11" spawntime="180" />
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2601" centery="2218" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Parasite" x="2" y="2" z="11" spawntime="180" />
-		<monster name="Weeper" x="-1" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2607" centery="2218" centerz="11" radius="3">
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2636" centery="2220" centerz="11" radius="3">
-		<monster name="Infected Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2609" centery="2221" centerz="11" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2667" centery="2225" centerz="11" radius="4">
-		<monster name="Weeper" x="-1" y="-2" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="2" y="0" z="11" spawntime="180" />
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-2" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2617" centery="2226" centerz="11" radius="3">
-		<monster name="Weeper" x="0" y="1" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2623" centery="2227" centerz="11" radius="3">
-		<monster name="Magma Crawler" x="0" y="1" z="11" spawntime="180" />
-		<monster name="Lava Golem" x="-3" y="3" z="11" spawntime="180" />
-	</monster>
-	<monster centerx="2609" centery="2228" centerz="11" radius="4">
-		<monster name="Lost Berserker" x="-1" y="1" z="11" spawntime="180" />
 	</monster>
 	<monster centerx="703" centery="175" centerz="12" radius="5">
 		<monster name="Skeleton" x="0" y="-3" z="12" spawntime="180" />
@@ -14986,23 +14025,6 @@
 		<monster name="Dragon Lord Hatchling" x="-1" y="1" z="12" spawntime="180" />
 		<monster name="Dragon Lord" x="4" y="4" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1700" centery="1931" centerz="12" radius="9">
-		<monster name="Plaguesmith" x="1" y="-8" z="12" spawntime="180" />
-		<monster name="Blightwalker" x="3" y="-6" z="12" spawntime="180" />
-		<monster name="Betrayed Wraith" x="-2" y="-4" z="12" spawntime="180" />
-		<monster name="Betrayed Wraith" x="1" y="-4" z="12" spawntime="180" />
-		<monster name="Betrayed Wraith" x="-3" y="-2" z="12" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="-1" y="-2" z="12" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="-2" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="5" y="-2" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="-2" y="0" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Phantasm" x="-3" y="2" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="-5" y="4" z="12" spawntime="180" />
-		<monster name="Phantasm" x="-1" y="4" z="12" spawntime="180" />
-		<monster name="Phantasm" x="2" y="4" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="0" y="6" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1509" centery="1932" centerz="12" radius="8">
 		<monster name="Dragon Lord" x="-6" y="-8" z="12" spawntime="180" />
 		<monster name="Dragon Lord" x="4" y="-7" z="12" spawntime="180" />
@@ -15033,13 +14055,6 @@
 		<monster name="Dragon Lord" x="2" y="0" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-2" y="1" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1700" centery="1946" centerz="12" radius="4">
-		<monster name="Hellfire Fighter" x="0" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1761" centery="1949" centerz="12" radius="3">
-		<monster name="Lost Soul" x="0" y="-2" z="12" spawntime="180" />
-		<monster name="Lost Soul" x="2" y="2" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1561" centery="1950" centerz="12" radius="5">
 		<monster name="Dragon Lord" x="-4" y="-2" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-3" y="-2" z="12" spawntime="180" />
@@ -15051,12 +14066,6 @@
 		<monster name="Dragon Lord" x="0" y="2" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="5" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1702" centery="1959" centerz="12" radius="3">
-		<monster name="Hellfire Fighter" x="2" y="-2" z="12" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="12" spawntime="180" />
-		<monster name="Flamethrower" x="-3" y="1" z="12" spawntime="180" />
-		<monster name="Flamethrower" x="3" y="1" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1525" centery="1960" centerz="12" radius="8">
 		<monster name="Dragon Lord Hatchling" x="-6" y="-6" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="7" y="-6" z="12" spawntime="180" />
@@ -15064,9 +14073,6 @@
 		<monster name="Dragon Lord" x="4" y="4" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-6" y="5" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="2" y="7" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1758" centery="1964" centerz="12" radius="3">
-		<monster name="Lost Soul" x="1" y="0" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1595" centery="1965" centerz="12" radius="5">
 		<monster name="Dragon Lord" x="-1" y="-2" z="12" spawntime="180" />
@@ -15076,22 +14082,11 @@
 		<monster name="Dragon Lord Hatchling" x="-1" y="-3" z="12" spawntime="180" />
 		<monster name="Dragon Lord" x="2" y="0" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1738" centery="1965" centerz="12" radius="5">
-		<monster name="Nightmare" x="2" y="0" z="12" spawntime="180" />
-		<monster name="Nightmare" x="-4" y="2" z="12" spawntime="180" />
-		<monster name="Nightmare" x="5" y="3" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="-5" y="5" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1491" centery="1967" centerz="12" radius="6">
 		<monster name="Dragon Lord" x="5" y="-2" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-3" y="-1" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="4" y="3" z="12" spawntime="180" />
 		<monster name="Dragon Lord" x="-3" y="4" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1725" centery="1968" centerz="12" radius="4">
-		<monster name="Destroyer" x="1" y="-4" z="12" spawntime="180" />
-		<monster name="Destroyer" x="3" y="-1" z="12" spawntime="180" />
-		<monster name="Destroyer" x="1" y="2" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1597" centery="1973" centerz="12" radius="5">
 		<monster name="Dragon Lord" x="-1" y="1" z="12" spawntime="180" />
@@ -15103,50 +14098,10 @@
 		<monster name="Dragon Lord" x="-3" y="1" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-2" y="4" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1765" centery="1976" centerz="12" radius="2">
-		<monster name="Defiler" x="-2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1748" centery="1977" centerz="12" radius="5">
-		<monster name="Hellfire Fighter" x="-3" y="-5" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="1" y="-4" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="-4" y="-2" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="4" y="0" z="12" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-3" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1757" centery="1977" centerz="12" radius="2">
-		<monster name="Defiler" x="1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1736" centery="1978" centerz="12" radius="5">
-		<monster name="Dark Torturer" x="-4" y="-5" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="-4" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="-4" y="1" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="1" y="3" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="5" y="3" z="12" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-2" y="4" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1777" centery="1978" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="0" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1725" centery="1979" centerz="12" radius="4">
-		<monster name="Plaguesmith" x="-2" y="-4" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="4" y="-3" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="-1" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1786" centery="1979" centerz="12" radius="5">
-		<monster name="Fire Devil" x="1" y="-5" z="12" spawntime="180" />
-		<monster name="Fire Devil" x="-4" y="-3" z="12" spawntime="180" />
-		<monster name="Fire Devil" x="1" y="0" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="2" y="3" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="-3" y="5" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1572" centery="1982" centerz="12" radius="5">
 		<monster name="Dragon Lord Hatchling" x="2" y="-2" z="12" spawntime="180" />
 		<monster name="Dragon Lord" x="1" y="1" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-4" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="1982" centerz="12" radius="2">
-		<monster name="Defiler" x="2" y="-2" z="12" spawntime="180" />
-		<monster name="Defiler" x="2" y="2" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1510" centery="1983" centerz="12" radius="7">
 		<monster name="Dragon Lord Hatchling" x="-5" y="-4" z="12" spawntime="180" />
@@ -15157,12 +14112,6 @@
 	<monster centerx="1542" centery="1983" centerz="12" radius="3">
 		<monster name="Dragon Lord" x="0" y="-2" z="12" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="2" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1773" centery="1984" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="0" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1736" centery="1987" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="-2" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1869" centery="1990" centerz="12" radius="5">
 		<monster name="Vampire Bride" x="-3" y="-2" z="12" spawntime="180" />
@@ -15179,24 +14128,6 @@
 		<monster name="Demon Skeleton" x="3" y="0" z="12" spawntime="180" />
 		<monster name="Ghoul" x="-1" y="3" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1760" centery="1996" centerz="12" radius="8">
-		<monster name="Plaguesmith" x="-7" y="-5" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="6" y="0" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="-4" y="2" z="12" spawntime="180" />
-		<monster name="Nightmare" x="7" y="3" z="12" spawntime="180" />
-		<monster name="Dark Torturer" x="0" y="5" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1644" centery="1999" centerz="12" radius="5">
-		<monster name="Dragon Lord" x="-1" y="-4" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="-3" y="1" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="3" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1671" centery="2000" centerz="12" radius="5">
-		<monster name="Dragon" x="-2" y="-4" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="1" y="-2" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="2" y="2" z="12" spawntime="180" />
-		<monster name="Dragon" x="-1" y="5" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1884" centery="2001" centerz="12" radius="3">
 		<monster name="Vampire" x="1" y="-1" z="12" spawntime="180" />
 		<monster name="Demon Skeleton" x="-2" y="2" z="12" spawntime="180" />
@@ -15212,13 +14143,6 @@
 		<monster name="Demon Skeleton" x="-1" y="1" z="12" spawntime="180" />
 		<monster name="Vampire" x="-2" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1665" centery="2009" centerz="12" radius="2">
-		<monster name="Dragon" x="1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1717" centery="2009" centerz="12" radius="4">
-		<monster name="Spectre" x="0" y="-1" z="12" spawntime="180" />
-		<monster name="Destroyer" x="3" y="2" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1862" centery="2010" centerz="12" radius="3">
 		<monster name="Ghoul" x="-1" y="-2" z="12" spawntime="180" />
 		<monster name="Vampire Bride" x="-2" y="-1" z="12" spawntime="180" />
@@ -15226,16 +14150,10 @@
 		<monster name="Demon Skeleton" x="-1" y="1" z="12" spawntime="180" />
 		<monster name="Vampire" x="2" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1681" centery="2011" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="1" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1847" centery="2011" centerz="12" radius="3">
 		<monster name="Demon Skeleton" x="2" y="-2" z="12" spawntime="180" />
 		<monster name="Demon Skeleton" x="1" y="-1" z="12" spawntime="180" />
 		<monster name="Ghoul" x="-1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1664" centery="2015" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="0" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1873" centery="2015" centerz="12" radius="3">
 		<monster name="Vampire" x="2" y="-2" z="12" spawntime="180" />
@@ -15243,107 +14161,19 @@
 		<monster name="Demon Skeleton" x="-1" y="0" z="12" spawntime="180" />
 		<monster name="Ghoul" x="-1" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1631" centery="2019" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="0" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1643" centery="2020" centerz="12" radius="4">
-		<monster name="Dragon Lord" x="2" y="-3" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="-3" y="0" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="3" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1622" centery="2021" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="-1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1678" centery="2021" centerz="12" radius="2">
-		<monster name="Dragon" x="-1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1691" centery="2021" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="0" y="1" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1843" centery="2022" centerz="12" radius="3">
 		<monster name="Ghoul" x="-2" y="-2" z="12" spawntime="180" />
 		<monster name="Vampire" x="-1" y="-2" z="12" spawntime="180" />
 		<monster name="Demon Skeleton" x="1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1698" centery="2023" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="-1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1764" centery="2023" centerz="12" radius="3">
-		<monster name="Destroyer" x="0" y="-2" z="12" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="1" z="12" spawntime="180" />
-		<monster name="Destroyer" x="2" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1721" centery="2024" centerz="12" radius="4">
-		<monster name="Destroyer" x="-2" y="-1" z="12" spawntime="180" />
-		<monster name="Destroyer" x="3" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1685" centery="2025" centerz="12" radius="2">
-		<monster name="Dragon" x="1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1652" centery="2027" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="0" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1663" centery="2027" centerz="12" radius="4">
-		<monster name="Dragon Lord" x="1" y="-4" z="12" spawntime="180" />
-		<monster name="Dragon" x="3" y="-1" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="-1" y="3" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1894" centery="2027" centerz="12" radius="3">
 		<monster name="Vampire" x="-1" y="-3" z="12" spawntime="180" />
 		<monster name="Ghoul" x="1" y="-2" z="12" spawntime="180" />
 		<monster name="Demon Skeleton" x="-2" y="0" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1671" centery="2030" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1688" centery="2031" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1695" centery="2031" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2031" centerz="12" radius="2">
-		<monster name="Destroyer" x="1" y="0" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="1856" centery="2031" centerz="12" radius="3">
 		<monster name="Vampire" x="-2" y="0" z="12" spawntime="180" />
 		<monster name="Vampire" x="2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1724" centery="2033" centerz="12" radius="2">
-		<monster name="Destroyer" x="2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1680" centery="2034" centerz="12" radius="2">
-		<monster name="Dragon" x="1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1753" centery="2034" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1732" centery="2035" centerz="12" radius="2">
-		<monster name="Destroyer" x="-1" y="0" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="1" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1745" centery="2035" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1620" centery="2036" centerz="12" radius="6">
-		<monster name="Dragon Lord" x="0" y="-5" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="4" y="0" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="-4" y="1" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="1" y="5" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2037" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="-1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1691" centery="2038" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1724" centery="2040" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="2" y="-1" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="-2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1737" centery="2041" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="2" y="0" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="1873" centery="2042" centerz="12" radius="3">
 		<monster name="Ghoul" x="-1" y="-1" z="12" spawntime="180" />
@@ -15351,278 +14181,29 @@
 		<monster name="Vampire" x="1" y="1" z="12" spawntime="180" />
 		<monster name="Ghoul" x="0" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="1690" centery="2045" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1715" centery="2045" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="-1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2045" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-2" z="12" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1745" centery="2048" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="1" y="0" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1648" centery="2050" centerz="12" radius="5">
-		<monster name="Dragon Lord" x="3" y="-3" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="-4" y="0" z="12" spawntime="180" />
-		<monster name="Dragon Lord" x="1" y="4" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1686" centery="2052" centerz="12" radius="2">
-		<monster name="Dragon Lord" x="0" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1711" centery="2052" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="0" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1766" centery="2053" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="2" y="-2" z="12" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1732" centery="2054" centerz="12" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-2" z="12" spawntime="180" />
-		<monster name="Diabolic Imp" x="2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="1760" centery="2060" centerz="12" radius="2">
-		<monster name="Plaguesmith" x="-1" y="0" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="2198" centery="2064" centerz="12" radius="3">
 		<monster name="Fire Elemental" x="0" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2542" centery="2077" centerz="12" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Crystalcrusher" x="3" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2563" centery="2080" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2546" centery="2081" centerz="12" radius="3">
-		<monster name="Crystal Spider" x="0" y="1" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="2194" centery="2083" centerz="12" radius="3">
 		<monster name="Fire Elemental" x="2" y="-1" z="12" spawntime="180" />
 		<monster name="Fire Devil" x="-2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2553" centery="2083" centerz="12" radius="3">
-		<monster name="Crystal Spider" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Crystal Spider" x="1" y="2" z="12" spawntime="180" />
-		<monster name="Crystal Spider" x="3" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2567" centery="2084" centerz="12" radius="3">
-		<monster name="Wiggler" x="-1" y="0" z="12" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2546" centery="2085" centerz="12" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Crystalcrusher" x="-2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2544" centery="2088" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="2207" centery="2092" centerz="12" radius="3">
 		<monster name="Fire Elemental" x="0" y="-2" z="12" spawntime="180" />
 		<monster name="Fire Devil" x="-2" y="2" z="12" spawntime="180" />
 		<monster name="Fire Elemental" x="2" y="2" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="2535" centery="2095" centerz="12" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2559" centery="2102" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="2" y="0" z="12" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2565" centery="2103" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2572" centery="2103" centerz="12" radius="3">
-		<monster name="Wiggler" x="1" y="0" z="12" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2539" centery="2106" centerz="12" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2550" centery="2106" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="-1" y="-3" z="12" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="-1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="-2" y="1" z="12" spawntime="180" />
-		<monster name="Wyvern" x="0" y="1" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="2218" centery="2110" centerz="12" radius="3">
 		<monster name="Demon" x="0" y="-1" z="12" spawntime="180" />
 	</monster>
-	<monster centerx="2539" centery="2113" centerz="12" radius="3">
-		<monster name="Wiggler" x="2" y="-2" z="12" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2537" centery="2118" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="12" spawntime="180" />
-	</monster>
 	<monster centerx="2218" centery="2121" centerz="12" radius="4">
 		<monster name="Demon" x="-1" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2578" centery="2121" centerz="12" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2544" centery="2122" centerz="12" radius="3">
-		<monster name="Crystalcrusher" x="-2" y="-2" z="12" spawntime="180" />
-		<monster name="Crystalcrusher" x="-1" y="0" z="12" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="2" y="1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="3" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2571" centery="2126" centerz="12" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="3" z="12" spawntime="180" />
-		<monster name="Wiggler" x="1" y="3" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2556" centery="2128" centerz="12" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2561" centery="2132" centerz="12" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Wyvern" x="3" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2570" centery="2132" centerz="12" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="1" y="1" z="12" spawntime="180" />
-		<monster name="Wyvern" x="-3" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2566" centery="2134" centerz="12" radius="3">
-		<monster name="Wiggler" x="-1" y="-1" z="12" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="2218" centery="2137" centerz="12" radius="4">
 		<monster name="Fire Devil" x="0" y="-2" z="12" spawntime="180" />
 		<monster name="Lavahole" x="-3" y="2" z="12" spawntime="180" />
 		<monster name="Fire Devil" x="-1" y="2" z="12" spawntime="180" />
 		<monster name="Lavahole" x="2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2641" centery="2145" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2653" centery="2145" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2641" centery="2154" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2650" centery="2165" centerz="12" radius="3">
-		<monster name="Ironblight" x="-2" y="0" z="12" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2643" centery="2167" centerz="12" radius="3">
-		<monster name="Orewalker" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Cliff Strider" x="-1" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2590" centery="2168" centerz="12" radius="3">
-		<monster name="Orewalker" x="-3" y="-1" z="12" spawntime="180" />
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2598" centery="2168" centerz="12" radius="4">
-		<monster name="Orewalker" x="1" y="-1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2603" centery="2171" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2592" centery="2172" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2641" centery="2172" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2595" centery="2176" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2602" centery="2178" centerz="12" radius="3">
-		<monster name="Orewalker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2604" centery="2181" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2639" centery="2181" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="1" y="-2" z="12" spawntime="180" />
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2603" centery="2186" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Cliff Strider" x="2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2630" centery="2186" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2653" centery="2189" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2607" centery="2192" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2628" centery="2192" centerz="12" radius="3">
-		<monster name="Orewalker" x="1" y="-2" z="12" spawntime="180" />
-		<monster name="Orewalker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2582" centery="2195" centerz="12" radius="3">
-		<monster name="Orewalker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2598" centery="2199" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="-2" z="12" spawntime="180" />
-		<monster name="Ironblight" x="-2" y="0" z="12" spawntime="180" />
-		<monster name="Orewalker" x="2" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2632" centery="2201" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2594" centery="2205" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2635" centery="2205" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2589" centery="2206" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2595" centery="2209" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-		<monster name="Orewalker" x="3" y="1" z="12" spawntime="180" />
-		<monster name="Orewalker" x="-2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2639" centery="2209" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2612" centery="2214" centerz="12" radius="3">
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2604" centery="2215" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2629" centery="2215" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2604" centery="2218" centerz="12" radius="3">
-		<monster name="Ironblight" x="-1" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2642" centery="2218" centerz="12" radius="3">
-		<monster name="Cliff Strider" x="-3" y="-1" z="12" spawntime="180" />
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2636" centery="2219" centerz="12" radius="3">
-		<monster name="Orewalker" x="0" y="-1" z="12" spawntime="180" />
-		<monster name="Ironblight" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2614" centery="2222" centerz="12" radius="3">
-		<monster name="Orewalker" x="-3" y="-3" z="12" spawntime="180" />
-		<monster name="Cliff Strider" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2630" centery="2222" centerz="12" radius="3">
-		<monster name="Orewalker" x="-3" y="0" z="12" spawntime="180" />
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2607" centery="2225" centerz="12" radius="4">
-		<monster name="Ironblight" x="3" y="-2" z="12" spawntime="180" />
-		<monster name="Orewalker" x="2" y="2" z="12" spawntime="180" />
-	</monster>
-	<monster centerx="2635" centery="2227" centerz="12" radius="3">
-		<monster name="Lost Berserker" x="0" y="1" z="12" spawntime="180" />
 	</monster>
 	<monster centerx="747" centery="172" centerz="13" radius="12">
 		<monster name="Minotaur" x="0" y="-7" z="13" spawntime="180" />
@@ -16057,189 +14638,6 @@
 		<monster name="Banshee" x="-1" y="-1" z="13" spawntime="180" />
 		<monster name="Banshee" x="-2" y="1" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="1658" centery="2005" centerz="13" radius="2">
-		<monster name="Nightmare" x="1" y="1" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1720" centery="2009" centerz="13" radius="6">
-		<monster name="Plaguesmith" x="0" y="-3" z="13" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="-1" z="13" spawntime="180" />
-		<monster name="Spectre" x="2" y="1" z="13" spawntime="180" />
-		<monster name="Spectre" x="5" y="1" z="13" spawntime="180" />
-		<monster name="Destroyer" x="4" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1675" centery="2010" centerz="13" radius="2">
-		<monster name="Nightmare" x="-1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1699" centery="2011" centerz="13" radius="2">
-		<monster name="Nightmare" x="1" y="-1" z="13" spawntime="59" />
-		<monster name="Nightmare" x="-1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1688" centery="2021" centerz="13" radius="3">
-		<monster name="Demon" x="1" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1724" centery="2025" centerz="13" radius="3">
-		<monster name="Destroyer" x="0" y="-3" z="13" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="0" z="13" spawntime="180" />
-		<monster name="Defiler" x="2" y="0" z="13" spawntime="180" />
-		<monster name="Destroyer" x="0" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1697" centery="2026" centerz="13" radius="2">
-		<monster name="Nightmare" x="1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1685" centery="2028" centerz="13" radius="2">
-		<monster name="Demon" x="-1" y="-1" z="13" spawntime="180" />
-		<monster name="Demon" x="-2" y="2" z="13" spawntime="180" />
-		<monster name="Demon" x="0" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1750" centery="2028" centerz="13" radius="2">
-		<monster name="Lost Soul" x="-1" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1679" centery="2030" centerz="13" radius="2">
-		<monster name="Demon" x="1" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1758" centery="2030" centerz="13" radius="3">
-		<monster name="Spectre" x="3" y="-3" z="13" spawntime="180" />
-		<monster name="Destroyer" x="1" y="-2" z="13" spawntime="180" />
-		<monster name="Spectre" x="1" y="1" z="13" spawntime="180" />
-		<monster name="Destroyer" x="-3" y="2" z="13" spawntime="180" />
-		<monster name="Destroyer" x="-1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1695" centery="2033" centerz="13" radius="3">
-		<monster name="Nightmare" x="-1" y="-2" z="13" spawntime="180" />
-		<monster name="Nightmare" x="1" y="1" z="13" spawntime="180" />
-		<monster name="Nightmare" x="0" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1669" centery="2034" centerz="13" radius="3">
-		<monster name="Demon" x="1" y="-2" z="13" spawntime="59" />
-		<monster name="Demon" x="1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1745" centery="2034" centerz="13" radius="2">
-		<monster name="Lost Soul" x="-1" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1767" centery="2034" centerz="13" radius="3">
-		<monster name="Demon Skeleton" x="0" y="-3" z="13" spawntime="180" />
-		<monster name="Demon Skeleton" x="-2" y="1" z="13" spawntime="180" />
-		<monster name="Demon Skeleton" x="2" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1724" centery="2036" centerz="13" radius="2">
-		<monster name="Diabolic Imp" x="1" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2591" centery="2036" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1680" centery="2040" centerz="13" radius="2">
-		<monster name="Demon" x="0" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1750" centery="2041" centerz="13" radius="2">
-		<monster name="Defiler" x="2" y="-2" z="13" spawntime="180" />
-		<monster name="Plaguesmith" x="1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1672" centery="2043" centerz="13" radius="2">
-		<monster name="Demon" x="2" y="0" z="13" spawntime="59" />
-		<monster name="Demon" x="-1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1700" centery="2043" centerz="13" radius="2">
-		<monster name="Demon" x="-1" y="-1" z="13" spawntime="59" />
-		<monster name="Demon" x="1" y="2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1722" centery="2044" centerz="13" radius="3">
-		<monster name="Diabolic Imp" x="2" y="-3" z="13" spawntime="180" />
-		<monster name="Diabolic Imp" x="-1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1748" centery="2047" centerz="13" radius="2">
-		<monster name="Defiler" x="0" y="-1" z="13" spawntime="180" />
-		<monster name="Plaguesmith" x="0" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1758" centery="2047" centerz="13" radius="4">
-		<monster name="Spectre" x="-3" y="-1" z="13" spawntime="180" />
-		<monster name="Spectre" x="3" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2600" centery="2047" centerz="13" radius="3">
-		<monster name="Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2463" centery="2048" centerz="13" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2478" centery="2048" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
-		<monster name="Wyvern" x="2" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1686" centery="2051" centerz="13" radius="3">
-		<monster name="Nightmare" x="-1" y="-1" z="13" spawntime="180" />
-		<monster name="Nightmare" x="2" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2592" centery="2051" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="-2" y="0" z="13" spawntime="180" />
-		<monster name="Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2454" centery="2052" centerz="13" radius="3">
-		<monster name="Wyvern" x="1" y="-2" z="13" spawntime="180" />
-		<monster name="Wyvern" x="0" y="0" z="13" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="1" z="13" spawntime="180" />
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2490" centery="2052" centerz="13" radius="3">
-		<monster name="Wiggler" x="-2" y="0" z="13" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1712" centery="2053" centerz="13" radius="3">
-		<monster name="Plaguesmith" x="-3" y="-2" z="13" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1748" centery="2053" centerz="13" radius="2">
-		<monster name="Defiler" x="2" y="-1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2451" centery="2055" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2472" centery="2056" centerz="13" radius="3">
-		<monster name="Massive Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="1669" centery="2057" centerz="13" radius="2">
-		<monster name="Demon" x="2" y="-2" z="13" spawntime="59" />
-	</monster>
-	<monster centerx="1721" centery="2058" centerz="13" radius="4">
-		<monster name="Lost Soul" x="-4" y="-2" z="13" spawntime="180" />
-		<monster name="Lost Soul" x="3" y="0" z="13" spawntime="180" />
-		<monster name="Lost Soul" x="-1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2454" centery="2058" centerz="13" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2496" centery="2058" centerz="13" radius="3">
-		<monster name="Wiggler" x="-1" y="-1" z="13" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2472" centery="2061" centerz="13" radius="3" />
-	<monster centerx="2498" centery="2062" centerz="13" radius="3" />
-	<monster centerx="2598" centery="2062" centerz="13" radius="3">
-		<monster name="Wyvern" x="-3" y="-1" z="13" spawntime="180" />
-		<monster name="Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2498" centery="2066" centerz="13" radius="3">
-		<monster name="Massive Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2461" centery="2068" centerz="13" radius="3">
-		<monster name="Wiggler" x="2" y="-1" z="13" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2471" centery="2071" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="-3" y="-2" z="13" spawntime="180" />
-		<monster name="Massive Earth Elemental" x="0" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2480" centery="2072" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="2" y="-2" z="13" spawntime="180" />
-		<monster name="Wiggler" x="2" y="-1" z="13" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2490" centery="2073" centerz="13" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2496" centery="2073" centerz="13" radius="3">
-		<monster name="Wyvern" x="1" y="-2" z="13" spawntime="180" />
-		<monster name="Wyvern" x="0" y="1" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2136" centery="2075" centerz="13" radius="3">
 		<monster name="Demon" x="1" y="0" z="13" spawntime="180" />
 	</monster>
@@ -16253,40 +14651,12 @@
 		<monster name="Dragon Lord" x="1" y="-2" z="13" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-2" y="-1" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2492" centery="2076" centerz="13" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="13" spawntime="180" />
-		<monster name="Wiggler" x="2" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2603" centery="2076" centerz="13" radius="3">
-		<monster name="Wyvern" x="-2" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2610" centery="2083" centerz="13" radius="3" />
-	<monster centerx="2454" centery="2084" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="0" y="-1" z="13" spawntime="180" />
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2179" centery="2085" centerz="13" radius="3">
 		<monster name="Dragon Lord Hatchling" x="-2" y="-2" z="13" spawntime="180" />
 		<monster name="Dragon Lord" x="2" y="0" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2467" centery="2086" centerz="13" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2485" centery="2089" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2614" centery="2089" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="1" y="2" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2121" centery="2090" centerz="13" radius="3">
 		<monster name="Demon" x="-1" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2624" centery="2090" centerz="13" radius="3">
-		<monster name="Wyvern" x="-2" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2481" centery="2091" centerz="13" radius="3">
-		<monster name="Mushroom Sniffer" x="0" y="1" z="13" spawntime="180" />
 	</monster>
 	<monster centerx="2138" centery="2092" centerz="13" radius="5">
 		<monster name="Fire Elemental" x="3" y="-4" z="13" spawntime="180" />
@@ -16300,21 +14670,6 @@
 		<monster name="Dragon Lord" x="0" y="1" z="13" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="2" y="1" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2586" centery="2095" centerz="13" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2587" centery="2102" centerz="13" radius="3">
-		<monster name="Wyvern" x="1" y="-2" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="-3" y="1" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2618" centery="2102" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2591" centery="2103" centerz="13" radius="3">
-		<monster name="Wyvern" x="0" y="-1" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2192" centery="2108" centerz="13" radius="3">
 		<monster name="Dragon Lord" x="-1" y="1" z="13" spawntime="180" />
 	</monster>
@@ -16327,49 +14682,15 @@
 	<monster centerx="2155" centery="2110" centerz="13" radius="3">
 		<monster name="Demon" x="-1" y="-1" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2620" centery="2110" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="1" y="0" z="13" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2626" centery="2110" centerz="13" radius="3">
-		<monster name="Earth Elemental" x="0" y="1" z="13" spawntime="180" />
-		<monster name="Earth Elemental" x="0" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2589" centery="2111" centerz="13" radius="3">
-		<monster name="Crystalcrusher" x="2" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2621" centery="2114" centerz="13" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2194" centery="2120" centerz="13" radius="3">
 		<monster name="Dragon Lord" x="1" y="-1" z="13" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="3" y="0" z="13" spawntime="180" />
 		<monster name="Dragon Lord Hatchling" x="-2" y="1" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2428" centery="2139" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="2" y="-3" z="13" spawntime="180" />
-		<monster name="Dragon Lord" x="-2" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2443" centery="2139" centerz="13" radius="3">
-		<monster name="Dragon Lord" x="0" y="-1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2456" centery="2139" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="0" y="-3" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2228" centery="2146" centerz="13" radius="4">
 		<monster name="Demon" x="-2" y="-1" z="13" spawntime="180" />
 		<monster name="Dragon Lord" x="-1" y="2" z="13" spawntime="180" />
 		<monster name="Fire Devil" x="3" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2456" centery="2146" centerz="13" radius="3">
-		<monster name="Dragon Lord" x="1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2463" centery="2146" centerz="13" radius="3">
-		<monster name="Dragon Lord" x="0" y="1" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2477" centery="2146" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="-3" y="1" z="13" spawntime="180" />
-		<monster name="Vulcongra" x="2" y="2" z="13" spawntime="180" />
 	</monster>
 	<monster centerx="2211" centery="2147" centerz="13" radius="4">
 		<monster name="Demon" x="-2" y="-3" z="13" spawntime="180" />
@@ -16390,55 +14711,9 @@
 		<monster name="Fire Devil" x="0" y="1" z="13" spawntime="180" />
 		<monster name="Dragon Lord" x="-3" y="3" z="13" spawntime="180" />
 	</monster>
-	<monster centerx="2432" centery="2161" centerz="13" radius="5">
-		<monster name="Dragon Lord" x="0" y="-2" z="13" spawntime="180" />
-		<monster name="Dragon Lord" x="-3" y="1" z="13" spawntime="180" />
-		<monster name="Vulcongra" x="-2" y="3" z="13" spawntime="180" />
-		<monster name="Massive Fire Elemental" x="1" y="4" z="13" spawntime="180" />
-	</monster>
 	<monster centerx="2220" centery="2163" centerz="13" radius="4">
 		<monster name="Fire Devil" x="0" y="-4" z="13" spawntime="180" />
 		<monster name="Demon" x="1" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2444" centery="2169" centerz="13" radius="5">
-		<monster name="Vulcongra" x="1" y="-2" z="13" spawntime="180" />
-		<monster name="Dragon Lord" x="0" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2456" centery="2174" centerz="13" radius="3">
-		<monster name="Vulcongra" x="1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2463" centery="2174" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="-3" y="3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2477" centery="2174" centerz="13" radius="3">
-		<monster name="Vulcongra" x="0" y="-2" z="13" spawntime="180" />
-		<monster name="Massive Fire Elemental" x="-3" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2456" centery="2181" centerz="13" radius="3">
-		<monster name="Dragon Lord" x="3" y="-1" z="13" spawntime="180" />
-		<monster name="Vulcongra" x="2" y="0" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2470" centery="2188" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="1" y="-1" z="13" spawntime="180" />
-		<monster name="Dragon Lord" x="1" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2477" centery="2195" centerz="13" radius="3">
-		<monster name="Vulcongra" x="-1" y="-2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2484" centery="2195" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="-2" y="2" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2484" centery="2202" centerz="13" radius="3">
-		<monster name="Vulcongra" x="-3" y="-3" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2482" centery="2217" centerz="13" radius="5">
-		<monster name="Vulcongra" x="3" y="-4" z="13" spawntime="180" />
-		<monster name="Massive Fire Elemental" x="-1" y="-3" z="13" spawntime="180" />
-		<monster name="Dragon Lord" x="-4" y="2" z="13" spawntime="180" />
-		<monster name="Vulcongra" x="2" y="5" z="13" spawntime="180" />
-	</monster>
-	<monster centerx="2491" centery="2223" centerz="13" radius="3">
-		<monster name="Massive Fire Elemental" x="-2" y="-1" z="13" spawntime="180" />
 	</monster>
 	<monster centerx="748" centery="159" centerz="14" radius="5">
 		<monster name="Minotaur" x="2" y="-1" z="14" spawntime="180" />
@@ -17084,263 +15359,6 @@
 		<monster name="Diabolic Imp" x="-1" y="-1" z="14" spawntime="180" />
 		<monster name="Diabolic Imp" x="1" y="0" z="14" spawntime="180" />
 	</monster>
-	<monster centerx="1757" centery="1994" centerz="14" radius="6">
-		<monster name="Spectre" x="1" y="-3" z="14" spawntime="180" />
-		<monster name="Hellfire Fighter" x="6" y="-2" z="14" spawntime="180" />
-		<monster name="Spectre" x="-5" y="0" z="14" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1742" centery="2006" centerz="14" radius="3">
-		<monster name="Defiler" x="3" y="-2" z="14" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-2" y="0" z="14" spawntime="180" />
-		<monster name="Defiler" x="0" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1685" centery="2007" centerz="14" radius="2">
-		<monster name="Demon" x="1" y="1" z="14" spawntime="59" />
-		<monster name="Nightmare" x="-2" y="2" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1754" centery="2008" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="1" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1766" centery="2008" centerz="14" radius="3">
-		<monster name="Diabolic Imp" x="-1" y="-3" z="14" spawntime="180" />
-		<monster name="Diabolic Imp" x="-1" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1735" centery="2009" centerz="14" radius="2">
-		<monster name="Spectre" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1694" centery="2011" centerz="14" radius="2">
-		<monster name="Demon" x="1" y="2" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1728" centery="2011" centerz="14" radius="2">
-		<monster name="Spectre" x="-2" y="0" z="14" spawntime="180" />
-		<monster name="Spectre" x="2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1680" centery="2016" centerz="14" radius="2">
-		<monster name="Nightmare" x="2" y="1" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1758" centery="2016" centerz="14" radius="2">
-		<monster name="Lost Soul" x="2" y="-2" z="14" spawntime="180" />
-		<monster name="Lost Soul" x="-2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1729" centery="2018" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="1" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1698" centery="2019" centerz="14" radius="2">
-		<monster name="Demon" x="2" y="-1" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1767" centery="2020" centerz="14" radius="2">
-		<monster name="Destroyer" x="-1" y="-1" z="14" spawntime="180" />
-		<monster name="Destroyer" x="0" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1686" centery="2022" centerz="14" radius="3">
-		<monster name="Nightmare" x="-1" y="0" z="14" spawntime="180" />
-		<monster name="Nightmare" x="1" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1726" centery="2024" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="0" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1693" centery="2025" centerz="14" radius="2">
-		<monster name="Demon" x="1" y="1" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1762" centery="2026" centerz="14" radius="2">
-		<monster name="Destroyer" x="1" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1753" centery="2027" centerz="14" radius="3">
-		<monster name="Lost Soul" x="1" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1658" centery="2028" centerz="14" radius="2">
-		<monster name="Nightmare" x="-1" y="-1" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1675" centery="2028" centerz="14" radius="3">
-		<monster name="Demon" x="2" y="-2" z="14" spawntime="180" />
-		<monster name="Demon" x="1" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1684" centery="2031" centerz="14" radius="4">
-		<monster name="Demon" x="-2" y="-2" z="14" spawntime="180" />
-		<monster name="Nightmare" x="-1" y="1" z="14" spawntime="180" />
-		<monster name="Nightmare" x="-3" y="3" z="14" spawntime="180" />
-		<monster name="Demon" x="0" y="4" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1701" centery="2033" centerz="14" radius="2">
-		<monster name="Demon" x="-1" y="-1" z="14" spawntime="59" />
-		<monster name="Demon" x="0" y="-1" z="14" spawntime="59" />
-		<monster name="Demon" x="2" y="2" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1767" centery="2033" centerz="14" radius="3">
-		<monster name="Hellfire Fighter" x="-1" y="-2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1732" centery="2034" centerz="14" radius="2">
-		<monster name="Defiler" x="1" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2477" centery="2034" centerz="14" radius="3">
-		<monster name="Wyvern" x="0" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2484" centery="2034" centerz="14" radius="3">
-		<monster name="Massive Earth Elemental" x="-3" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1725" centery="2035" centerz="14" radius="2">
-		<monster name="Spectre" x="0" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1673" centery="2037" centerz="14" radius="2">
-		<monster name="Nightmare" x="1" y="-2" z="14" spawntime="59" />
-		<monster name="Nightmare" x="0" y="2" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="2463" centery="2037" centerz="14" radius="3">
-		<monster name="Wiggler" x="0" y="-3" z="14" spawntime="180" />
-		<monster name="Wiggler" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2458" centery="2038" centerz="14" radius="3">
-		<monster name="Wiggler" x="-1" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1719" centery="2039" centerz="14" radius="2">
-		<monster name="Spectre" x="1" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1762" centery="2039" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="1" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1732" centery="2041" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="2" y="-2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2435" centery="2041" centerz="14" radius="3">
-		<monster name="Wiggler" x="-3" y="-3" z="14" spawntime="180" />
-		<monster name="Wiggler" x="-2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2462" centery="2042" centerz="14" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2575" centery="2043" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2449" centery="2045" centerz="14" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="2" z="14" spawntime="180" />
-		<monster name="Wiggler" x="3" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2455" centery="2045" centerz="14" radius="3">
-		<monster name="Mushroom Sniffer" x="3" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1673" centery="2046" centerz="14" radius="2">
-		<monster name="Demon" x="2" y="-1" z="14" spawntime="59" />
-		<monster name="Demon" x="-1" y="2" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="1756" centery="2046" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1690" centery="2047" centerz="14" radius="3">
-		<monster name="Demon" x="-1" y="0" z="14" spawntime="180" />
-		<monster name="Demon" x="2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2459" centery="2047" centerz="14" radius="3">
-		<monster name="Wiggler" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1729" centery="2048" centerz="14" radius="2">
-		<monster name="Plaguesmith" x="0" y="-2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2048" centerz="14" radius="3">
-		<monster name="Wiggler" x="1" y="0" z="14" spawntime="180" />
-		<monster name="Wyvern" x="-2" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2491" centery="2048" centerz="14" radius="3">
-		<monster name="Wyvern" x="-1" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2575" centery="2049" centerz="14" radius="3">
-		<monster name="Earth Elemental" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="-1" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2460" centery="2050" centerz="14" radius="3">
-		<monster name="Wyvern" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2591" centery="2051" centerz="14" radius="3">
-		<monster name="Earth Elemental" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="1678" centery="2052" centerz="14" radius="2">
-		<monster name="Demon" x="2" y="-2" z="14" spawntime="59" />
-		<monster name="Demon" x="-1" y="0" z="14" spawntime="59" />
-	</monster>
-	<monster centerx="2428" centery="2055" centerz="14" radius="3">
-		<monster name="Wiggler" x="2" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2055" centerz="14" radius="3">
-		<monster name="Wiggler" x="-2" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2463" centery="2055" centerz="14" radius="3">
-		<monster name="Mushroom Sniffer" x="2" y="-2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2568" centery="2055" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="1" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2062" centerz="14" radius="3">
-		<monster name="Massive Earth Elemental" x="-2" y="-3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2449" centery="2062" centerz="14" radius="3">
-		<monster name="Massive Earth Elemental" x="-2" y="0" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2470" centery="2062" centerz="14" radius="3">
-		<monster name="Massive Earth Elemental" x="-1" y="-1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2591" centery="2062" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2577" centery="2065" centerz="14" radius="3">
-		<monster name="Earth Elemental" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2589" centery="2065" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2428" centery="2069" centerz="14" radius="3">
-		<monster name="Mushroom Sniffer" x="-3" y="-3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2435" centery="2069" centerz="14" radius="3">
-		<monster name="Wyvern" x="3" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2069" centerz="14" radius="3">
-		<monster name="Mushroom Sniffer" x="-1" y="3" z="14" spawntime="180" />
-		<monster name="Wiggler" x="0" y="3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2449" centery="2069" centerz="14" radius="3">
-		<monster name="Wyvern" x="-3" y="-2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2456" centery="2069" centerz="14" radius="3">
-		<monster name="Wyvern" x="-3" y="-3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2463" centery="2069" centerz="14" radius="3">
-		<monster name="Wyvern" x="-3" y="-3" z="14" spawntime="180" />
-		<monster name="Wiggler" x="-1" y="-3" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2581" centery="2069" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2578" centery="2079" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="-3" y="1" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2585" centery="2085" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="-1" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2574" centery="2089" centerz="14" radius="3">
-		<monster name="Wyvern" x="-2" y="-1" z="14" spawntime="180" />
-		<monster name="Earth Elemental" x="0" y="0" z="14" spawntime="180" />
-		<monster name="Wyvern" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2582" centery="2092" centerz="14" radius="3">
-		<monster name="Earth Elemental" x="-3" y="0" z="14" spawntime="180" />
-		<monster name="Earth Elemental" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="-3" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2583" centery="2095" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2576" centery="2101" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="-2" y="-3" z="14" spawntime="180" />
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-		<monster name="Wyvern" x="1" y="2" z="14" spawntime="180" />
-	</monster>
-	<monster centerx="2583" centery="2102" centerz="14" radius="3">
-		<monster name="Crystalcrusher" x="0" y="1" z="14" spawntime="180" />
-	</monster>
 	<monster centerx="560" centery="246" centerz="15" radius="3">
 		<monster name="Minotaur Guard" x="0" y="-1" z="15" spawntime="180" />
 	</monster>
@@ -17524,498 +15542,5 @@
 	<monster centerx="1548" centery="1829" centerz="15" radius="4">
 		<monster name="Demon" x="-1" y="-2" z="15" spawntime="180" />
 		<monster name="Dragon Lord" x="1" y="4" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1786" centery="1906" centerz="15" radius="5">
-		<monster name="Hellfire Fighter" x="-3" y="-5" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="-1" y="-4" z="15" spawntime="180" />
-		<monster name="Hellhound" x="1" y="-3" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="5" y="-3" z="15" spawntime="180" />
-		<monster name="Hellhound" x="-4" y="-2" z="15" spawntime="180" />
-		<monster name="Demon" x="0" y="-1" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="3" y="-1" z="15" spawntime="180" />
-		<monster name="Hellhound" x="-4" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1776" centery="1908" centerz="15" radius="3">
-		<monster name="Hellfire Fighter" x="-1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1743" centery="1909" centerz="15" radius="2">
-		<monster name="Hellhound" x="1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1768" centery="1909" centerz="15" radius="3">
-		<monster name="Hellfire Fighter" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="3" y="-2" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1752" centery="1912" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="0" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1738" centery="1913" centerz="15" radius="2">
-		<monster name="Hellhound" x="1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1768" centery="1917" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1759" centery="1918" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1733" centery="1920" centerz="15" radius="3">
-		<monster name="Hellfire Fighter" x="0" y="-3" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1743" centery="1920" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1751" centery="1920" centerz="15" radius="2">
-		<monster name="Hellhound" x="1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1648" centery="1921" centerz="15" radius="6">
-		<monster name="Lost Soul" x="5" y="-5" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-1" y="-3" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="5" y="-3" z="15" spawntime="180" />
-		<monster name="Banshee" x="3" y="-1" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-4" y="0" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="1" y="1" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-5" y="2" z="15" spawntime="180" />
-		<monster name="Banshee" x="-4" y="4" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="2" y="4" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-1" y="6" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1662" centery="1921" centerz="15" radius="6">
-		<monster name="Lost Soul" x="-2" y="-4" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="1" y="-4" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-5" y="-2" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-4" y="-1" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="1" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-5" y="2" z="15" spawntime="180" />
-		<monster name="Banshee" x="1" y="2" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-2" y="3" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="1" y="4" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-4" y="6" z="15" spawntime="180" />
-		<monster name="Pig" x="-1" y="6" z="15" spawntime="180" />
-		<monster name="Pig" x="1" y="6" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1768" centery="1923" centerz="15" radius="2">
-		<monster name="Hellhound" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1743" centery="1926" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1759" centery="1926" centerz="15" radius="3">
-		<monster name="Hellfire Fighter" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Hellfire Fighter" x="0" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1752" centery="1928" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Demon" x="-1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1768" centery="1929" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Hellhound" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Hellhound" x="2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1637" centery="1933" centerz="15" radius="2">
-		<monster name="Demon" x="1" y="-1" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-2" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1651" centery="1933" centerz="15" radius="4">
-		<monster name="Lost Soul" x="0" y="-4" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="-2" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-3" y="3" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="0" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1743" centery="1934" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="1" y="-2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1751" centery="1934" centerz="15" radius="2">
-		<monster name="Hellhound" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1663" centery="1935" centerz="15" radius="6">
-		<monster name="Sheep" x="0" y="-6" z="15" spawntime="180" />
-		<monster name="Sheep" x="2" y="-6" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-5" y="-4" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-2" y="-4" z="15" spawntime="180" />
-		<monster name="Demon" x="-3" y="-2" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="0" y="-2" z="15" spawntime="180" />
-		<monster name="Demon" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Banshee" x="-6" y="0" z="15" spawntime="180" />
-		<monster name="Banshee" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="0" y="0" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="2" y="1" z="15" spawntime="180" />
-		<monster name="Demon" x="0" y="2" z="15" spawntime="180" />
-		<monster name="Banshee" x="-4" y="3" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="-2" y="3" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-3" y="5" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1768" centery="1935" centerz="15" radius="2">
-		<monster name="Demon" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1644" centery="1941" centerz="15" radius="2">
-		<monster name="Lost Soul" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1652" centery="1941" centerz="15" radius="2">
-		<monster name="Dark Torturer" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Dark Torturer" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1705" centery="1957" centerz="15" radius="3">
-		<monster name="Lich" x="0" y="-1" z="15" spawntime="180" />
-		<monster name="Undead Dragon" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1712" centery="1957" centerz="15" radius="2">
-		<monster name="Demon" x="1" y="-1" z="15" spawntime="180" />
-		<monster name="Undead Dragon" x="-2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1744" centery="1957" centerz="15" radius="3">
-		<monster name="Destroyer" x="2" y="-2" z="15" spawntime="180" />
-		<monster name="Demon" x="3" y="0" z="15" spawntime="180" />
-		<monster name="Destroyer" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1754" centery="1958" centerz="15" radius="5">
-		<monster name="Juggernaut" x="-3" y="-2" z="15" spawntime="180" />
-		<monster name="Destroyer" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Demon" x="-1" y="0" z="15" spawntime="180" />
-		<monster name="Juggernaut" x="-4" y="3" z="15" spawntime="180" />
-		<monster name="Juggernaut" x="1" y="3" z="15" spawntime="180" />
-		<monster name="Destroyer" x="5" y="4" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1704" centery="1964" centerz="15" radius="2">
-		<monster name="Lich" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1711" centery="1964" centerz="15" radius="2">
-		<monster name="Lich" x="-1" y="-2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1734" centery="1965" centerz="15" radius="3">
-		<monster name="Destroyer" x="3" y="1" z="15" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="2" z="15" spawntime="180" />
-		<monster name="Fury" x="0" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1747" centery="1969" centerz="15" radius="4">
-		<monster name="Fury" x="-1" y="-4" z="15" spawntime="180" />
-		<monster name="Juggernaut" x="-2" y="1" z="15" spawntime="180" />
-		<monster name="Juggernaut" x="2" y="1" z="15" spawntime="180" />
-		<monster name="Fury" x="3" y="3" z="15" spawntime="180" />
-		<monster name="Fury" x="-1" y="4" z="15" spawntime="180" />
-		<monster name="Destroyer" x="4" y="4" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1758" centery="1969" centerz="15" radius="3">
-		<monster name="Destroyer" x="-1" y="-3" z="15" spawntime="180" />
-		<monster name="Fury" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Fury" x="-2" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1711" centery="1970" centerz="15" radius="2">
-		<monster name="Lich" x="0" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1661" centery="1971" centerz="15" radius="5">
-		<monster name="Demon" x="3" y="-4" z="15" spawntime="180" />
-		<monster name="Demon" x="-2" y="-3" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="2" y="-2" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="5" y="-2" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Demon" x="1" y="1" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="5" y="1" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="-4" y="2" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="3" y="2" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="-1" y="3" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="-5" y="5" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="0" y="5" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="5" y="5" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1704" centery="1971" centerz="15" radius="2">
-		<monster name="Lich" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1735" centery="1973" centerz="15" radius="3">
-		<monster name="Destroyer" x="1" y="-3" z="15" spawntime="180" />
-		<monster name="Fury" x="2" y="-3" z="15" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1711" centery="1976" centerz="15" radius="2">
-		<monster name="Lich" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1704" centery="1977" centerz="15" radius="2">
-		<monster name="Lich" x="0" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1757" centery="1977" centerz="15" radius="3">
-		<monster name="Fury" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Fury" x="3" y="-2" z="15" spawntime="180" />
-		<monster name="Destroyer" x="-3" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1747" centery="1979" centerz="15" radius="4">
-		<monster name="Destroyer" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Fury" x="4" y="-2" z="15" spawntime="180" />
-		<monster name="Destroyer" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1661" centery="1984" centerz="15" radius="6">
-		<monster name="Spectre" x="-2" y="-6" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="6" y="-5" z="15" spawntime="180" />
-		<monster name="Spectre" x="3" y="-4" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="0" y="-2" z="15" spawntime="180" />
-		<monster name="Spectre" x="-3" y="-1" z="15" spawntime="180" />
-		<monster name="Spectre" x="6" y="-1" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="3" y="0" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="-4" y="2" z="15" spawntime="180" />
-		<monster name="Hand Of Cursed Fate" x="-2" y="5" z="15" spawntime="180" />
-		<monster name="Spectre" x="3" y="6" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1708" centery="1989" centerz="15" radius="2">
-		<monster name="Demon" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1661" centery="1997" centerz="15" radius="5">
-		<monster name="Spectre" x="1" y="-3" z="15" spawntime="180" />
-		<monster name="Betrayed Wraith" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Spectre" x="-1" y="2" z="15" spawntime="180" />
-		<monster name="Spectre" x="2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1714" centery="1999" centerz="15" radius="6">
-		<monster name="Lich" x="-5" y="-5" z="15" spawntime="180" />
-		<monster name="Lich" x="0" y="-2" z="15" spawntime="180" />
-		<monster name="Undead Dragon" x="-3" y="-1" z="15" spawntime="180" />
-		<monster name="Undead Dragon" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Lich" x="1" y="1" z="15" spawntime="180" />
-		<monster name="Lich" x="-4" y="2" z="15" spawntime="180" />
-		<monster name="Undead Dragon" x="5" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2003" centerz="15" radius="4">
-		<monster name="Defiler" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Destroyer" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Destroyer" x="3" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1756" centery="2006" centerz="15" radius="2">
-		<monster name="Lost Soul" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="0" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1681" centery="2010" centerz="15" radius="2">
-		<monster name="Phantasm" x="2" y="0" z="15" spawntime="59" />
-		<monster name="Phantasm" x="0" y="2" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1690" centery="2012" centerz="15" radius="2">
-		<monster name="Phantasm" x="2" y="0" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1699" centery="2012" centerz="15" radius="2">
-		<monster name="Nightmare" x="1" y="-1" z="15" spawntime="59" />
-		<monster name="Nightmare" x="0" y="2" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1767" centery="2012" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="-1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1757" centery="2013" centerz="15" radius="2">
-		<monster name="Destroyer" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Destroyer" x="2" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1721" centery="2015" centerz="15" radius="3">
-		<monster name="Son Of Verminor" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="-1" y="2" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1730" centery="2017" centerz="15" radius="2">
-		<monster name="Plaguesmith" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="-1" y="1" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1682" centery="2018" centerz="15" radius="3">
-		<monster name="Nightmare" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Phantasm" x="-1" y="1" z="15" spawntime="180" />
-		<monster name="Phantasm" x="3" y="1" z="15" spawntime="180" />
-		<monster name="Phantasm" x="-3" y="2" z="15" spawntime="180" />
-		<monster name="Nightmare" x="2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1694" centery="2018" centerz="15" radius="2">
-		<monster name="Phantasm" x="-1" y="-1" z="15" spawntime="59" />
-		<monster name="Phantasm" x="0" y="2" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1766" centery="2018" centerz="15" radius="2">
-		<monster name="Hellfire Fighter" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Destroyer" x="-1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1710" centery="2021" centerz="15" radius="4">
-		<monster name="Blightwalker" x="1" y="-4" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="3" y="-3" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="0" y="3" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="4" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1721" centery="2023" centerz="15" radius="3">
-		<monster name="Plaguesmith" x="1" y="-1" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="3" y="0" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-2" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1730" centery="2024" centerz="15" radius="3">
-		<monster name="Blightwalker" x="-2" y="-3" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="2" y="-3" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="0" y="-1" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="1" y="1" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="-1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1762" centery="2024" centerz="15" radius="2">
-		<monster name="Destroyer" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Lost Soul" x="-2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1685" centery="2028" centerz="15" radius="2">
-		<monster name="Nightmare" x="1" y="1" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1713" centery="2030" centerz="15" radius="2">
-		<monster name="Blightwalker" x="1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2031" centerz="15" radius="2">
-		<monster name="Lost Soul" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Diabolic Imp" x="0" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1697" centery="2032" centerz="15" radius="2">
-		<monster name="Nightmare" x="1" y="-1" z="15" spawntime="59" />
-		<monster name="Nightmare" x="-1" y="2" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1678" centery="2033" centerz="15" radius="2">
-		<monster name="Nightmare" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1722" centery="2033" centerz="15" radius="3">
-		<monster name="Blightwalker" x="-3" y="-3" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="1" y="1" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1730" centery="2033" centerz="15" radius="3">
-		<monster name="Plaguesmith" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="1" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2034" centerz="15" radius="3">
-		<monster name="Massive Earth Elemental" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Mushroom Sniffer" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1765" centery="2038" centerz="15" radius="2">
-		<monster name="Diabolic Imp" x="1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1689" centery="2039" centerz="15" radius="2">
-		<monster name="Nightmare" x="0" y="-1" z="15" spawntime="59" />
-		<monster name="Nightmare" x="0" y="1" z="15" spawntime="59" />
-	</monster>
-	<monster centerx="1676" centery="2040" centerz="15" radius="3">
-		<monster name="Nightmare" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Phantasm" x="-2" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1712" centery="2040" centerz="15" radius="4">
-		<monster name="Plaguesmith" x="1" y="-4" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="4" y="-4" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-1" y="-3" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="-2" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="1" y="2" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="-1" y="3" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="4" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1662" centery="2041" centerz="15" radius="2">
-		<monster name="Phantasm" x="0" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2428" centery="2041" centerz="15" radius="3">
-		<monster name="Wiggler" x="0" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2435" centery="2041" centerz="15" radius="3">
-		<monster name="Mushroom Sniffer" x="-1" y="0" z="15" spawntime="180" />
-		<monster name="Wiggler" x="1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2041" centerz="15" radius="3">
-		<monster name="Wyvern" x="-1" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1669" centery="2042" centerz="15" radius="2">
-		<monster name="Phantasm" x="-1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1722" centery="2043" centerz="15" radius="3">
-		<monster name="Blightwalker" x="3" y="-3" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="-1" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-1" y="2" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1733" centery="2043" centerz="15" radius="3">
-		<monster name="Blightwalker" x="2" y="-1" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-1" y="1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1686" centery="2046" centerz="15" radius="3">
-		<monster name="Demon" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Demon" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2428" centery="2048" centerz="15" radius="3">
-		<monster name="Wiggler" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Wiggler" x="1" y="3" z="15" spawntime="180" />
-		<monster name="Massive Earth Elemental" x="2" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2435" centery="2048" centerz="15" radius="3">
-		<monster name="Mushroom Sniffer" x="-3" y="-3" z="15" spawntime="180" />
-		<monster name="Mushroom Sniffer" x="-2" y="-3" z="15" spawntime="180" />
-		<monster name="Wiggler" x="3" y="-3" z="15" spawntime="180" />
-		<monster name="Wiggler" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Mushroom Sniffer" x="3" y="2" z="15" spawntime="180" />
-		<monster name="Massive Earth Elemental" x="1" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2442" centery="2048" centerz="15" radius="3">
-		<monster name="Wiggler" x="-3" y="-2" z="15" spawntime="180" />
-		<monster name="Massive Earth Elemental" x="3" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1713" centery="2051" centerz="15" radius="3">
-		<monster name="Plaguesmith" x="0" y="-3" z="15" spawntime="180" />
-		<monster name="Defiler" x="-1" y="-1" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="1" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="-3" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1729" centery="2051" centerz="15" radius="3">
-		<monster name="Blightwalker" x="3" y="-2" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="-3" y="3" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="1" y="3" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1720" centery="2053" centerz="15" radius="2">
-		<monster name="Blightwalker" x="-1" y="-1" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1669" centery="2054" centerz="15" radius="2">
-		<monster name="Nightmare" x="1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="2435" centery="2055" centerz="15" radius="3">
-		<monster name="Wiggler" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Wyvern" x="-1" y="-2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1713" centery="2059" centerz="15" radius="3">
-		<monster name="Defiler" x="-3" y="-2" z="15" spawntime="180" />
-		<monster name="Son Of Verminor" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Plaguesmith" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Defiler" x="0" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1720" centery="2059" centerz="15" radius="2">
-		<monster name="Plaguesmith" x="0" y="-1" z="15" spawntime="180" />
-		<monster name="Defiler" x="-1" y="2" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1728" centery="2060" centerz="15" radius="4">
-		<monster name="Plaguesmith" x="-2" y="-3" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="0" y="-1" z="15" spawntime="180" />
-		<monster name="Defiler" x="-4" y="0" z="15" spawntime="180" />
-		<monster name="Blightwalker" x="2" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1670" centery="2063" centerz="15" radius="3">
-		<monster name="Nightmare" x="-1" y="-2" z="15" spawntime="180" />
-		<monster name="Nightmare" x="3" y="0" z="15" spawntime="180" />
-	</monster>
-	<monster centerx="1601" centery="2074" centerz="15" radius="5">
-		<monster name="Flamethrower" x="-1" y="-3" z="15" spawntime="180" />
-		<monster name="Flamethrower" x="1" y="-3" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="-2" y="-2" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="2" y="-2" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="-3" y="-1" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="3" y="-1" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="-3" y="0" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="-2" y="0" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="2" y="0" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="3" y="0" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="-3" y="1" z="15" spawntime="180" />
-		<monster name="Magicthrower" x="3" y="1" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="-2" y="2" z="15" spawntime="180" />
-		<monster name="Plaguethrower" x="2" y="2" z="15" spawntime="180" />
-		<monster name="Flamethrower" x="-1" y="3" z="15" spawntime="180" />
-		<monster name="Flamethrower" x="1" y="3" z="15" spawntime="180" />
 	</monster>
 </monsters>
