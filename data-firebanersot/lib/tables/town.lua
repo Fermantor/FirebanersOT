@@ -1,0 +1,5 @@
+TOWNS_LIST = {
+	PANTRA = 1,
+	PULGRA = 2,
+	BONEZONE = 3,
+}
