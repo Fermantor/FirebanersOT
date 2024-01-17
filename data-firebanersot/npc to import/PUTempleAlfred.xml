@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alfred" script="Pulgra/Tempel.lua" walkinterval="2000" talkradius="2"  floorchange="0">
+	<health now="150" max="150"/>
+	<look type="57" head="114" body="0" legs="95" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hallo |PLAYERNAME|. Falls du verwundet bist, kann ich dich gerne {heilen}." />
+		<parameter key="message_farewell" value="Solle dein Abenteuerdrang niemals enden." />
+		<parameter key="shop_buyable" value="premium scroll, 16101, 10000;"/>
+	</parameters>
+</npc>

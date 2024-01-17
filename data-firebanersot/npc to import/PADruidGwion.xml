@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gwion" script="Pantra/druid.lua" walkinterval="2000" floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="144" head="38" body="38" legs="94" feet="38" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Die Natur ist stark in diesem Geist." />
+		<parameter key="message_sendtrade" value="An diesen Produkten bin ich besonders interessiert." />
+		<parameter key="message_farewell" value="Lebe wohl! Folge dem Pfad der Natur."/>
+		<parameter key="shop_sellable" value="wolf paw,5897,10;bear paw,5896,20;honeycomb,5902,30;bat wing,5894,50;warwolf fur,11235,30"/>
+	</parameters>
+</npc>

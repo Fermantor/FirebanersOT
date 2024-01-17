@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Illibero" script="Bonezone/Post.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="150" max="150"/>
+	<look type="328" head="96" body="132" legs="127" feet="132" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="3" />
+		<parameter key="message_greet" value="Pakete kaufen kannste bei mir, Equipment da drüben." />
+		<parameter key="message_sendtrade" value="Guck durch, aber beeil dich!" />
+		<parameter key="message_walkaway" value="..." />
+		<parameter key="message_farewell" value="Jaja, bis dann. DER NÄCHSTE!" />
+		<parameter key="shop_buyable" value="parcel,2595,15;label,2599,1;letter,2597,5"/>
+		<parameter key="shop_sellable" value="parcel,2595,5;letter,2597,1"/>
+	</parameters>
+</npc>

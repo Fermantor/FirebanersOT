@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Helgor Cruel" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="20" body="39" legs="45" feet="7" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+		rust remover,9930,100;
+		assassin star,7368,100;
+		spear,2389,10;
+		hunting spear,3965,25;
+		royal spear,7378,15;
+		throwing star,2399,42;
+		throwing knife,2410,25"/>
+		<parameter key="shop_sellable" value="
+		
+		mercanary sword,	7386,	12000;
+		mpa,				2472,	100000;
+		golden legs,		2470,	50000;
+		demon shield,		2520,	30000;
+		ice rapier,			2396,	5000;
+		fire axe,			2432,	8000;
+		giant sword,		2393,	20000;
+		boh,				2195,	30000;
+		mms,				2514,	50000;
+		warrior helmet,		2475,	5000;
+		knight armor,		2476,	5000;
+		devil helmet,		2462,	1000;
+		dark armor,			2489,	2000;
+		dragon lance,		2414,	9000;
+		knight legs,		2477,	5000;
+		demon legs,			2495,	2500000;
+		demon helmet,		2493,	100000;
+		golden helmet,		2471,	3000000;
+		golden boots,		2646,	2000000;
+		mls,				2330,	3500000;
+		thunder hammer,		2421,	300000;
+		golden armor,		2466,	20000;
+		teddy bear,			2112,	1000000;
+		skull staff,		2436,	6000;
+		purple tome,		1982,	20000;
+		taurus mace,		7425,	500;
+		minotaur leather,	5878,	80;
+		shadow sceptre,		7451,	10000;
+		green dragon scale,	5920,	100;
+		green dragon leather,5877,	300;
+		dragonbone staff,	7430,	3000;
+		crown armor,		2487,	12000;
+		crown legs,			2488,	12000;
+		crown helmet,		2491,	2500;
+		crown shield,		2519,	8000;
+		fire sword,			2392,	4000;
+		dragon slayer,		7402,	15000;
+		ancient shield,		2532,	900;
+		tower shield,		2528,	8000;
+		dragon shield,		2516,	4000;
+		dreaded cleaver,	7419,	15000;
+		chaos mace,			7427,	9000;
+		dragon scale mail,	2492,	40000;
+		magma monocle,		7900,	2500;
+		magma coat,			7899,	11000;
+		glacier mask,		7902,	2500;
+		crystal mace,		2445,	5000;
+		shard,				7290,	2000;
+		time ring,			2169,	2000;
+		sapphire hammer,	7437,	7000;
+		spider silk,		5879,	1000;
+		platinum amulet,	2171,	2500;
+		lightning headband,	7901,	2500;
+		crystal sword,		7449,	600;
+		beastslayer axe,	3962,	1500;
+		aol,				2173,	45000;
+		vampire shield,		2534,	15000;
+		spike sword,		2383,	1000;
+		sniper gloves,		5875,	2000;
+		orcish axe,			2428,	350;
+		blue robe,			2656,	10000;
+		titan axe,			7413,	4000;
+		royal helmet,		2498,	30000;
+		twiceslicer,		12613,	28000;
+		snake god's wristguard,12647,80000;
+		cobra crown,		12630,	50000;
+		blade of corruption,12649,	60000;
+		shield of corruption,12644,	60000;
+		zaoan sword,		11307,	30000;
+		zaoan helmet,		11302,	45000;
+		elite draken mail,	12607,	50000;
+		zaoan legs,			11304,	14000;
+		zaoan armor,		11301,	14000;
+		draken boots,		12646,	40000;
+		zaoan shoes,		11303,	5000;
+		zaoan robe,			11356,	12000;
+		glorious axe,		7454,	3000;
+		knight axe,			2430,	2000;
+		drakiniata,			11305,	10000
+		"/>
+	</parameters>
+</npc>

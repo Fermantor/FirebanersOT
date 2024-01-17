@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Knurpa" script="Pulgra/Food.lua" walkinterval="2000" talkradius="2" floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="144" head="57" body="96" legs="77" feet="38" addons="0"/>
+</npc>

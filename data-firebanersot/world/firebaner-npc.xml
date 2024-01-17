@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <npcs>
 	<npc centerx="33957" centery="31513" centerz="0" radius="1">
-		<npc name="Tanyt" x="0" y="0" z="0" spawntime="60" />
+		<npc name="" x="0" y="0" z="0" spawntime="60" />
 	</npc>
 	<npc centerx="1649" centery="1875" centerz="2" radius="2">
 		<npc name="BMDruidGronta" x="2" y="0" z="2" spawntime="60" />
@@ -75,8 +75,8 @@
 	<npc centerx="2071" centery="2085" centerz="6" radius="3">
 		<npc name="PUSailorCaptainJohn" x="-1" y="0" z="6" spawntime="60" />
 	</npc>
-	<npc centerx="498" centery="207" centerz="7" radius="1">
-		<npc name="PAArmorSven" x="-1" y="0" z="7" spawntime="60" />
+	<npc centerx="498" centery="207" centerz="7" radius="2">
+		<npc name="Sven" x="-1" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="506" centery="216" centerz="7" radius="1">
 		<npc name="PAEquipmentEllena" x="-1" y="-1" z="7" spawntime="60" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Raging Giant" script="BigMountain/behemothARagingGiant.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="55" />
+	<parameters>
+		<parameter key="message_greet" value="Humduk." />
+		<parameter key="message_walkaway" value="Dondon." />
+		<parameter key="message_farewell" value="Dondon, |PLAYERNAME|." />
+	</parameters>
+</npc>

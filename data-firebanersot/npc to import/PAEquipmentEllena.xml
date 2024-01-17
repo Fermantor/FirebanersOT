@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ellena" script="Pantra/equipment.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="79" body="0" legs="115" feet="94" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="3"/>
+		<parameter key="shop_buyable" value="
+		green backpack,1998,20;
+		green bag,1991,5;
+		pick,2553,50;
+		shovel,2554,50;
+		rope,2120,50;
+		candlestick,2047,2;
+		candelabrum,2057,8;
+		fishing rod,2580,150"/>
+		<parameter key="shop_sellable" value="
+		fishing rod,2580,20;
+		pick,2553,10;
+		shovel,2554,10;
+		rope,2120,10;
+		spear,2389,3"/>
+	</parameters>
+</npc>

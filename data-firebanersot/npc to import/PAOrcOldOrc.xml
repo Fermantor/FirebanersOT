@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Old Orc" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="5" head="97" body="21" legs="76" feet="19" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Charach |PLAYERNAME|. Ba Ikem Gort?" />
+		<parameter key="message_farewell" value="Futchi."/>
+		<parameter key="message_walkaway" value="Buta Fetchi!"/>
+		<parameter key="message_sendtrade" value="Ikem goshak."/>
+		<parameter key="shop_sellable" value="orc leather,12435,30;orc tooth,11113,70;broken helmet,12409,150;skull belt,12436,200"/>
+		<parameter key="shop_buyable" value="
+		bow,2456,400;
+		arrow,2544,5;
+		bolt,2543,20;"/>
+	</parameters>
+</npc>

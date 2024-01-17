@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomaticus" script="Gnomes/gnomaticus.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="507" head="40" body="37" legs="116" feet="95" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hi there! Are you here for the {shooting} test or to {report} your success?"/>
+		<parameter key="message_farewell" value="Good bye!" />
+		<parameter key="message_walkaway" value="Bye." />
+	</parameters>
+</npc>

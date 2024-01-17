@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sheron" script="Pantra/minotaur.lua" walkinterval="2000" floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="23" head="38" body="38" legs="94" feet="38" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Was machst du denn hier unten? Macht dir meine Armee etwa keine Angst?!" />
+		<parameter key="message_farewell" value="Lauf, du Angsthase."/>
+		<parameter key="message_walkaway" value="Besser für dich..."/>
+	</parameters>
+</npc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Torix" script="Bonezone/equipment.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="150" max="150"/>
+	<look type="131" head="122" body="113" legs="28" feet="132" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Tach, |PLAYERNAME|. Brauchst' vielleicht 'n Backpack. Ik hab letzte Woche ziemlich viele hergestellt." />
+		<parameter key="message_sendtrade" value="Nicht so hastig. Hier haste ja..." />
+		<parameter key="message_walkaway" value="Wie gesagt, Kochen kannste bei meiner Frau. Tschüss!" />
+		<parameter key="message_farewell" value="Biste schon weg? Na dann, Tschüss, |PLAYERNAME|." />
+	</parameters>
+</npc>

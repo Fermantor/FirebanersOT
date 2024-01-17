@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Drimosia" script="Bonezone/DruidSpells.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="100" max="100"/>
+	<look type="141" head="102" body="85" legs="15" feet="86" addons="1"/>
+	<parameters>
+		<parameter key="message_sendtrade" value="Dies ist mein Sortiment aus Wands, Rods und Runen." />
+		<parameter key="message_walkaway" value="Keine Manieren!" />
+		<parameter key="message_farewell" value="Das nenne ich Manieren. Auf Wiedersehen, |PLAYERNAME|!" />
+	</parameters>
+</npc>

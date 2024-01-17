@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mortyr" script="Bonezone/waffen.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="150" max="150"/>
+	<look type="152" head="115" body="0" legs="58" feet="58" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Komm her und kauf, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Was magst du haben?" />
+		<parameter key="message_walkaway" value="Geh doch!" />
+		<parameter key="message_farewell" value="Ciao, |PLAYERNAME|!" />
+	</parameters>
+</npc>

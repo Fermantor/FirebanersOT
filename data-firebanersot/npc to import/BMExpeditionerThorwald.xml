@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Thorwald" script="BigMountain/expeditionerThorwald.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="128" head="95" body="38" legs="116" feet="21" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Sei gegrüßt! Was für ein herrliches Wetter." />
+		<parameter key="message_walkaway" value="Das Beste auf deinen Wegen wünsche ich dir." />
+		<parameter key="message_farewell" value="Auf Wiedersehen, Freund!" />
+	</parameters>
+</npc>

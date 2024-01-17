@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ANSI"?>
+<npc name="Brutus" script="Pulgra/Smith.lua" walkinterval="2000" talkradius="2"  floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="134" head="80" body="57" legs="95" feet="80" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Guten Tag, mein Freund. Was führt dich in meine {Schmiede}?!" />
+		<parameter key="message_sendtrade" value="Meine Metalle sind die Besten in ganz Pulgra." />
+		<parameter key="message_walkaway" value="..." />
+		<parameter key="message_farewell" value="Bis dann, |PLAYERNAME|!" />
+	</parameters>
+</npc>

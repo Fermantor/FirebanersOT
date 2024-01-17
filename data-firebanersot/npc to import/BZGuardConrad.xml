@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Conrad" script="Bonezone/formakVersperrer.lua" walkinterval="0" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="128" head="115" body="118" legs="21" feet="132" addons="3"/>
+</npc>

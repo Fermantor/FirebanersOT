@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jack Storm" script="Pantra/weaponsJackStorm.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="114" body="88" legs="84" feet="115" addons="1"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Wilkommen junger Krieger |PLAYERNAME|! Auf meine Waffen ist im Kampf verlass." />
+		<parameter key="shop_buyable" value="
+		wooden shield,2512,13;
+		studded shield,2526,50;
+		brass shield,2511,65;
+		short sword,2406,30;
+		machete,2420,35;
+		sword,2376,85;
+		carlin sword,2395,473;
+		hand axe,2380,20;
+		axe,2386,50;
+		hatchet,2388,100;
+		scythe,2550,50;
+		machete,2420,50;
+		scythe,2550,50;
+		spear,2389,10"/>
+		<parameter key="shop_sellable" value="
+		wooden shield,2512,5;
+		studded shield,2526,16;
+		brass shield,2511,25;
+		plate shield,2510,45;
+		copper shield,2530,50;
+		battle shield,2513,95;
+		knife,2403,1;
+		dagger,2379,2;
+		rapier,2384,7;
+		short sword,2406,10;
+		machete,2420,6;
+		sabre,2385,12;
+		sword,2376,25;
+		carlin sword,2395,118;
+		katana,2412,35;
+		longsword,2397,51;
+		sickle,2405,1;
+		hand axe,2380,4;
+		axe,2386,7;
+		hatchet,2388,25;
+		orcish axe,2428,350;
+		obsidian lance,2425,500;
+		club,2382,1;
+		scythe,2550,10;
+		studded club,2448,10;
+		staff,2401,1;
+		bone club,2449,5;
+		mace,2398,30;
+		taurus mace,7425,500;"/>
+	</parameters>
+</npc>

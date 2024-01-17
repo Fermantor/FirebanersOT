@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Katharina" script="Pantra/farm.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="157" head="115" body="120" legs="119" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="3"/>
+		<parameter key="shop_buyable" value="meat,2666,5;ham,2671,10;bread,2689,7"/>
+		<parameter key="shop_sellable" value="chicken feather,5890,10;blueberry,2677,1;worm,3976,1;pig foot,10610,10"/>
+	</parameters>
+</npc>

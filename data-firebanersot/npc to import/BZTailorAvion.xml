@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Avion" script="Bonezone/schneider.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="130" head="57" body="123" legs="118" feet="114" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Einen wunderbaren guten Morgen! Oder ist es schon Mittag?" />
+		<parameter key="message_walkaway" value="Besuche doch mal meinen Sohn Atlantos. Er ist der Koenig." />
+		<parameter key="message_farewell" value="Auf Wiedersehen. Besuche doch mal meinen Sohn Atlantos. Er ist der Koenig." />
+	</parameters>
+</npc>

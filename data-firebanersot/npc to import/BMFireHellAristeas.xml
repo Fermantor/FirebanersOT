@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aristeas" script="BigMountain/fireHellAristeas.lua" walkinterval="2000" floorchange="0" speechbubble="3">
+	<health now="150" max="150"/>
+	<look type="145" head="95" body="114" legs="132" feet="132" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Gefährliche Routen schlägst du ein." />
+		<parameter key="message_walkaway" value="Entferne dich! Entferne dich weit!" />
+		<parameter key="message_farewell" value="Der Schutz aller Götter sei mit dir." />
+	</parameters>
+</npc>

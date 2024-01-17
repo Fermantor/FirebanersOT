@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gronta" script="BigMountain/druidGronta.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="144" head="77" body="96" legs="76" feet="41" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Mhhh." />
+		<parameter key="message_sendtrade" value="Hier." />
+		<parameter key="message_walkaway" value="Gras und Ghouleiter, das ist es..." />
+		<parameter key="message_farewell" value="4 Portionen Mammutklabuster, auf jeden Fall.." />
+	</parameters>
+</npc>

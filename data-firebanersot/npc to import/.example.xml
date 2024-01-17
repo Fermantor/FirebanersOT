@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- floorchange (npc can walk over stairs), speechbubble (icon beside name; nil = default, 0 = dissabled, 1,4,5 = talk, 2 = trade, 3 = quest, 4 = star/compass?) -->
+<npc name="NPC NAME" script="FOLDER/SCRIPT.lua" walkinterval="2000" walkradius="VALUE|spawnsize" ignoreheight="0" skull="VALUE|0" attackable="0" currency="ITEMID" pushable="1" speed="VALUE|100" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<!-- Appearance -->
+	<look type="MONSTER LOOKTYPE"/>
+	<look typeex="ITEMID"/>
+	<look type="140" head="77" body="81" legs="79" feet="95" addons="0" mount=""/>
+
+	<parameters>
+		<parameter key="message_greet" value="" />
+		<parameter key="message_walkaway" value="" />
+		<parameter key="message_farewell" value="" />
+	</parameters>
+</npc>

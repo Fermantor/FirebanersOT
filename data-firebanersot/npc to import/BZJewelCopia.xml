@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Copia" script="Bonezone/juwelier.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="100" max="100"/>
+	<look type="140" head="98" body="121" legs="119" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Guten Tag, Mr. |PLAYERNAME|. Geld regiert die Welt." />
+		<parameter key="message_walkaway" value="Ohne Fleis kein' Preis." />
+		<parameter key="message_farewell" value="Auf Wiedersehen, Mr. |PLAYERNAME|." />
+	</parameters>
+</npc>

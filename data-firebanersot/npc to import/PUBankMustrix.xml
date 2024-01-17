@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mustrix" script="Pulgra/Bank.lua" walkinterval="2000" talkradius="2"  floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="472" head="96" body="114" legs="78" feet="94" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hallo |PLAYERNAME|. Bitte beeil dich, denn Zeit ist Geld!" />
+	</parameters>
+</npc>

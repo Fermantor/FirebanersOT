@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomailion" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+<look type="493" head="94" body="88" legs="88" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hallo. Wie kann ich Dir helfen, |PLAYERNAME|? Frag mich nach einem {Trade}, wenn Du etwas kaufen willst. Ich kann Dir außerdem das {Post} System erklähren."/>
+        <parameter key="message_farewell" value="Es war mir eine Freude Dir zu helfen, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="post;brief;erklähre;depot" />
+        <parameter key="keyword_reply1" value="Mit unserem Mail System können wir {Briefe} und Parcels an andere Tibians verschicken. Ich kann Dir entweder erklähren, wie {Briefe} funktionieren, oder sie Dir verkaufen, wenn Du mich nach einem {Trade} fragst." />
+        <parameter key="keyword_reply2" value="Wenn Du einen Brief kaufen willst, frag mich nach einem {Trade}. Oder willst Du, dass ich Dir {erklähre}, wie Sie funktionieren?" />
+        <parameter key="keyword_reply3" value="Mit einem Brief kannst Du Nachrichten anderen Tibians ins {Depot} schicken. Wenn Du ihn an 'Alfred' in 'Pulgra' schicken willst, benutze den Brief, sodass sich ein Fenster öffnet, und schreibe 'Alfred' in die erste Zeile und 'Pulgra' in die Zweite. Schreibe Deine Nachricht dann dahinter." />
+        <parameter key="keyword_reply4" value="Jede große Stadt hat mindestens ein Depot. Stell Dich einfach vor eins und Du kannst Deine Items dort lagern. Deine Post wird dort ankommen. Jede Stadt hat ihr eigenes Lager, vergiss nicht, wo Du was hingepackt hast!" />
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="parcel,2595,15;letter,2597,8;label,2599,1;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

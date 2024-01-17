@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain John" script="Pulgra/Ship.lua" walkinterval="2000" talkradius="2"  floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="146" head="79" body="92" legs="71" feet="79" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Aye aye, |PLAYERNAME|, und willkommen an Bord. Wo darf's hingehen?!" />
+	</parameters>
+</npc>

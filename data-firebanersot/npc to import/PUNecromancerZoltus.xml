@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zoltus" script="pulgra/necromancertask.lua" walkinterval="2000" walkradius="1" floorchange="0" speechbubble="4">
+	<health now="100" max="100"/>
+	<look type="145" head="0" body="94" legs="38" feet="114" addons="3"/>
+</npc>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Xelvar" script="gnomes/xelvar.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="70" head="40" body="37" legs="116" feet="95" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Seit gegrüßt. Bist du interessiert, an einem {Abenteuer}?"/>
+		<parameter key="message_farewell" value="Auf wiedersehen. Komme bald wieder." />
+		<parameter key="message_walkaway" value="Bye." />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="abenteuer;job;rekrutieren;partner;gnome;existenz;hilfe"/>
+		<parameter key="keyword_reply1" value="Im Moment bin ich dabei neue Leute zu {rekrutieren}." />
+		<parameter key="keyword_reply2" value="Im Moment bin ich dabei neue Leute zu {rekrutieren}." />
+		<parameter key="keyword_reply3" value="Ok, hör zu. Deine Hilfe ist gefragt. Allerdings nur, wenn du der helden Typ bist. Unsere ... {Partner} brauchen Hilfe in dringenden Angelegenheiten." />
+		<parameter key="keyword_reply4" value="Ich denke, die Zeit der Geheimniskrämerei ist nun vorbei. Nun gut, es gibt noch eine andere Rasse, die ihre Behausung unter der Erde haben, die {Gnome}." />
+		<parameter key="keyword_reply5" value="Die Gnome ziehen es vor unsere Allianz und ihre gesammte {Existenz} geheim zu halten. Sie sind ein wenig misstrauisch, anderen gegenüber. Sie können durchaus für sich selbst sorgen, und die Tatsache, dass sie Hilfe annehmen, zeigt, wie ernst die Lage ist. Die Gnome sind in großen Schwierigkeiten und brauchen jede {Hilfe}." />
+		<parameter key="keyword_reply6" value="Gnomes ... ah. You will see for yourself. You will need some good nerves though, I'm warning you. But I have to admit those gnomes are a capable lot and valuable allies. Their incredible self-esteem sometimes is irritating though" />
+		<parameter key="keyword_reply7" value="Wenn du daran interessiert bist, den Gnomen zu {joinen}, könnte ich ein Treffen mit ihrem Ausbilder vereinbaren." />
+	</parameters>
+</npc>

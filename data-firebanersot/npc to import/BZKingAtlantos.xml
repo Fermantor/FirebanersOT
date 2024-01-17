@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Atlantos" script="Bonezone/koenig.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="268" head="98" body="97" legs="113" feet="113" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="GUTEN TAG, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="AUF WIEDERSEHEN, |PLAYERNAME|!" />
+		<parameter key="message_farewell" value="AUF WIEDERSEHEN, |PLAYERNAME|!" />
+	</parameters>
+</npc>

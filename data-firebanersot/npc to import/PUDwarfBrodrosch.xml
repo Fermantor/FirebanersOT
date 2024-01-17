@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Brodrosch" script="Pulgra/DwarfBlessing.lua" walkinterval="2000" talkradius="2"  floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="66" head="114" body="0" legs="95" feet="114" corpse="2212"/>
+	<parameters>
+	</parameters>
+</npc>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Leona" script="pulgra/medicine.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="157" head="94" body="100" legs="118" feet="119" addons="2"/>
+</npc>

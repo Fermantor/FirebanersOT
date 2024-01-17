@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Trevor" script="Bonezone/food.lua" walkinterval="2000" floorchange="0" speechbubble="3">
+	<health now="100" max="100"/>
+	<look type="128" head="79" body="115" legs="58" feet="131" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Essen, Futtern, Mampfen! Schlag zu, |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Schon genug gefuttert?" />
+		<parameter key="message_farewell" value="Auf Wiedersehen, |PLAYERNAME|." />
+	</parameters>
+</npc>

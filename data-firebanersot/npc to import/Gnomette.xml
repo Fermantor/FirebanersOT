@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomette" script="Gnomes/gnomette.lua" walkinterval="2000" walkradius="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="507" head="40" body="37" legs="116" feet="95" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Ah, ein weiterer Besucher, der die Kunst gnomischer Ingenieur bestaunen will. Hallo und willkommen im {GCTS}!"/>
+		<parameter key="message_farewell" value="Auf Wiedersehen!" />
+		<parameter key="message_walkaway" value="Tschau." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="Teleport Crystal,18457,150" />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="gcts;krystall;worum;threat;bigfoot;kompanie;threats"/>
+		<parameter key="keyword_reply1" value="Das ist das beeindruckende Gnomen {Krystall} teleport System! Und ich bin natürlich hier, um unseren neuen rekruten zu helfen! Du kannst mich auch nach einem {Trade} fragen, wenn du ein paar Teleport Krystalle für die GCTS brauchst." />
+		<parameter key="keyword_reply2" value="Krystalle schwingen bei einer bestimmten Frequenz. Wenn sich zwei Krystalle die gleiche Frequenz teilen, sind sie mit einander verbunden. Sie teilen sich nicht nur die Frequenz, sondern auch andere Eigenschaften, {Rekruten}." />
+		<parameter key="keyword_reply3" value="So, wo soll ich anfangen? Oh, ich weiß es! Ich bin ein Gnom! Und ich bin nicht der einzige! Verfall jetzt nicht in Panik, wir sind harmlos, das verspreche ich dir! Aber natürlich würde ich auch das gleiche sagen, wenn ich böse wäre. Oh man, jetzt haben wir hier ein kleines Dilemma!" />
+		<parameter key="keyword_reply4" value="Der Untergrund ist ein gefährlicher Ort, selbst zu den besten Zeiten. Und um ehrlich zu sein sind wir im Moment nicht in den besten Tagen." />
+		<parameter key="keyword_reply5" value="Die Bigfoot {Kompanie} ist eine Truppe, die wir aufbauen. Sie soll dazu dienen, uns im Kampf gegen die Gnomähnlichen zu unterstützen." />
+		<parameter key="keyword_reply6" value="Nun... ja. Wir denken, man braucht eine menschliche Kontaktperson. Um ehrlich zu sein, ihr Großen seid manchmal ein bisschen komisch aber Menschen können andere Menschen oftmals besser verstehen, als wir es könnten." />
+		<parameter key="keyword_reply7" value="Der Untergrund ist ein gefährlicher Ort, selbst zu den besten Zeiten. Und um ehrlich zu sein sind wir im Moment nicht in den besten Tagen." />
+	</parameters>
+</npc>

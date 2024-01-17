@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomegica" script="gnomes/Gnomegica.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="507" head="79" body="94" legs="94" feet="52" addons="0"/>
+	<parameters>
+        <parameter key="message_greet" value="Sei gegrüßt. Du bist hier beim richtigen Gnome, wenn Du Potions, Runen oder Stäbe kaufen willst. Lass uns über einen {Trade} reden."/>
+        <parameter key="message_farewell" value="Auf wiedersehen und komm bald wieder."/>
+    </parameters>
+</npc>

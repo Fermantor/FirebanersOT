@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Striphin" script="Bonezone/GuteHexe.lua" walkinterval="2000" floorchange="0" speechbubble="3">
+	<health now="100" max="100"/>
+	<look type="158" head="0" body="101" legs="120" feet="85" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Da bist du ja, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Erschaffung!" />
+		<parameter key="message_farewell" value="Schwierige Zeiten erwarten uns." />
+	</parameters>
+</npc>

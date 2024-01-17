@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Toxina" script="Pantra/magic.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="138" head="79" body="119" legs="81" feet="115" addons="1"/>
+	<parameters>
+		<parameter key="module_shop" value="3"/>
+		<parameter key="shop_buyable" value="small health potion,8704,40;vial,2006,100,0;antidote potion,8474,50"/>
+		<parameter key="shop_sellable" value="empty potion flask,7636,5;empty vial,2006,5;flask,7477,150,tarantula poison"/>
+		<parameter key="message_farewell" value="Auf Wiedersehen, |PLAYERNAME|. Ich muss wieder an meine Arbeit! Also, zwei Bonelord Eyes, drei Fish Fins, acht...!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Forsus" script="Bonezone/feverish.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="150" max="150"/>
+	<look type="667" head="119" body="126" legs="119" feet="132" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Na, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Immer achtsam." />
+		<parameter key="message_farewell" value="Auf Wiedersehen, |PLAYERNAME|." />
+	</parameters>
+</npc>

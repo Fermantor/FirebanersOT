@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elyee" script="Bonezone/SorcererSpells.lua" walkinterval="2000" floorchange="0" speechbubble="2">
+	<health now="100" max="100"/>
+	<look type="149" head="19" body="78" legs="118" feet="75" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Du kommst wahrscheinlich um dir {Potions} zu holen, |PLAYERNAME|. Schlag zu!" />
+		<parameter key="message_sendtrade" value="Also, dies ist mein Angebot. Gut, oder?" />
+		<parameter key="message_walkaway" value="Ebenfalls auf Wiedersehen. Mannomann." />
+		<parameter key="message_farewell" value="Einen Guten Tag noch, |PLAYERNAME|." />
+	</parameters>
+</npc>

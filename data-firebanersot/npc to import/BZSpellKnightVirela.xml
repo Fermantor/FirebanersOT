@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Virela" script="Bonezone/spellsKnight.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="139" head="79" body="123" legs="123" feet="38" addons="3"/>
+	<parameters>
+		<parameter key="message_walkaway" value="Na dann, Ciao!" />
+		<parameter key="message_farewell" value="Angriff ist die beste Verteidigung, |PLAYERNAME|." />
+	</parameters>
+</npc>

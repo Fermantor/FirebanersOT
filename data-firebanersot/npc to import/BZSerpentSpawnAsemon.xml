@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Asemon" script="Bonezone/SerpentSpawn.lua" walkinterval="2000" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="220" head="95" body="116" legs="119" feet="115" />
+	<parameters>
+		<parameter key="message_greet" value="Wassss treibt dich zzsu mir?" />
+		<parameter key="message_walkaway" value="Ssssss..." />
+		<parameter key="message_farewell" value="Tod für jene, die esss verdienen!" />
+	</parameters>
+</npc>

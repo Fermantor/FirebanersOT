@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nora Pox" script="Pantra/spinnen.lua" walkinterval="2000" floorchange="0" >
+	<health now="150" max="150"/>
+	<look type="149" head="81" body="119" legs="77" feet="89" addons="0" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hallo |PLAYERNAME|, was führt dich zu meinem einsamen Berg?" />
+		<parameter key="message_farewell" value="EINE SPINNE! ... Eine... Spinne *lachen*"/>
+		<parameter key="shop_sellable" value="
+		spider silk,5879,5000;
+		spider fangs,8859,10;
+		poison spider shell,12441,10;
+		tarantula egg,11198,80;"/>
+	</parameters>
+</npc>
