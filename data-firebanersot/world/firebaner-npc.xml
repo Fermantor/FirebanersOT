@@ -88,7 +88,7 @@
 		<npc name="PATempleBenedikt" x="0" y="-1" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="498" centery="233" centerz="7" radius="1">
-		<npc name="PAWeaponJackStorm" x="-1" y="0" z="7" spawntime="60" />
+		<npc name="Jack" x="-1" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="504" centery="237" centerz="7" radius="1">
 		<npc name="PAFarmerKatharina" x="-1" y="0" z="7" spawntime="60" />

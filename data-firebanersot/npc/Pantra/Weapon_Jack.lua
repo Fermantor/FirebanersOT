@@ -1,4 +1,4 @@
-local npcName = "Sven"
+local npcName = "Jack"
 
 local npcType = Game.createNpcType(npcName)
 local npcConfig = {}
@@ -12,12 +12,12 @@ npcConfig.walkInterval = 4000
 npcConfig.walkRadius = 2
 
 npcConfig.outfit = {
-	lookType = 268,
-	lookHead = 79,
-	lookBody = 82,
-	lookLegs = 77,
-	lookFeet = 8,
-	lookAddons = 2,
+	lookType = 131,
+	lookHead = 114,
+	lookBody = 88,
+	lookLegs = 84,
+	lookFeet = 115,
+	lookAddons = 1,
 }
 
 npcConfig.sounds = {
@@ -34,7 +34,7 @@ npcConfig.sounds = {
 npcConfig.voices = {
 	interval = 10000,
 	chance = 20,
-	{ text = "Die besten Rï¿½stungen auf ganz Pantra!" },
+	{ text = "Die besten Rüstungen auf ganz Pantra!" },
 	{ text = "Hat jemand mein Doublet gesehen?" },
 }
 
@@ -44,38 +44,41 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	-- helmets
-	{ itemName = "party hat", clientId = 6578, buy = 600},
-	{ itemName = "chain helmet", clientId = 3352, buy = 52, sell = 17},
-	{ itemName = "studded helmet", clientId = 3376, buy = 60, sell = 20},
-	{ itemName = "leather helmet", clientId = 3355, buy = 12, sell = 4},
-	{ itemName = "brass helmet", clientId = 3354, sell = 30},
-	{ itemName = "legion helmet", clientId = 3374, sell = 222},
-	{ itemName = "viking helmet", clientId = 3367, sell = 66},
-	{ itemName = "steel helmet", clientId = 3351, sell = 293},
-	-- armors
-	{ itemName = "leather armor", clientId = 3361, buy = 25, sell = 12},
-	{ itemName = "studded armor", clientId = 3378, buy = 90, sell = 25},
-	{ itemName = "cape", clientId = 3565, buy = 9},
-	{ itemName = "coat", clientId = 3562, buy = 8, sell = 1},
-	{ itemName = "green tunic", clientId = 3563, buy = 25},
-	{ itemName = "jacket", clientId = 3561, buy = 10, sell = 1},
-	{ itemName = "doublet", clientId = 3379, buy = 16, sell = 3},
-	{ itemName = "chain armor", clientId = 3358, sell = 70},
-	{ itemName = "brass armor", clientId = 3359, sell = 150},
-	{ itemName = "scale armor", clientId = 3377, sell = 75},
-	{ itemName = "plate armor", clientId = 3357, sell = 400},
-	{ itemName = "dragon scale mail", clientId = 3386, sell = 40000},
-	{ itemName = "simple dress", clientId = 3568, sell = 50},
-	-- legs
-	{ itemName = "leather legs", clientId = 3559, buy = 9, sell = 3},
-	{ itemName = "brass legs", clientId = 3372, sell = 49},
-	{ itemName = "studded legs", clientId = 3362, sell = 15},
-	{ itemName = "chain legs", clientId = 3558, sell = 25},
-	{ itemName = "plate legs", clientId = 3557, sell = 115},
-	-- boots
-	{ itemName = "sandals", clientId = 3551, buy = 2},
-	{ itemName = "leather boots", clientId = 3552, buy = 10, sell = 2},
+	-- shields
+	{ itemName = "wooden shield", clientId = 3412, buy = 13, sell = 5},
+	{ itemName = "studded shield", clientId = 3426, buy = 50, sell = 16},
+	{ itemName = "brass shield", clientId = 3411, buy = 65, sell = 25},
+	{ itemName = "plate shield", clientId = 3410, sell = 45},
+	{ itemName = "copper shield", clientId = 3430, sell = 50},
+	{ itemName = "battle shield", clientId = 3413, sell = 95},
+	-- axes
+	{ itemName = "machete", clientId = 3308, buy = 50, sell = 6},
+	{ itemName = "hand axe", clientId = 3268, buy = 20, sell = 4},
+	{ itemName = "axe", clientId = 3274, buy = 50, sell = 7},
+	{ itemName = "hatchet", clientId = 3276, buy = 100, sell = 25},
+	{ itemName = "sickle", clientId = 3293, sell = 2},
+	{ itemName = "orcish axe", clientId = 3316, sell = 350},
+	-- swords
+	{ itemName = "short sword", clientId = 3294, buy = 30, sell = 10},
+	{ itemName = "sword", clientId = 3264, buy = 85, sell = 25},
+	{ itemName = "carlin sword", clientId = 3283, buy = 473, sell = 118},
+	{ itemName = "knife", clientId = 3291, sell = 1},
+	{ itemName = "dagger", clientId = 3267, sell = 2},
+	{ itemName = "rapier", clientId = 3272, sell = 7},
+	{ itemName = "sabre", clientId = 3273, sell = 12},
+	{ itemName = "katana", clientId = 3300, sell = 35},
+	{ itemName = "longsword", clientId = 3285, sell = 51},
+	-- clubs
+	{ itemName = "scythe", clientId = 3453, buy = 50, sell = 10},
+	{ itemName = "obsidian lance", clientId = 3313, sell = 500},
+	{ itemName = "club", clientId = 3270, sell = 1},
+	{ itemName = "studded club", clientId = 3336, sell = 10},
+	{ itemName = "staff", clientId = 3289, sell = 20},
+	{ itemName = "bone club", clientId = 3337, sell = 5},
+	{ itemName = "mace", clientId = 3286, sell = 30},
+	{ itemName = "taurus mace", clientId = 7425, sell = 500},
+	--distance
+	{ itemName = "spear", clientId = 3277, buy = 10, sell = 3},
 }
 
 -- Create keywordHandler and npcHandler
@@ -127,7 +130,7 @@ npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 -- Function called by the callback "npcHandler:setCallback(CALLBACK_GREET, greetCallback)" in end of file
 local function greetCallback(npc, player)
-	npcHandler:setMessage(MESSAGE_GREET, "Wilkommen auf Pantra |PLAYERNAME|, ich hoffe mein Equipment sagt dir zu.")
+	npcHandler:setMessage(MESSAGE_GREET, "Wilkommen junger Krieger |PLAYERNAME|! Auf meine Waffen ist im Kampf verlass.")
 	return true
 end
 
