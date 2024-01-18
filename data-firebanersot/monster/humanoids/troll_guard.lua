@@ -77,6 +77,7 @@ monster.loot = {
 	{ name = "gold coin", chance = 58000, maxCount = 12 },
 	{ name = "studded club", chance = 3000 },
 	{ name = "meat", chance = 14000, maxCount = 2 },
+	{ name = "war horn", chance = 3000}
 }
 
 monster.attacks = {
