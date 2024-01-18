@@ -34,7 +34,7 @@ npcConfig.sounds = {
 npcConfig.voices = {
 	interval = 10000,
 	chance = 20,
-	{ text = "Die besten Rï¿½stungen auf ganz Pantra!" },
+	{ text = "Die besten Rüstungen auf ganz Pantra!" },
 	{ text = "Hat jemand mein Doublet gesehen?" },
 }
 

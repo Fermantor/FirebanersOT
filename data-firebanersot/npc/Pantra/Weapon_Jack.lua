@@ -34,8 +34,8 @@ npcConfig.sounds = {
 npcConfig.voices = {
 	interval = 10000,
 	chance = 20,
-	{ text = "Die besten Rüstungen auf ganz Pantra!" },
-	{ text = "Hat jemand mein Doublet gesehen?" },
+	{ text = "Meine Waffen sind die besten für den Kampf!" },
+	{ text = "Neulinge können sich hier gerne eine Warenprobe abholen" },
 }
 
 npcConfig.flags = {
@@ -130,9 +130,31 @@ npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 -- Function called by the callback "npcHandler:setCallback(CALLBACK_GREET, greetCallback)" in end of file
 local function greetCallback(npc, player)
-	npcHandler:setMessage(MESSAGE_GREET, "Wilkommen junger Krieger |PLAYERNAME|! Auf meine Waffen ist im Kampf verlass.")
+	local woodenShieldStorage = player:getStorageValue(Storage.Pantra.Town.Weapons.WoodenShield)
+	if woodenShieldStorage == -1 and player:getLevel() <= 5 then
+		npcHandler:setMessage(MESSAGE_GREET, "Herzlich wilkommen auf Pantra |PLAYERNAME|. Du scheinst neu hier zu sein und siehst aus, als könntest du etwas {Hilfe} gebrauchen.")
+	elseif woodenShieldStorage == 1 and player:getLevel() <= 5 then
+		npcHandler:setMessage(MESSAGE_GREET, "Willkommen zurück, |PLAYERNAME|. Immer noch kein Interesse an meinem {Wooden Shield}?")
+	else
+		npcHandler:setMessage(MESSAGE_GREET, "Willkommen junger Krieger |PLAYERNAME|! Auf meine Waffen ist im Kampf verlass.")
+	end	
 	return true
 end
+
+keywordHandler:addKeyword({"blessed shield"}, StdModule.say, {npcHandler = npcHandler, text = {
+	"Das Blessed Shield ist ein legendäres Artefakt. Man sagt es wurde vor 1000 Jahren von den Göttern erschaffen, um einen selbst vor den stärksten Monstern und Demons zu schützen. ...",
+	"Viele haben über die Jahre versucht es zu kopieren, aber der von den Göttern verzauberte Stahl ist einfach zu einzigartig und somit ist es niemandem gelungen. ...",
+	"Das einzig existierende Blessed Shield wird von Generation zu Generation weitergegeben. Es war im Besitz vieler mächtiger Krieger und Könige. ...",
+	"Der letzte Bekannte Besitzer war {König Taibaner}, jedoch scheint er es jetzt nicht mehr zu haben, denn in seiner Waffenkammer ist es nicht mehr ausgestellt. ...",
+	"Wer weiß, wer jetzt der Besitzer ist? Auf jeden Fall trägt dieser eines der mächtigsten Artefakte und ist im Kampg nachezu unbesiegbar. ..."}})
+	keywordHandler:addKeyword({"taibaner"}, StdModule.say, {npcHandler = npcHandler, text = {
+	"König Taibaner ist das Oberhaupt von Pulgra. Er hat die Stadt von den Trollen befreit und sie komplett neu aufgebaut. ...",
+	"Er ist ein starker König, aber auch sehr großzügig. Er und seine Untertanen stehen in sehr nahem Kontakt zu uns und schicken uns regelmäßig verschiedenste Dinge."}})
+	keywordHandler:addKeyword({"sortiement"}, StdModule.say, {npcHandler = npcHandler, text = "Schwerter, Äxte und Clubs. Bei mir findest du alles. Sieh dir einfach meinen {Trade} an."})
+	keywordHandler:addAliasKeyword({"ware"})
+	keywordHandler:addAliasKeyword({"axe"})
+	keywordHandler:addAliasKeyword({"club"})
+	keywordHandler:addAliasKeyword({"sword"})
 
 -- On creature say callback
 local function creatureSayCallback(npc, player, type, msg)
@@ -140,22 +162,37 @@ local function creatureSayCallback(npc, player, type, msg)
 	if not npcHandler:checkInteraction(npc, player) then
 		return false
 	end
-
-	if MsgContains(msg, "canary") then
-		if npcHandler:getTopic(playerId) == 0 then
-			npcHandler:say({
-				"The goal is for Canary to be an 'engine', that is, it will be \z
-					a server with a 'clean' datapack, with as few things as possible, \z
-					thus facilitating development and testing.",
-				"See more on our {discord group}.",
-			}, npc, player, 3000)
+	
+	local woodenShieldStorage = player:getStorageValue(Storage.Pantra.Town.Weapons.WoodenShield)
+	if MsgContains(msg, "hilfe") or (MsgContains(msg, "wooden shield") and woodenShieldStorage == 1) then
+		if woodenShieldStorage == -1 and player:getLevel() <= 5 then
+			npcHandler:say({"Meine Waffen und Schilde sind die Besten auf ganz Pantra. Um dir einen Vorgeschmack meiner Ware zu geben würde ich dir ein {Wooden Shield} schenken. Interesse?"}, npc, player)
+			player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield, 1)
 			npcHandler:setTopic(playerId, 1)
+		elseif woodenShieldStorage == 1 and player:getLevel() <= 5 then
+			npcHandler:say("Wie ich dir bereits angeboten habe, würde ich dich mit einem gratis {Wooden Shield} ausstatten. Wie sieht's aus?", npc, player)
+			npcHandler:setTopic(playerId, 1)
+		else
+			npcHandler:say("Wenn du Hilfe im Kampf brauchst und nach einem neuen Begleiter suchst bin ich der richtige Ansprechpartner. Frag mich einfach nach nem {Trade}", npc, player)
 		end
-	elseif MsgContains(msg, "discord group") then
+	elseif msg == "yes" or msg == "ja" then
 		if npcHandler:getTopic(playerId) == 1 then
-			npcHandler:say("This the our discord group link: {https://discordapp.com/invite/3NxYnyV}", npc, player)
-			npcHandler:setTopic(playerId, 0)
+			if player:getSlotItem(CONST_SLOT_RIGHT) ~= nil then
+				npcHandler:say("Nanu? Du scheinst ja bereits bestens ausgestattet zu sein. Tut mir leid, aber dann behalte ich dieses Schild lieber für jemanden, der es wirklich braucht. Du kannst dich aber gerne in meinem {Sortiement} umsehen.", npc, player)
+				player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield,2)
+				npcHandler:setTopic(playerId, 0)
+			elseif player:getFreeCapacity() < 4000 then
+				npcHandler:say("Du scheinst schon zu vollgepackt sein. Räum ein bisschen in deinem Inventar auf und schaffe ein wenig Platz. Ich warte hier, keine Sorge.", npc, player)
+				npcHandler:setTopic(playerId, 0)
+			else
+				player:addItem("wooden shield")
+				player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield,2)
+				npcHandler:say("Hier bitte schön. Es ist zwar kein {Blessed Shield}, aber immer noch besser als kein Schild. Schau gerne, ob ich noch mehr nützliches in meinem {Sortiement} für dich habe.", npc, player)
+				npcHandler:setTopic(playerId, 0)
+			end
 		end
+	elseif MsgContains(msg, "wooden shield") then
+		npcHandler:say("Ein Wooden Shield ist ein recht schwaches Schild, was sich sehr gut als Einsteigerschild eignet. Wenn du was besseres suchst, findet sich in meinem {Sortiement} bestimmt was.", npc, player)
 	end
 	return true
 end
