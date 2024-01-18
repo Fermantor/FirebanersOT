@@ -23,7 +23,7 @@ monster.Bestiary = {
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
-	Locations = "Pantra und Mainland, in den meisten Kanalisationen. Sie sind fast überall in Tibia.",
+	Locations = "Pantra und Mainland, in den meisten Kanalisationen. Sie sind fast ï¿½berall in Tibia.",
 }
 
 monster.health = 20
@@ -83,8 +83,8 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 1,
+	defense = 1,
+	armor = 0,
 	mitigation = 0.07,
 }
 
