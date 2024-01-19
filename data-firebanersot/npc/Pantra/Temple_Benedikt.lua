@@ -36,7 +36,7 @@ npcConfig.voices = {
 	chance = 20,
 	{ text = "Wilkommen Neulinge, habt meinen Segen!" },
 	{ text = "Hier muss niemand leiden, holt euch eure Heilung ab." },
-	{ text = "Ich bin fucked up." },
+	{ text = "Ich bin fucked up..." },
 }
 
 npcConfig.flags = {
