@@ -205,7 +205,7 @@ npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 -- Bye message
 npcHandler:setMessage(MESSAGE_FAREWELL, "Yeah, good bye and don't come again!")
 -- Walkaway message
-npcHandler:setMessage(MESSAGE_WALKAWAY, "You not have education?")
+npcHandler:setMessage(MESSAGE_WALKAWAY, "Jaja, sei bloﬂ froh, dass diese Theke zwischen uns ist...")
 
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
