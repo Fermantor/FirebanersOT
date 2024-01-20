@@ -45,11 +45,11 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "minotaur horn", clientId = , sell = 30},
-	{ itemName = "minotau leather", clientId = , sell = 50},
-	{ itemName = "piece of warrior armor", clientId = , sell = 100},
-	{ itemName = "minotaur trophy", clientId = , sell = 500},
-	-- { itemName = "", clientId = , buy = , sell = },
+	{ itemName = "minotaur horn", clientId = 11472, sell = 30 },
+	{ itemName = "minotau leather", clientId = 5878, sell = 50 },
+	{ itemName = "piece of warrior armor", clientId = 11482, sell = 100 },
+	{ itemName = "minotaur trophy", clientId = 7401, sell = 500 },
+	-- { itemName = "", clientId = , buy = , sell =  },
 }
 
 -- Create keywordHandler and npcHandler
@@ -113,16 +113,20 @@ local function greetCallback(npc, player)
 end
 
 keywordHandler:addKeyword({"minotaur leather"}, StdModule.say, {npcHandler = npcHandler, text = {
-	"Minotaur Leathers sind ein hervorragendes Material fï¿½r feste und starke Kleidung. Leider ist es sehr schwer einen Minotauren zu erlegen und ihm das Leather unbeschï¿½digt zu entfernen. ...",
-	"Mit einem {Obsidian Knife} wï¿½rde es deutlich leichter gehen, allerdings sind die Materialien, die man dafï¿½r braucht auf Pantra ï¿½uï¿½erst schwer zu bekommen."}})
-keywordHandler:addKeyword({"obsidian knife"}, StdModule.say, {npcHandler = npcHandler, text = {
-	"Ein Obsidian Knife eignet sich hervorangend, um die Haut von getï¿½teten Monstern zu entfernen. Es gelingt damit zwar nicht immer, aber doch deutlich hï¿½ufiger, als dass man ein intaktes Stï¿½ck im Kï¿½rper findet. ...",
-	"Die Herstellung ist auch nicht das groï¿½e Problem, Jack ist dazu bestimmt in der Lage. Allerdings sind die Materialien, die es braucht hier auf Pantra nicht grade hï¿½ufig zu finden, um es untertrieben auszudrï¿½cken. ...",
-	"Soweit ich weiï¿½, benï¿½tigt es ein {Piece of Draconian Steel} und eine {Obsidian Lance}. Beides habe ich hier seit Jahren nicht gesehen."}})
-keywordHandler:addKeyword({"obsidian lance"}, StdModule.say, {npcHandler = npcHandler, text = {"Die Obsidian Lance ist aus einem besonders harten Stein gemacht. Nur die stï¿½rksten Orcs tragen eine mit sich rum."}})
+	"Minotaur Leathers sind ein hervorragendes Material für feste und starke Kleidung. Leider ist es sehr schwer einen Minotauren zu erlegen und ihm das Leather unbeschädigt zu entfernen. ...",
+	"Mit einem {Obsidian Knife} würde es deutlich leichter gehen, allerdings sind die Materialien, die man dafür braucht auf Pantra äußerst schwer zu bekommen."}})
+keywordHandler:addKeyword({"obsidian knife"}, StdModule.say, {
+	npcHandler = npcHandler, 
+	text = {
+		"Ein Obsidian Knife eignet sich hervorangend, um die Haut von getöteten Monstern zu entfernen. Es gelingt damit zwar nicht immer, aber doch deutlich häufiger, als dass man ein intaktes Stück im Kadaver findet. ...",
+		"Die Herstellung ist auch nicht das große Problem, Jack ist dazu bestimmt in der Lage. Allerdings sind die Materialien, die es braucht hier auf Pantra nicht grade häufig zu finden, um es untertrieben auszudrücken. ...",
+		"Soweit ich weiß, benötigt es ein {Piece of Draconian Steel} und eine {Obsidian Lance}. Beides habe ich hier seit Jahren nicht gesehen.",
+	},
+})
+keywordHandler:addKeyword({"obsidian lance"}, StdModule.say, {npcHandler = npcHandler, text = {"Die Obsidian Lance ist aus einem besonders harten Stein gemacht. Nur die stärksten Orcs tragen eine mit sich rum."}})
 keywordHandler:addKeyword({"draconian steel"}, StdModule.say, {npcHandler = npcHandler, text = {
-	"Draconian Steel ist ein besonderes Metall, das aus den Schilden von Drachen gewonnen wird. Ich glaube weit ï¿½stlich von hier lebt ein Drachenvernarrter, der diesen Stahl herstellen kann. ...",
-	"Aber dafï¿½r brï¿½uchte er erstmal ein Dragon Shield. Und ich glaube nicht, dass jemand auf Pantra in der Lage ist, einen Drachen zu erlegen, geschweige denn mehrere."}})
+	"Draconian Steel ist ein besonderes Metall, das aus den Schilden von Drachen gewonnen wird. Ich glaube weit östlich von hier lebt ein Drachenvernarrter, der diesen Stahl herstellen kann. ...",
+	"Aber dafür bräuchte er erstmal ein Dragon Shield. Und ich glaube nicht, dass jemand auf Pantra in der Lage ist, einen Drachen zu erlegen, geschweige denn mehrere."}})
 
 -- On creature say callback
 local function creatureSayCallback(npc, player, type, msg)
