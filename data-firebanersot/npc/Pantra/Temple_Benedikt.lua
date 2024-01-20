@@ -36,7 +36,6 @@ npcConfig.voices = {
 	chance = 20,
 	{ text = "Wilkommen Neulinge, habt meinen Segen!" },
 	{ text = "Hier muss niemand leiden, holt euch eure Heilung ab." },
-	{ text = "Ich bin fucked up." },
 }
 
 npcConfig.flags = {
@@ -101,52 +100,58 @@ npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 -- Function called by the callback "npcHandler:setCallback(CALLBACK_GREET, greetCallback)" in end of file
 local function greetCallback(npc, player)
-	local woodenShieldStorage = player:getStorageValue(Storage.Pantra.Town.Weapons.WoodenShield)
-	if woodenShieldStorage == -1 and player:getLevel() <= 5 then
-		npcHandler:setMessage(MESSAGE_GREET, "Herzlich wilkommen auf Pantra |PLAYERNAME|. Du scheinst neu hier zu sein und siehst aus, als kï¿½nntest du etwas {Hilfe} gebrauchen.")
-	elseif woodenShieldStorage == 1 and player:getLevel() <= 5 then
-		npcHandler:setMessage(MESSAGE_GREET, "Willkommen zurï¿½ck, |PLAYERNAME|. Immer noch kein Interesse an meinem {Wooden Shield}?")
+	local playerHP = player:getHealth()/player:getMaxHealth()
+	if playerHP < 0.25 then
+		npcHandler:setMessage(MESSAGE_GREET, "|PLAYERNAME|! Du siehst schwer verletzt aus. Du brauchst dringend eine {Heilung}!")
+	elseif playerHP < 0.5 then
+		npcHandler:setMessage(MESSAGE_GREET, "Hallo |PLAYERNAME|. Du siehst verletzt aus. Du könntest bestimmt eine {Heilung} gebrauchen!")
+	elseif playerHP < 0.75 then
+		npcHandler:setMessage(MESSAGE_GREET, "Hallo |PLAYERNAME|. Du siehst ein wenig angeschlagen aus. Wenn Du möchtest kann ich Dich {heilen}.")
 	else
-		npcHandler:setMessage(MESSAGE_GREET, "Willkommen junger Krieger |PLAYERNAME|! Auf meine Waffen ist im Kampf verlass.")
-	end	
+		npcHandler:setMessage(MESSAGE_GREET, "Hallo |PLAYERNAME|, und wilkommen auf Pantra. Wenn du {hilfe} bauchst, frag einfach nach.")
+	end
 	return true
 end
 
 keywordHandler:addKeyword({"minotaur leather"}, StdModule.say, {npcHandler = npcHandler, text = {
 	"Minotaur Leathers sind ein hervorragendes Material für feste und starke Kleidung. Leider ist es sehr schwer einen Minotauren zu erlegen und ihm das Leather unbeschädigt zu entfernen. ...",
 	"Mit einem {Obsidian Knife} würde es deutlich leichter gehen, allerdings sind die Materialien, die man dafür braucht auf Pantra äußerst schwer zu bekommen."}})
-keywordHandler:addKeyword({"obsidian knife"}, StdModule.say, {
-	npcHandler = npcHandler, 
-	text = {
-		"Ein Obsidian Knife eignet sich hervorangend, um die Haut von getöteten Monstern zu entfernen. Es gelingt damit zwar nicht immer, aber doch deutlich häufiger, als dass man ein intaktes Stück im Kadaver findet. ...",
-		"Die Herstellung ist auch nicht das große Problem, Jack ist dazu bestimmt in der Lage. Allerdings sind die Materialien, die es braucht hier auf Pantra nicht grade häufig zu finden, um es untertrieben auszudrücken. ...",
-		"Soweit ich weiß, benötigt es ein {Piece of Draconian Steel} und eine {Obsidian Lance}. Beides habe ich hier seit Jahren nicht gesehen.",
-	},
-})
+	keywordHandler:addKeyword({"obsidian knife"}, StdModule.say, {
+		npcHandler = npcHandler, 
+		text = {
+			"Ein Obsidian Knife eignet sich hervorangend, um die Haut von getöteten Monstern zu entfernen. Es gelingt damit zwar nicht immer, aber doch deutlich häufiger, als dass man ein intaktes Stück im Kadaver findet. ...",
+			"Die Herstellung ist auch nicht das große Problem, Jack ist dazu bestimmt in der Lage. Allerdings sind die Materialien, die es braucht hier auf Pantra nicht grade häufig zu finden, um es untertrieben auszudrücken. ...",
+			"Soweit ich weiß, benötigt es ein {Piece of Draconian Steel} und eine {Obsidian Lance}. Beides habe ich hier seit Jahren nicht gesehen.",
+		},
+	})
 keywordHandler:addKeyword({"obsidian lance"}, StdModule.say, {npcHandler = npcHandler, text = {"Die Obsidian Lance ist aus einem besonders harten Stein gemacht. Nur die stärksten Orcs tragen eine mit sich rum."}})
 keywordHandler:addKeyword({"draconian steel"}, StdModule.say, {npcHandler = npcHandler, text = {
 	"Draconian Steel ist ein besonderes Metall, das aus den Schilden von Drachen gewonnen wird. Ich glaube weit östlich von hier lebt ein Drachenvernarrter, der diesen Stahl herstellen kann. ...",
 	"Aber dafür bräuchte er erstmal ein Dragon Shield. Und ich glaube nicht, dass jemand auf Pantra in der Lage ist, einen Drachen zu erlegen, geschweige denn mehrere."}})
-
--- On creature say callback
+	
+	-- On creature say callback
 local function creatureSayCallback(npc, player, type, msg)
 	local playerId = player:getId()
 	if not npcHandler:checkInteraction(npc, player) then
 		return false
 	end
-	
-	local woodenShieldStorage = player:getStorageValue(Storage.Pantra.Town.Weapons.WoodenShield)
-	if MsgContains(msg, "hilfe") or (MsgContains(msg, "wooden shield") and woodenShieldStorage == 1) then
-		if woodenShieldStorage == -1 and player:getLevel() <= 5 then
-			npcHandler:say({"Meine Waffen und Schilde sind die Besten auf ganz Pantra. Um dir einen Vorgeschmack meiner Ware zu geben wï¿½rde ich dir ein {Wooden Shield} schenken. Interesse?"}, npc, player)
-			player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield, 1)
-			npcHandler:setTopic(playerId, 1)
-		elseif woodenShieldStorage == 1 and player:getLevel() <= 5 then
-			npcHandler:say("Wie ich dir bereits angeboten habe, wï¿½rde ich dich mit einem gratis {Wooden Shield} ausstatten. Wie sieht's aus?", npc, player)
-			npcHandler:setTopic(playerId, 1)
+	-- npcHandler:setTopic(playerId, 1)
+	-- npcHandler:getTopic(playerId)
+		
+	local playerHP = player:getHealth()/player:getMaxHealth()
+	if MsgContains(msg, "heil") then
+		if playerHP <= 0.75 then
+			player:addHealth(player:getMaxHealth())
+			player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
+			npcHandler:say({
+				"Exura Sio \""..player:getName(),
+				"So, nun siehst du wieder gesund aus. Brauchst du sonst noch {Hilfe}?"
+			}, npc, player, 2000)
 		else
-			npcHandler:say("Wenn du Hilfe im Kampf brauchst und nach einem neuen Begleiter suchst bin ich der richtige Ansprechpartner. Frag mich einfach nach nem {Trade}", npc, player)
+			npcHandler:say("Es tut mir leid, aber du siehst nicht sonderlich verletzt aus. Ich spare mir mein Mana doch lieber für einen Ernstfall auf.", npc, player)
 		end
+
+	/*	
 	elseif msg == "yes" or msg == "ja" then
 		if npcHandler:getTopic(playerId) == 1 then
 			if player:getSlotItem(CONST_SLOT_RIGHT) ~= nil then
@@ -166,6 +171,7 @@ local function creatureSayCallback(npc, player, type, msg)
 	elseif MsgContains(msg, "wooden shield") then
 		npcHandler:say("Ein Wooden Shield ist ein recht schwaches Schild, was sich sehr gut als Einsteigerschild eignet. Wenn du was besseres suchst, findet sich in meinem {Sortiement} bestimmt was.", npc, player)
 	end
+	*/
 	return true
 end
 
@@ -175,9 +181,9 @@ npcHandler:setCallback(CALLBACK_GREET, greetCallback)
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 
 -- Bye message
-npcHandler:setMessage(MESSAGE_FAREWELL, "Yeah, good bye and don't come again!")
+npcHandler:setMessage(MESSAGE_FAREWELL, "Sei gesegnet |PLAYERNAME|.")
 -- Walkaway message
-npcHandler:setMessage(MESSAGE_WALKAWAY, "Jaja, sei bloï¿½ froh, dass diese Theke zwischen uns ist...")
+npcHandler:setMessage(MESSAGE_WALKAWAY, "Das ist nicht sehr nett, aber so sind Abenteurer wohl einfach...")
 
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
