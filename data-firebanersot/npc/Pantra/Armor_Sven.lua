@@ -137,23 +137,6 @@ local function creatureSayCallback(npc, player, type, msg)
 	if not npcHandler:checkInteraction(npc, player) then
 		return false
 	end
-
-	if MsgContains(msg, "canary") then
-		if npcHandler:getTopic(playerId) == 0 then
-			npcHandler:say({
-				"The goal is for Canary to be an 'engine', that is, it will be \z
-					a server with a 'clean' datapack, with as few things as possible, \z
-					thus facilitating development and testing.",
-				"See more on our {discord group}.",
-			}, npc, player, 3000)
-			npcHandler:setTopic(playerId, 1)
-		end
-	elseif MsgContains(msg, "discord group") then
-		if npcHandler:getTopic(playerId) == 1 then
-			npcHandler:say("This the our discord group link: {https://discordapp.com/invite/3NxYnyV}", npc, player)
-			npcHandler:setTopic(playerId, 0)
-		end
-	end
 	return true
 end
 
