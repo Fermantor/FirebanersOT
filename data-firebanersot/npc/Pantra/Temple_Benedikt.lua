@@ -172,8 +172,45 @@ local function creatureSayCallback(npc, player, type, msg)
 		else
 			npcHandler:say("Es tut mir leid, aber du siehst nicht sonderlich verletzt aus. Ich spare mir mein Mana doch lieber für einen Ernstfall auf.", npc, player)
 		end
+		npcHandler:setTopic(playerId, 0)
 	elseif MsgContains(msg, "elena") then
 		if player:getStorageValue(Storage.Pantra.Outfits.Citizen.Backpack) ~= -1 then
+			npcHandler:say("Ah, hat sie wieder mit meiner Arbeit rumgeprahlt? Nun, mit den richtigen Materialien kann ich dir im Handumdrehen dein eigenes {Backpack} machen.", npc, player)
+		else
+			npcHandler:say("Elena ist eine fleißige Dame. Sie versorgt uns alle, mit den nötigen Tools, um in der freien Natur nicht hilflos zu sein.", npc, player)
+		end
+		npcHandler:setTopic(playerId, 0)
+	elseif MsgContains(msg, "backpack") or MsgContains(msg, "addon") or MsgContains(msg, "outfit") then
+		if player:getStorageValue(Storage.Pantra.Outfits.Citizen.Backpack) == -1 then
+			npcHandler:say("Nun, ich als Meister der Minotauren kann aus ein paar {Minotaur Leathers} im Handumdrehen ein schönes Backpack machen. Bist du interessiert?", npc, player)
+			npcHandler:setTopic(playerId, 1)
+		elseif player:getStorageValue(Storage.Pantra.Outfits.Citizen.Backpack) == 1 then
+			npcHandler:say("Bist du hier, um mir die 100 Minotaur Leathers zu bringen?", npc, player)
+			npcHandler:setTopic(playerId, 2)
+		end
+	elseif msg == "ja" or msg == "yes" then
+		if npcHandler:getTopic(playerId) == 1 then
+			player:setStorageValue(Storage.Pantra.Outfits.Citizen.Backpack, 1)
+			npcHandler:setTopic(playerId, 0)
+			npcHandler:say({
+			"Natürlich bist du! So ein Backpack sieht doch an jedem gut aus. Also, die Materialien die ich brauche sind einfach, wenn auch nicht ganz einfach zu bekommen. ...",
+			"Wird reden von 100 {Minotaur Leathers}. Nicht mehr, aber auch nicht weniger. Es wird bestimmt eine Weile dauern, diese Menge zu sammeln, aber ich habe Zeit. ...",
+			"Du findest Minotauren auf der dritten Insel, ganz im Osten von Pantra, tief im Untergrund. Sind sind stark und sie sind viele. Daher empfehle ich dir, dich nicht alleine auf den Weg zu machen. ...",
+			"Ich wünsche dir viel Glück dabei und warte, dir dein Backpack knüpfen zu dürfen."
+			}, npc, player, 4000)
+		elseif npcHandler:getTopic(playerId) == 2 then
+			if player:getItemCount(5878) >= 100 then
+				player:removeItem(5878, 100)
+				player:setStorageValue(Storage.Pantra.Outfits.Citizen.Backpack, 2)
+				npcHandler:setTopic(playerId, 0)
+				player:addOutfitAddon(136, 1)
+				player:addOutfitAddon(128, 1)
+				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_GREEN)
+				npcHandler:say("Wunderbar, das Backpack habe ich im Handumdrehen gemacht... und hier... und da... FERTIG! Ich hoffe, du findest Gefallen daran.", npc, player)
+			else
+				npcHandler:setTopic(playerId, 0)
+				npcHandler:say("Es tut mir leid, aber ich brauche wirklich ganze 100 Minotaur Leathers. Ohne sie hält das Backpack nichts aus und würde nach kurzer Zeit reißen.", npc, player)
+			end
 		end
 	end
 	return true
