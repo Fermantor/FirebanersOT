@@ -137,11 +137,33 @@ local function creatureSayCallback(npc, player, type, msg)
 	end
 	-- npcHandler:setTopic(playerId, 1)
 	-- npcHandler:getTopic(playerId)
-		
+	-- npcHandler:say("", npc, player)
+	-- npcHandler:say({"",""}, npc, player, 4000)
+	
 	local playerHP = player:getHealth()/player:getMaxHealth()
 	if MsgContains(msg, "heil") then
+		local doHealing = false
+		local conditionsToHeal = {
+			CONDITION_POISON,
+			CONDITION_FIRE,
+			CONDITION_ENERGY,
+			CONDITION_BLEEDING,
+			CONDITION_PARALYZE,
+			CONDITION_DROWN,
+			CONDITION_FREEZING,
+			CONDITION_CURSED
+		}
+		for i = 0, #conditionsToHeal-1 do
+			if player:getCondition(conditionsToHeal[i]) then
+				player:removeCondition(conditionsToHeal[i])
+				doHealing = true
+			end
+		end
 		if playerHP <= 0.75 then
 			player:addHealth(player:getMaxHealth())
+			doHealing = true
+		end
+		if doHealing then
 			player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 			npcHandler:say({
 				"Exura Sio \""..player:getName(),
@@ -150,28 +172,10 @@ local function creatureSayCallback(npc, player, type, msg)
 		else
 			npcHandler:say("Es tut mir leid, aber du siehst nicht sonderlich verletzt aus. Ich spare mir mein Mana doch lieber für einen Ernstfall auf.", npc, player)
 		end
-
-	/*	
-	elseif msg == "yes" or msg == "ja" then
-		if npcHandler:getTopic(playerId) == 1 then
-			if player:getSlotItem(CONST_SLOT_RIGHT) ~= nil then
-				npcHandler:say("Nanu? Du scheinst ja bereits bestens ausgestattet zu sein. Tut mir leid, aber dann behalte ich dieses Schild lieber fï¿½r jemanden, der es wirklich braucht. Du kannst dich aber gerne in meinem {Sortiement} umsehen.", npc, player)
-				player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield,2)
-				npcHandler:setTopic(playerId, 0)
-			elseif player:getFreeCapacity() < 4000 then
-				npcHandler:say("Du scheinst schon zu vollgepackt sein. Rï¿½um ein bisschen in deinem Inventar auf und schaffe ein wenig Platz. Ich warte hier, keine Sorge.", npc, player)
-				npcHandler:setTopic(playerId, 0)
-			else
-				player:addItem("wooden shield")
-				player:setStorageValue(Storage.Pantra.Town.Weapons.WoodenShield,2)
-				npcHandler:say("Hier bitte schï¿½n. Es ist zwar kein {Blessed Shield}, aber immer noch besser als kein Schild. Schau gerne, ob ich noch mehr nï¿½tzliches in meinem {Sortiement} fï¿½r dich habe.", npc, player)
-				npcHandler:setTopic(playerId, 0)
-			end
+	elseif MsgContains(msg, "elena") then
+		if player:getStorageValue(Storage.Pantra.Outfits.Citizen.Backpack) ~= -1 then
 		end
-	elseif MsgContains(msg, "wooden shield") then
-		npcHandler:say("Ein Wooden Shield ist ein recht schwaches Schild, was sich sehr gut als Einsteigerschild eignet. Wenn du was besseres suchst, findet sich in meinem {Sortiement} bestimmt was.", npc, player)
 	end
-	*/
 	return true
 end
 
