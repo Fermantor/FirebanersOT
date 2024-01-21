@@ -32,7 +32,12 @@ Storage = {
 	Pantra = {
 		Town = {
 			Weapons = {
-				WoodenShield = 20001
+				WoodenShield = 1501
+			},
+		},
+		Outfits = {
+			Citizen = {
+				Backpack = 1502
 			},
 		},
 	},
