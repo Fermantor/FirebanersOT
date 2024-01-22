@@ -55,7 +55,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 1,
+	targetDistance = 10,
 	runHealth = 15,
 	healthHidden = false,
 	isBlockable = false,
@@ -84,7 +84,7 @@ monster.loot = {
 }
 
 monster.defenses = {
-	defense = 5,
+	defense = 1,
 	armor = 1,
 	mitigation = 0.05,
 }
