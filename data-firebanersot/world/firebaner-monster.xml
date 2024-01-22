@@ -881,7 +881,9 @@
 		<monster name="Wolf" x="0" y="-1" z="5" spawntime="180" />
 		<monster name="Wolf" x="3" y="4" z="5" spawntime="180" />
 	</monster>
-	<monster centerx="690" centery="175" centerz="5" radius="3" />
+	<monster centerx="690" centery="175" centerz="5" radius="3">
+		<monster name="Dragon Hatchling" x="0" y="-1" z="5" spawntime="60" />
+	</monster>
 	<monster centerx="545" centery="179" centerz="5" radius="5">
 		<monster name="Wolf" x="-2" y="-2" z="5" spawntime="180" />
 		<monster name="Wolf" x="3" y="2" z="5" spawntime="180" />
@@ -2955,13 +2957,11 @@
 		<monster name="Snake" x="-1" y="-2" z="7" spawntime="180" />
 		<monster name="Spider" x="-1" y="2" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="663" centery="212" centerz="7" radius="5" />
 	<monster centerx="578" centery="213" centerz="7" radius="4">
 		<monster name="Spider" x="1" y="-4" z="7" spawntime="180" />
 		<monster name="Snake" x="-1" y="-2" z="7" spawntime="180" />
 		<monster name="Snake" x="2" y="3" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="648" centery="213" centerz="7" radius="5" />
 	<monster centerx="524" centery="218" centerz="7" radius="5">
 		<monster name="Chicken" x="-4" y="-5" z="7" spawntime="180" />
 		<monster name="Snake" x="3" y="-4" z="7" spawntime="180" />
@@ -3357,7 +3357,6 @@
 	<monster centerx="2794" centery="1747" centerz="7" radius="1">
 		<monster name="Cyclops" x="-1" y="0" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="2704" centery="1749" centerz="7" radius="1" />
 	<monster centerx="2813" centery="1749" centerz="7" radius="1">
 		<monster name="Bat" x="-1" y="-1" z="7" spawntime="180" />
 		<monster name="Bat" x="1" y="-1" z="7" spawntime="180" />
@@ -4037,8 +4036,6 @@
 		<monster name="Snake" x="1" y="0" z="7" spawntime="180" />
 		<monster name="Snake" x="-1" y="1" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="1929" centery="1929" centerz="7" radius="1" />
-	<monster centerx="1932" centery="1929" centerz="7" radius="1" />
 	<monster centerx="2006" centery="1929" centerz="7" radius="4">
 		<monster name="Wisp" x="2" y="-3" z="7" spawntime="180" />
 		<monster name="Wolf" x="3" y="-3" z="7" spawntime="180" />
@@ -4052,8 +4049,6 @@
 		<monster name="Bat" x="-1" y="-1" z="7" spawntime="180" />
 		<monster name="Bat" x="1" y="2" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="1929" centery="1932" centerz="7" radius="1" />
-	<monster centerx="1932" centery="1932" centerz="7" radius="1" />
 	<monster centerx="1564" centery="1933" centerz="7" radius="1">
 		<monster name="Stone Golem" x="1" y="-1" z="7" spawntime="180" />
 	</monster>
@@ -4269,7 +4264,6 @@
 		<monster name="Chicken" x="0" y="-2" z="7" spawntime="180" />
 		<monster name="Chicken" x="-4" y="3" z="7" spawntime="180" />
 	</monster>
-	<monster centerx="2034" centery="2021" centerz="7" radius="2" />
 	<monster centerx="1821" centery="2027" centerz="7" radius="2">
 		<monster name="Minotaur" x="0" y="-1" z="7" spawntime="180" />
 	</monster>
@@ -7063,7 +7057,10 @@
 		<monster name="Rotworm" x="2" y="-4" z="8" spawntime="180" />
 		<monster name="Rotworm" x="-1" y="3" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1820" centery="1954" centerz="8" radius="3" />
+	<monster centerx="1820" centery="1954" centerz="8" radius="3">
+		<monster name="Rotworm" x="-1" y="-2" z="8" spawntime="60" />
+		<monster name="Rotworm" x="0" y="2" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1755" centery="1955" centerz="8" radius="1">
 		<monster name="Scorpion" x="-1" y="1" z="8" spawntime="180" />
 	</monster>
@@ -7083,7 +7080,10 @@
 	<monster centerx="2016" centery="1960" centerz="8" radius="2">
 		<monster name="Wasp" x="-1" y="-1" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1810" centery="1965" centerz="8" radius="3" />
+	<monster centerx="1810" centery="1965" centerz="8" radius="3">
+		<monster name="Rotworm" x="2" y="-1" z="8" spawntime="60" />
+		<monster name="Rotworm" x="-2" y="1" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1929" centery="1965" centerz="8" radius="5">
 		<monster name="Wolf" x="5" y="-4" z="8" spawntime="180" />
 		<monster name="Wolf" x="-2" y="-1" z="8" spawntime="180" />
@@ -7114,6 +7114,7 @@
 	</monster>
 	<monster centerx="1803" centery="1977" centerz="8" radius="3">
 		<monster name="Carrion Worm" x="1" y="-2" z="8" spawntime="180" />
+		<monster name="Rotworm" x="-1" y="2" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="1770" centery="1978" centerz="8" radius="1">
 		<monster name="Scorpion" x="-1" y="0" z="8" spawntime="180" />
@@ -7135,8 +7136,12 @@
 		<monster name="Rotworm" x="1" y="-1" z="8" spawntime="180" />
 		<monster name="Rotworm" x="-3" y="2" z="8" spawntime="180" />
 	</monster>
-	<monster centerx="1794" centery="1992" centerz="8" radius="3" />
+	<monster centerx="1794" centery="1992" centerz="8" radius="3">
+		<monster name="Rotworm" x="2" y="-1" z="8" spawntime="60" />
+		<monster name="Rotworm" x="-2" y="2" z="8" spawntime="60" />
+	</monster>
 	<monster centerx="1773" centery="1999" centerz="8" radius="3">
+		<monster name="Rotworm" x="1" y="-2" z="8" spawntime="60" />
 		<monster name="Carrion Worm" x="-2" y="1" z="8" spawntime="180" />
 	</monster>
 	<monster centerx="1888" centery="2007" centerz="8" radius="4">
@@ -7969,7 +7974,6 @@
 		<monster name="Rat" x="2" y="-1" z="9" spawntime="180" />
 		<monster name="Rat" x="-1" y="1" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="720" centery="265" centerz="9" radius="3" />
 	<monster centerx="640" centery="269" centerz="9" radius="5">
 		<monster name="Spider" x="-1" y="-4" z="9" spawntime="180" />
 		<monster name="Spider" x="4" y="-2" z="9" spawntime="180" />
@@ -9102,7 +9106,6 @@
 		<monster name="Rotworm" x="2" y="-1" z="9" spawntime="180" />
 		<monster name="Carrion Worm" x="-2" y="1" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2077" centery="1992" centerz="9" radius="5" />
 	<monster centerx="2254" centery="2000" centerz="9" radius="6">
 		<monster name="Slime Puddle" x="0" y="-6" z="9" spawntime="180" />
 		<monster name="Slime Puddle" x="-5" y="-5" z="9" spawntime="180" />
@@ -9113,8 +9116,6 @@
 		<monster name="Slime Puddle" x="5" y="5" z="9" spawntime="180" />
 		<monster name="Slime Puddle" x="0" y="6" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2066" centery="2005" centerz="9" radius="5" />
-	<monster centerx="2045" centery="2007" centerz="9" radius="5" />
 	<monster centerx="1834" centery="2010" centerz="9" radius="5">
 		<monster name="Necromancer" x="3" y="-4" z="9" spawntime="180" />
 		<monster name="Ghoul" x="2" y="-3" z="9" spawntime="180" />
@@ -9132,14 +9133,12 @@
 		<monster name="Demon Skeleton" x="0" y="2" z="9" spawntime="180" />
 		<monster name="Necromancer" x="-2" y="3" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2059" centery="2014" centerz="9" radius="5" />
 	<monster centerx="1782" centery="2015" centerz="9" radius="5">
 		<monster name="Ghost" x="-1" y="-3" z="9" spawntime="180" />
 		<monster name="Necromancer" x="-1" y="-2" z="9" spawntime="180" />
 		<monster name="Vampire" x="0" y="-2" z="9" spawntime="180" />
 		<monster name="Demon Skeleton" x="0" y="4" z="9" spawntime="180" />
 	</monster>
-	<monster centerx="2075" centery="2018" centerz="9" radius="5" />
 	<monster centerx="2160" centery="2018" centerz="9" radius="3">
 		<monster name="Tarantula" x="0" y="-1" z="9" spawntime="180" />
 		<monster name="Poison Spider" x="2" y="0" z="9" spawntime="180" />
@@ -10682,7 +10681,6 @@
 		<monster name="Ghoul" x="-2" y="1" z="10" spawntime="180" />
 		<monster name="Vampire" x="1" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2075" centery="1997" centerz="10" radius="5" />
 	<monster centerx="1869" centery="2006" centerz="10" radius="3">
 		<monster name="Ghoul" x="2" y="-3" z="10" spawntime="180" />
 		<monster name="Vampire" x="-2" y="-2" z="10" spawntime="180" />
@@ -10691,7 +10689,6 @@
 	<monster centerx="1904" centery="2006" centerz="10" radius="3">
 		<monster name="Rat" x="2" y="1" z="10" spawntime="180" />
 	</monster>
-	<monster centerx="2075" centery="2008" centerz="10" radius="5" />
 	<monster centerx="1859" centery="2011" centerz="10" radius="3">
 		<monster name="Vampire" x="-2" y="0" z="10" spawntime="180" />
 	</monster>
@@ -10894,7 +10891,10 @@
 		<monster name="Poison Spider" x="-1" y="0" z="11" spawntime="180" />
 		<monster name="Spider" x="-4" y="1" z="11" spawntime="180" />
 	</monster>
-	<monster centerx="684" centery="203" centerz="11" radius="4" />
+	<monster centerx="684" centery="203" centerz="11" radius="4">
+		<monster name="Skeleton Warrior" x="2" y="-2" z="11" spawntime="60" />
+		<monster name="Skeleton" x="-1" y="2" z="11" spawntime="60" />
+	</monster>
 	<monster centerx="557" centery="204" centerz="11" radius="5">
 		<monster name="Poison Spider" x="-2" y="-1" z="11" spawntime="180" />
 		<monster name="Poison Spider" x="2" y="2" z="11" spawntime="180" />

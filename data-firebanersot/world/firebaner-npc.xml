@@ -76,7 +76,7 @@
 		<npc name="Sven" x="-1" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="506" centery="216" centerz="7" radius="1">
-		<npc name="PAEquipmentEllena" x="-1" y="-1" z="7" spawntime="60" />
+		<npc name="Elena" x="-1" y="-1" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="467" centery="219" centerz="7" radius="1">
 		<npc name="PATeacherMagister" x="0" y="-1" z="7" spawntime="60" />
@@ -156,8 +156,8 @@
 	<npc centerx="2019" centery="2017" centerz="7" radius="1">
 		<npc name="PUTraderHelgorCruel" x="0" y="1" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="2029" centery="2017" centerz="7" radius="4">
-		<npc name="PUPotionsMajux" x="4" y="4" z="7" spawntime="60" />
+	<npc centerx="2034" centery="2021" centerz="7" radius="1">
+		<npc name="PUPotionsMajux" x="-1" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1977" centery="2023" centerz="7" radius="1">
 		<npc name="PUJewelMaria" x="0" y="-1" z="7" spawntime="60" />
