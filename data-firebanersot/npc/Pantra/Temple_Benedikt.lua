@@ -199,8 +199,16 @@ local function creatureSayCallback(npc, player, type, msg)
 			"Ich wünsche dir viel Glück dabei und warte, dir dein Backpack knüpfen zu dürfen."
 			}, npc, player, 4000)
 		elseif npcHandler:getTopic(playerId) == 2 then
-			if player:getItemCount(5878) >= 100 then
-				player:removeItem(5878, 100)
+			local leathersInInventory = player:getItemCount(5878)
+			local leathersInStash = player:getStashItemCount(5878)
+			if leathersInInventory + leathersInStash >= 100 then
+				if leathersInInventory >= 100 then
+					player:removeItem(5878, 100)
+				else
+					player:sendTextMessage(MESSAGE_TRADE, string.format("Took %d items from your inventory and %d from your stash.", leathersInInventory, 100- leathersInInventory))
+					player:removeStashItem(5878, 100 - leathersInInventory)
+					player:removeItem(5878, leathersInInventory)
+				end
 				player:setStorageValue(Storage.Pantra.Outfits.Citizen.Backpack, 2)
 				npcHandler:setTopic(playerId, 0)
 				player:addOutfitAddon(136, 1)
