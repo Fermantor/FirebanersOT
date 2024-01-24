@@ -32,7 +32,7 @@ function creatureSayCallback(cid, type, msg)
 			npcHandler:say('Ich hatte dich gebeten mir 10 frische Fische zu fangen, sie müssen also von dir selbst geangelt sein.',cid)
 			npcHandler:releaseFocus(cid)
 		elseif getPlayerStorageValue(cid, 2600) == 2 then
-			if getPlayerItemCount(cid, ITEM_FISH) => 10 then
+			if getPlayerItemCount(cid, ITEM_FISH) >= 10 then
 				doPlayerRemoveItem(cid, ITEM_FISH, 10)
 				setPlayerStorageValue(cid, 2600, 3)
 				doPlayerAddMoney(cid, 400)

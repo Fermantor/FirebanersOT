@@ -4,8 +4,14 @@ Reserved player action storage key ranges (const.hpp)
 
 	Reserved player action storage key ranges (const.hpp at the source)
 	[10000000 - 20000000]
+	[61305000 + 2000] Bestiary Killcount
+	[112550] Hazardcount
+	[43200] Gift of Life
 	[1000 - 1500]
 	[2001 - 2011]
+	[30008] Emote
+	[30020] Podium
+	[30063] Auto Loot
 
 	Others reserved player action/storages
 	[100] = unmovable/untrade/unusable items

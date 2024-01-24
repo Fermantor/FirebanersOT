@@ -13574,8 +13574,6 @@
 		<monster name="Fire Elemental" x="-1" y="0" z="14" spawntime="180" />
 		<monster name="Fire Elemental" x="0" y="1" z="14" spawntime="180" />
 	</monster>
-	<monster centerx="1554" centery="1829" centerz="14" radius="1" />
-	<monster centerx="1558" centery="1829" centerz="14" radius="1" />
 	<monster centerx="1543" centery="1831" centerz="14" radius="1">
 		<monster name="Minotaur Guard" x="-1" y="-1" z="14" spawntime="180" />
 		<monster name="Fire Devil" x="1" y="-1" z="14" spawntime="180" />

@@ -1,0 +1,13 @@
+-- local varyingSpawn = CreatureEvent("varyingSpawnKill")
+-- function varyingSpawn.onKill(player, creature, lastHit)
+	-- if not player:isPlayer() or not creature:isMonster() or creature:hasBeenSummoned() or creature:isPlayer() then
+		-- return true
+	-- end
+
+	-- if creature:getStorageValue(5001) > 0 then
+		-- Game.setStorageValue(creature:getStorageValue(5001), 0)
+		-- print("Varying Monster has been killed.")
+	-- end
+	-- return true
+-- end
+-- varyingSpawn:register()

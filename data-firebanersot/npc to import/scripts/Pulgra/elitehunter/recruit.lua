@@ -40,7 +40,7 @@ function creatureSayCallback(cid, type, msg)
 	if msgcontains(msg, 'job') or msgcontains(msg, 'beruf') then
 		if getPlayerStorageVlaue(cid, EliteHunterValue) == -1 then
 			npcHandler:say('Wie schon gesagt, bin ich die Empfangsdame der {Elite Hunter} Gilde. Ich nehme Anträge für Neuanmeldungen an. Sag bescheid, wenn du {beitreten} willst.',cid)
-		elseif getPlayerStorageValue(cid, EliteHunterValue) == 0
+		elseif getPlayerStorageValue(cid, EliteHunterValue) == 0 then
 			npcHandler:say('Wie schon gesagt, bin ich die Empfangsdame der {Elite Hunter} Gilde. Deinen Antrag hab ich übrigens nicht vergessen.',cid)
 		else
 			npcHandler:say('Wie schon gesagt, bin ich die Empfangsdame der {Elite Hunter} Gilde. Aber als Mitglied weißt du das natürlich.',cid)
