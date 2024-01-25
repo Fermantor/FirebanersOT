@@ -175,7 +175,7 @@ local function creatureSayCallback(npc, player, type, msg)
 		else
 			npcHandler:say("Wenn du Hilfe im Kampf brauchst und nach einem neuen Begleiter suchst bin ich der richtige Ansprechpartner. Frag mich einfach nach nem {Trade}", npc, player)
 		end
-	elseif msg == "yes" or msg == "ja" then
+	elseif msg.lower() == "yes" or msg.lower() == "ja" then
 		if npcHandler:getTopic(playerId) == 1 then
 			if player:getSlotItem(CONST_SLOT_RIGHT) ~= nil then
 				npcHandler:say("Nanu? Du scheinst ja bereits bestens ausgestattet zu sein. Tut mir leid, aber dann behalte ich dieses Schild lieber für jemanden, der es wirklich braucht. Du kannst dich aber gerne in meinem {Sortiement} umsehen.", npc, player)

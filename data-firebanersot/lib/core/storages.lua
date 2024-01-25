@@ -48,6 +48,7 @@ Storage = {
 		Outfits = {
 			Citizen = {
 				Backpack = 1502,
+				Hat = 1505,
 			},
 		},
 	},

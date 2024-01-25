@@ -188,7 +188,7 @@ local function creatureSayCallback(npc, player, type, msg)
 			npcHandler:say("Bist du hier, um mir die 100 Minotaur Leathers zu bringen?", npc, player)
 			npcHandler:setTopic(playerId, 2)
 		end
-	elseif msg == "ja" or msg == "yes" then
+	elseif msg.lower() == "ja" or msg.lower() == "yes" then
 		if npcHandler:getTopic(playerId) == 1 then
 			player:setStorageValue(Storage.Pantra.Outfits.Citizen.Backpack, 1)
 			npcHandler:setTopic(playerId, 0)
