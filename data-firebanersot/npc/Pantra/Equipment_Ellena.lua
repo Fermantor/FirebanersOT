@@ -161,9 +161,21 @@ local function creatureSayCallback(npc, player, type, msg)
 				npcHandler:say("Tut mir leid, aber Du musst mindestens Level 2 sein, um die Brücke überqueren zu können. Komm einfach später wieder.", npc, player)
 			end
 		end
-	elseif MsgContains(msg, "addon") or MsgContains(msg, "outfit") or MsgContains(msg, "citizen") then
+	elseif MsgContains(msg, "addon") or MsgContains(msg, "outfit") or MsgContains(msg, "citizen") 
+	or (MsgContains(msg, "legion helmet") and player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 1)
+	or (MsgContains(msg, "feather") and player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 2)
+	or (MsgContains(msg, "honey") and player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 3) then
 		if player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == -1 then
 			npcHandler:say("Ah, Dir ist mein exklusives Outfit aufgefallen. Nun, das Backpack habe ich von {Benedikt} bekommen, aber den {Hut} habe ich selbst gemacht.", npc, player)
+		elseif player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 1 then
+			npcHandler:setTopic(playerId, 4)
+			npcHandler:say("Ah, kommst Du mit dem Legion Helmet, dass ich mit der Arbeit am Hut beginnen kann?", npc, player)
+		elseif player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 2 then
+			npcHandler:setTopic(playerId, 5)
+			npcHandler:say("Bist Du hier um mir die 100 Chicken Feathers zu bringen?", npc, player)
+		elseif player:getStorageValue(Storage.Pantra.Outfits.Citizen.Hat) == 3 then
+			npcHandler:setTopic(playerId, 6)
+			npcHandler:say("Kommst du mit den lang ersehnten Honeycombs?", npc, player)
 		else
 			npcHandler:say("Ja, mein Backpack habe ich von dem weisen Mönch {Bendedikt} bekommen. Er ist ein wahrer Meister, bei der Verarbeitung von Minotaur Leathers.", npc, player)
 		end
@@ -172,7 +184,7 @@ local function creatureSayCallback(npc, player, type, msg)
 			npcHandler:setTopic(playerId, 2)
 			npcHandler:say("Ja, bei dem Hut habe ich mich wirklich selbst übertroffen. Und wie ich in Deinen Augen sehe, willst Du unbedingt auch einen habe, stimmt\'s?", npc, player)
 		end
-	elseif table.contains({"ja", "yes"}, msg.lower()) then
+	elseif table.contains({"ja", "yes"}, msg:lower()) then
 		if npcHandler:getTopic(playerId) == 2 then
 			npcHandler:setTopic(playerId, 3)
 			npcHandler:say("Ha wusst ich\'s doch. Allerdings wachsen Hüte nicht auf Bäumen und ich brauche einige Materialien. Für den Hut benötige ich einen {Legion Helmet}, für die Feder 100 {Chicken Feathers}, und damit alles gut hält noch 50 {Honeycombs}. Hast Du trotzdem noch Interesse am Hut?", npc, player)
@@ -206,14 +218,14 @@ local function creatureSayCallback(npc, player, type, msg)
 				player:setStorageValue(Storage.Pantra.Outfits.Citizen.Hat, 4)
 				player:addOutfitAddon(136, 2)
 				player:addOutfitAddon(128, 2)
-				player:getPosition():sendMagicEffect(COST_ME_MAGIC_GREEN)
+				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_GREEN)
 				npcHandler:say("Wunderbar, der Hut ist fertig. Wieder einmal eine Meisterleistung von mir. Hier hast Du das Prachtexemplar!", npc, player)
 			else
 				npcHandler:setTopic(playerId, 0)
 				npcHandler:say("Ohne Honeycombs kein Hut, also streng Dich an!", npc, player)
 			end
 		end
-	elseif table.contains({"nein", "no"}, msg.lower()) then
+	elseif table.contains({"nein", "no"}, msg:lower()) then
 		if npcHandler:getTopic(playerId) == 2 then
 			npcHandler:say("Gut, dann habe ich mich wohl geirrt. Ich hätte gedacht so ein Hut sehe prächtig an Dir aus.", npc, player)
 		elseif npcHandler:getTopic(playerId) == 3 then
@@ -226,33 +238,15 @@ local function creatureSayCallback(npc, player, type, msg)
 			npcHandler:say("Was willst Du dann bei mir? Wir haben es doch fast geschafft. Ich will bis hier nicht alles umsonst gemacht haben. Streng Dich an!", npc, player)
 		end
 		npcHandler:setTopic(playerId, 0)
+	elseif MsgContains(msg, "legion helmet") then
+		npcHandler:say("Legion Helmets sind sehr starke und robuste Stahl Helme. Vielleicht weiß Sven, wie man einen bekommt.", npc, player)
+	elseif MsgContains(msg, "chicken feather") then
+		npcHandler:say("Chicken Feathers sind ein besonders weiches Material, mit dem man Kissen ausstopfen kann, oder starke starke Federn bauen kann. Chicken laufen hier auf Pantra überall rum, du musst sie nur rupfen.", npc, player)
+	elseif MsgContains(msg, "honeycomb") then
+		npcHandler:say("Honeycombs sind sehr klebrig aber von sehr großem Genus. Natürlich findet man sie bei Wasps, aber auch selten bei Bears.", npc, player)
+	elseif MsgContains(msg, "benedikt") then
+		npcHandler:say("Benedikt ist ein Mönch, der zahlreiche Erfahrungen mit Minotauren gemacht hat und deren Leathers hervoragend verarbeiten kann.", npc, player)
 	end
-	--[[
-	elseif msgcontains(msg, 'legion helmet') then
-		if getPlayerStorageValue(cid, 5009) == 1 then
-			npcHandler:say('Ah, du kommst also mit dem Legion Helmet, um mit der Arbeit am Hut zu beginnen?', cid)
-			talkState[talkUser] = 4
-		else
-			npcHandler:say('Legion Helmets sind sehr starke und robuste Stahl Helme, die man meistens in Drachen Körpern findet.', cid)
-		end
-	elseif msgcontains(msg, 'chicken feather') or msgcontains(msg, 'feather') then
-		if getPlayerStorageValue(cid, 5009) == 2 then
-			npcHandler:say('Bist du hier um mir die 100 Chicken Feathers zu bringen?', cid)
-			talkState[talkUser] = 5
-		else
-			npcHandler:say('Chicken Feathers sind ein besonders weiches Material, dass du in Chickens finden kannst.', cid)
-		end
-	elseif msgcontains(msg, 'honeycomb') then
-		if getPlayerStorageValue(cid, 5009) == 3 then
-			npcHandler:say('Kommst du mit den lang ersehnten Honeycombs?', cid)
-			talkState[talkUser] = 6
-		else
-			npcHandler:say('Honeycombs sind sehr klebrig aber von sehr großem Genus. Du findest sie in Wasps.', cid)
-		end
-	elseif msgcontains(msg, 'benedikt') then
-		npcHandler:say('Benedikt ist ein Mönch, der zahlreiche Erfahrungen mit Minotauren gemacht hat und deren Leathers hervoragend verarbeiten kann.', cid)
-	end
-	]]
 	return true
 end
 
