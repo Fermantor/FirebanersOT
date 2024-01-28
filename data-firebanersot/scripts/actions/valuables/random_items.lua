@@ -48,7 +48,7 @@ local config = {
 		},
 		effect = CONST_ME_HITBYPOISON
 	},
-	[18215] = { -- gnomish supply package
+	[15698] = { -- gnomish supply package
 		chances = {
 			{weight = 1438, name = "white mushroom", count = 20},
 			{weight = 1016, name = "muchroom pie"},
@@ -233,6 +233,7 @@ function randomItems.onUse(player, item, fromPosition, target, toPosition, isHot
 			item:setDescription(reward.param.desc:gsub('|PLAYERNAME|', player:getName()))
 		else
 			createItem(item, itemid,count,false)
+			--item:remove(1)
 		end
 	else
 		item:remove(1)
@@ -252,6 +253,7 @@ function randomItems.onUse(player, item, fromPosition, target, toPosition, isHot
 		end
 	end
 	position:sendMagicEffect(effect)
+	player:say("You have found " .. ItemType(itemid):getName())
 	return true
 	-- end
 end

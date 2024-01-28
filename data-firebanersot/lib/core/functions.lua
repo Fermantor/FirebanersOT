@@ -14,6 +14,7 @@ function weightedRandomSelect(lootTable)
     for sumdumvar, weight in ipairs(lootTable) do
         searchingWeight = searchingWeight + weight.weight
         if (weightSelect < searchingWeight) then
+			print(weight.name, ItemType(weight.name), ItemType(weight.name):getId())
             return {itemid = (weight.id) or (weight.name and ItemType(weight.name):getId()) or 0,count = weight.count or 1, param = weight.param or nil}
         end
     end
