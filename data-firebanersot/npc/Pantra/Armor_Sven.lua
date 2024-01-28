@@ -137,6 +137,9 @@ local function creatureSayCallback(npc, player, type, msg)
 	if not npcHandler:checkInteraction(npc, player) then
 		return false
 	end
+	if MsgContains(msg, "legion helmet") then
+		
+	end
 	return true
 end
 
